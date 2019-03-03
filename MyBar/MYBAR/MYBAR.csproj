@@ -824,6 +824,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Scripts\CleanDBScript.sql" />
     <Resource Include="myicon.ico" />
     <Resource Include="Images\search.png" />
     <Resource Include="Images\plus.png" />

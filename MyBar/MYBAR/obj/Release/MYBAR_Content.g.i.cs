@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("scripts/cleandbscript.sql")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/notify.wav")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("mybar.context.tt")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("mybar.tt")]

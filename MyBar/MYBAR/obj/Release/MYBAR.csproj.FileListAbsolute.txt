@@ -1881,3 +1881,6 @@ C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\pt\Microsoft.SqlServ
 C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\ru\Microsoft.SqlServer.Types.resources.dll
 C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\zh-Hans\Microsoft.SqlServer.Types.resources.dll
 C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Public\Documents\Git\ADIBAR\MyBar\MYBAR\bin\Release\MYBAR.exe.config
+C:\Users\Public\Documents\Git\ADIBAR\MyBar\MYBAR\obj\Release\MYBAR.exe
+C:\Users\Public\Documents\Git\ADIBAR\MyBar\MYBAR\obj\Release\MYBAR.pdb
