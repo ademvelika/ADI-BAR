@@ -1,0 +1,28 @@
+﻿<Window x:Class="MYBAR.View.Dialog.AnulloFature"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MYBAR.View.Dialog"
+        mc:Ignorable="d"
+        Title="AnulloFature" Height="400"  Width="400" WindowStartupLocation="CenterScreen" VerticalAlignment="Center" HorizontalAlignment="Center" WindowStyle="ToolWindow" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+        <Label FontSize="20" Background="#f4f4f7" Grid.Row="0">Jepni arsyet e anullimit te fatures</Label>
+        <TextBox Height="300" Name="ArsyejaText" TextWrapping="Wrap" FontSize="30"  Grid.Row="1">
+          
+        </TextBox>
+        <Grid  Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Button Name="Anullo" Foreground="White" FontSize="20" FontFamily="Arial" Background="#f20000" Margin="0,0,10,0" HorizontalAlignment="Stretch" Click="Button_Click">Anullo</Button>
+            <Button Name="Exit" FontSize="20" Grid.Column="1" HorizontalAlignment="Stretch" Click="Exit_Click">Dil</Button>
+        </Grid>
+    </Grid>
+</Window>

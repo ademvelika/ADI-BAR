@@ -1,0 +1,48 @@
+﻿<Window x:Class="MYBAR.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+         xmlns:tb="http://www.hardcodet.net/taskbar" 
+          xmlns:mytab="clr-namespace:MYBAR.CustomControls"
+         xmlns:control="clr-namespace:MYBAR.CustomControls"
+        xmlns:local="clr-namespace:MYBAR" Icon="myicon.ico"
+        mc:Ignorable="d"
+       
+        Title="Login" KeyUp="Window_KeyUp" Loaded="Window_Loaded" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" WindowState="Maximized" >
+    <Grid>
+
+
+        <ContentControl Name="MainContent">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="600">
+                <WrapPanel><Label Foreground="Orange"   FontSize="50">Programi po ngarkohet.....</Label></WrapPanel>
+                <control:Loading x:Name="LoadingAnimate"   HorizontalAlignment="Center"   />
+
+            </StackPanel>
+          
+        </ContentControl>
+
+
+        <tb:TaskbarIcon
+
+      IconSource="/myicon.ico" PopupActivation="DoubleClick"   Name="MyNotify"  ToolTipText="Double Click To Open" >
+            <tb:TaskbarIcon.TrayPopup>
+                <Border CornerRadius="5"  Height="70" Background="{StaticResource shiritibackgroud}" Margin="0,0,0,60" BorderBrush="Transparent" BorderThickness="0.8">
+                    <WrapPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                     <Ellipse Margin="10,0" Height="15" Name="KasaNote" Fill="Green"  Width="15" ></Ellipse>
+                        <Rectangle Margin="10,0" Name="KasaShow"  Height="15" Width="15" Fill="Green" ></Rectangle>
+                    </WrapPanel>
+                </Border>
+            </tb:TaskbarIcon.TrayPopup>
+        </tb:TaskbarIcon>
+
+
+
+
+
+
+
+
+    </Grid>
+    
+</Window>

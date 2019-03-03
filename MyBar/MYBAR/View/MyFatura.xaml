@@ -1,0 +1,106 @@
+﻿<UserControl x:Class="MYBAR.View.MyFatura"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MYBAR.View"
+             mc:Ignorable="d" 
+             HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*" ></ColumnDefinition>
+            <ColumnDefinition Width="*" ></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid Background="White" Grid.RowSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+            <Border BorderBrush="#3f89bf" BorderThickness="0,0,1,0">
+            <Grid   Background="#f2f2f2"   Margin="2,10,0,10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition Width="auto" />
+                    </Grid.ColumnDefinitions>
+                <ContentControl  Name="FilterGUI" />
+                <Button Grid.Column="1" VerticalAlignment="Bottom"  FontFamily="Arial" FontSize="20" FontWeight="Bold"   Foreground="Green"    Name="Filtro"  Height="50" Click="Filtro_Click" Content="Filtro"></Button>
+            </Grid>
+            </Border>
+            <DataGrid  GridLinesVisibility="Horizontal"  CanUserAddRows="False"   ColumnHeaderStyle="{StaticResource HeaderStyle}"  HeadersVisibility="Column" Grid.Row="1"    MouseUp="FaturaList_MouseUp"  ColumnWidth="*" AutoGenerateColumns="False"  Name="FaturaList" >
+                <DataGrid.Columns>
+                    <DataGridTextColumn   IsReadOnly="True" Header="Nr Fature" Binding="{Binding NrFature}"  />
+                    <DataGridTextColumn  IsReadOnly="True" Header="Kamarieri"  Binding="{Binding Kamarieri}"  />
+                    <DataGridTextColumn  IsReadOnly="True" FontSize="19" Header="Data"  Binding="{Binding Data,StringFormat=g, ConverterCulture=it}"  />
+                    <DataGridTextColumn IsReadOnly="True" FontFamily="Arial" FontWeight="ExtraBold"  Foreground="#1e1f26" Header="Total" Binding="{Binding Total,StringFormat=N2}"  />
+                    <DataGridTextColumn IsReadOnly="True" Header="Tavolina" Binding="{Binding Tavolina}"  />
+                    <DataGridTextColumn IsReadOnly="True" Header="Statusi" Binding="{Binding Statusi}"  />
+                </DataGrid.Columns>
+                <DataGrid.ContextMenu>
+                    <ContextMenu >
+                        <MenuItem Header="Anullo" Name="Anullo_Fature" Click="Anullo_Fature_Click"></MenuItem>
+                    </ContextMenu>
+                </DataGrid.ContextMenu>
+               
+                <DataGrid.RowStyle>
+                    <Style TargetType="DataGridRow">
+                        
+                        <Setter Property="FontSize" Value="22" />
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding Statusi}" Value="Cancelled">
+                                <Setter Property="Background" Value="#ce5a57"></Setter>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding Statusi}" Value="Closed">
+                                <Setter Property="Background" Value="#a1be95"></Setter>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding Statusi}" Value="Collected">
+                                <Setter Property="Background" Value="#9a9eab"></Setter>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding Fiskale}" Value="True">
+                                <Setter Property="Background" Value="LightYellow"></Setter>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </DataGrid.RowStyle>
+
+            </DataGrid>
+            <DockPanel  Height="50" Grid.Row="2">
+                <TextBlock DockPanel.Dock="Left"  VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="30">Total</TextBlock>
+                <TextBlock DockPanel.Dock="Right"   Name="Totali" VerticalAlignment="Center" HorizontalAlignment="Right" Foreground="Red" FontWeight="Bold" FontSize="30" >00</TextBlock>
+            </DockPanel>
+
+      
+     </Grid>
+
+
+        <FlowDocumentReader  PreviewKeyDown="FaturaShow_PreviewKeyDown"  Grid.Column="1" Grid.Row="0"  Zoom="200" HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" FlowDirection="LeftToRight"  Name="FaturaShow" >
+           
+        </FlowDocumentReader>
+
+
+        <!--<Button  Visibility="Collapsed" Grid.Column="1" Grid.Row="1" Background="#75B84B" Height="50"  FontSize="20" FontWeight="Bold"  HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Foreground="White"  Name="Print" Click="Print_Click">Print</Button>-->
+        <StackPanel VerticalAlignment="Bottom"   Grid.Column="1" Grid.Row="1" >
+            <WrapPanel HorizontalAlignment="Center">
+                <Label FontWeight="Bold" FontFamily="Arial" HorizontalAlignment="Center" Name="ProgresNumber">1</Label>
+                <Label FontWeight="Bold" FontFamily="Arial" HorizontalAlignment="Center" Name="Slash">/</Label>
+                <Label   FontWeight="Bold" FontFamily="Arial" HorizontalAlignment="Center" Name="TotalProgres">1</Label>
+            </WrapPanel>
+            
+        <WrapPanel Margin="0,0,0,10"  HorizontalAlignment="Center" >
+            <Button Click="Pas_Click"   Name="Pas" FontWeight="ExtraBlack" Height="50" VerticalContentAlignment="Center" FontSize="30" >
+                <Image Source="/Images/back.png"/>
+            </Button>
+            <Button  Click="Para_Click"  Name="Para" Height="50"  FontSize="30"  FontWeight="ExtraBlack" Margin="10,0,0,0" >
+                <Image Source="/Images/next.png"/>
+            </Button>
+        </WrapPanel>
+        </StackPanel>
+         
+      
+    </Grid>
+</UserControl>

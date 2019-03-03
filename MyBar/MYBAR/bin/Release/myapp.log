@@ -1,0 +1,10 @@
+\2018-12-20 19:12:35,677 [1] ERROR MYBAR.Services.UserService - Fail to get all users The underlying provider failed on Open.
+2018-12-20 19:13:58,884 [1] ERROR MYBAR.Services.UserService - Fail to get all users The underlying provider failed on Open.
+2018-12-20 19:15:44,097 [1] ERROR MYBAR.Services.UserService - Fail to get all users The underlying provider failed on Open.
+2018-12-20 19:16:42,172 [1] ERROR MYBAR.Services.UserService - Fail to get all users The underlying provider failed on Open.
+2018-12-20 19:20:58,267 [1] ERROR MYBAR.Services.UserService - Fail to get all users The underlying provider failed on Open.
+2019-02-22 00:04:08,122 [9] ERROR MYBAR.Services.UserService - Fail to get all users The underlying provider failed on Open.
+2019-02-22 00:04:37,814 [1] ERROR MYBAR.Services.UserService - Fail to get all users The underlying provider failed on Open.
+2019-02-22 00:05:43,437 [1] ERROR MYBAR.Services.UserService - Fail to get all users The underlying provider failed on Open.
+2019-02-22 00:08:12,268 [1] ERROR MYBAR.Services.UserService - Fail to get all users The underlying provider failed on Open.
+2019-02-22 00:09:07,451 [1] ERROR MYBAR.Services.UserService - Fail to get all users The underlying provider failed on Open.

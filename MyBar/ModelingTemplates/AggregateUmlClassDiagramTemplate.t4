@@ -1,0 +1,646 @@
+<#@ Include File="TemplateHeader.t4" #>
+<#@ Modeling ElementType="Microsoft.VisualStudio.Uml.Classes.IClass" Processor="ModelingProcessor" ApplyStereotypes="CSharp" #>
+<#@ Import Namespace="Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml" #>
+<#@ Import Namespace="Microsoft.VisualStudio.Uml.AuxiliaryConstructs" #>
+<#@ import namespace="Microsoft.VisualStudio.Uml.Classes" #>
+<#@ import namespace="Microsoft.VisualStudio.Uml" #>
+<#@ Assembly Name="System.Core, Version=4.0.0.0, Culture=neutral" #>
+<#@ Assembly Name="Microsoft.CSharp, Version=4.0.0.0, Culture=neutral" #>
+<#@ Include File="CSharpCommentHelpers.t4" #>
+<#@ Include File="CSharpHelpers.t4" #>
+<#@ Include File="CqrsTemplateHelpers.t4" #>
+<#@ Include File="ModelHelper.t4" #>
+<#@ Output Extension=".classdiagram" #>
+<#
+IStereotypeInstance stereoTypeProperties = this.Element.AppliedStereotypes.Single(property => property.Name == "AggregateRoot");
+string authenticationTokenType = GetDomainAuthenticationTokenType(this.Element);
+
+string classNamespace = GetNamespace(this.Element.Namespace);
+string className = ClassifierName(this.Element);
+string baseClass = GetBaseClass(this.Element);
+
+int baseHashCode = (classNamespace + "." + className).GetHashCode();
+Guid ElementClassRsn = new Guid(baseHashCode, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0);
+#><?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="<#= new Guid(baseHashCode, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0) #>" name="<#= className #>" linkedPackageId="<#= new Guid(baseHashCode, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0) #>" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="<#= ElementClassRsn #>" name="<#= className #>" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <appliedStereotypesInternal>
+<#
+int index = 0;
+foreach(IStereotypeInstance stereotypeInstance in this.Element.AppliedStereotypes)
+{
+#>
+          <stereotypeInstance Id="<#= new Guid(baseHashCode, (short)index, 2, 1, 0, 0, 0, 0, 0, 0, 0) #>" name="<#= stereotypeInstance.Name #>" profile="<#= stereotypeInstance.Profile #>">
+            <elementDefinition Id="<#= stereotypeInstance.GetId() #>" />
+            <propertyInstances>
+<#
+	dynamic obj2 = stereotypeInstance;
+	var obj5 = Microsoft.VisualStudio.Uml.StereotypeInstanceHasPropertyInstances.GetLinksToPropertyInstances(obj2);
+	int propertyIndex = 0;
+	foreach(var obj6 in obj5)
+	{
+		IStereotypePropertyInstance stereoTypeProperty = stereotypeInstance.PropertyInstances[propertyIndex];
+#>
+              <stereotypeInstanceHasPropertyInstances Id="<#= new Guid(baseHashCode, (short)index, 3, 1, 0, 0, 0, 0, 0, 0, (byte)propertyIndex) #>">
+                <propertyInstance Id="<#= new Guid(baseHashCode, (short)index, 3, 2, 0, 0, 0, 0, 0, 0, (byte)propertyIndex) #>" name="<#= stereoTypeProperty.Name #>" value="<#= stereoTypeProperty.Value #>">
+                  <elementDefinition Id="<#= stereoTypeProperty.GetId() #>" />
+                </propertyInstance>
+                <elementDefinition Id="<#= obj6.Id #>" />
+              </stereotypeInstanceHasPropertyInstances>
+<#
+		propertyIndex++;
+	}
+#>
+            </propertyInstances>
+          </stereotypeInstance>
+<#
+	index++;
+}
+#>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="<#= this.Element.GetId() #>" />
+        <ownedAttributesInternal>
+<#
+IDictionary<string, Tuple<Guid, IType>> dataTypes = new Dictionary<string, Tuple<Guid, IType>>();
+IList<IProperty> collectionProperties = GetPropertyList(this.Element);
+// Properties
+index = 0;
+foreach(IProperty collectionProperty in collectionProperties)
+{
+	if (!collectionProperty.AppliedStereotypes.Any())
+		continue;
+	if (!dataTypes.ContainsKey(collectionProperty.Type.Name))
+	{
+		Guid typeKey = new Guid(baseHashCode, (short)9765, (short)(collectionProperty.Type.Name.GetHashCode() % short.MaxValue), 1, 0, 0, 0, 0, 0, 0, 0);
+		dataTypes.Add(collectionProperty.Type.Name, new Tuple<Guid, IType>(typeKey, collectionProperty.Type));
+	}
+#>
+          <property Id="<#= new Guid(baseHashCode, (short)index, 4, 1, 0, 0, 0, 0, 0, 0, 0) #>" name="<#= collectionProperty.Name #>" isLeaf="<#= collectionProperty.IsLeaf.ToString().ToLowerInvariant() #>" isStatic="<#= collectionProperty.IsStatic.ToString().ToLowerInvariant() #>" isReadOnly="<#= collectionProperty.IsReadOnly.ToString().ToLowerInvariant() #>" isDerived="<#= collectionProperty.IsDerived.ToString().ToLowerInvariant() #>" isDerivedUnion="<#= collectionProperty.IsDerivedUnion.ToString().ToLowerInvariant() #>" aggregation="<#= collectionProperty.Aggregation.ToString() #>" isComposite="<#= collectionProperty.IsComposite.ToString().ToLowerInvariant() #>">
+            <appliedStereotypesInternal>
+<#
+	int subIndex = 0;
+	foreach(IStereotypeInstance collectionStereotypeInstance in collectionProperty.AppliedStereotypes)
+	{
+#>
+              <stereotypeInstance Id="<#= new Guid(baseHashCode, (short)index, 5, 1, 0, 0, 0, 0, 0, (byte)subIndex, 0) #>" name="<#= collectionStereotypeInstance.Name #>" profile="<#= collectionStereotypeInstance.Profile #>">
+                <elementDefinition Id="<#= collectionStereotypeInstance.GetId() #>" />
+<# if (collectionStereotypeInstance.PropertyInstances.Any()) { #>
+                <propertyInstances>
+<#
+		int propertyIndex = 0;
+		foreach(IStereotypePropertyInstance stereoTypeProperty in collectionStereotypeInstance.PropertyInstances)
+		{
+#>
+                  <stereotypeInstanceHasPropertyInstances Id="<#= new Guid(baseHashCode, (short)index, 6, 1, 0, 0, 0, 0, 0, (byte)subIndex, (byte)propertyIndex) #>">
+                    <propertyInstance Id="<#= new Guid(baseHashCode, (short)index, 6, 2, 0, 0, 0, 0, 0, (byte)subIndex, (byte)propertyIndex) #>" name="<#= stereoTypeProperty.Name #>"<# if (!string.IsNullOrWhiteSpace(stereoTypeProperty.Value)) { #> value="<#= stereoTypeProperty.Value #>"<# } #>>
+                      <elementDefinition Id="<#= stereoTypeProperty.GetId() #>" />
+                    </propertyInstance>
+                    <elementDefinition Id="<#= stereoTypeProperty.GetId() #>" />
+                  </stereotypeInstanceHasPropertyInstances>
+<#
+			propertyIndex++;
+		}
+#>
+                </propertyInstances>
+<# } #>
+              </stereotypeInstance>
+<#
+		subIndex++;
+	}
+#>
+            </appliedStereotypesInternal>
+<# if (collectionProperty.LowerValue != null) { #>
+            <lowerValueInternal>
+              <literalString Id="<#= new Guid(baseHashCode, (short)index, 7, 1, 0, 0, 0, 0, 0, 0, 0) #>" name="Lower" value="<#= collectionProperty.LowerValue.ToString() #>">
+                <elementDefinition Id="<#= collectionProperty.LowerValue.GetId() #>" />
+              </literalString>
+            </lowerValueInternal>
+<# } #>
+<# if (collectionProperty.UpperValue != null) { #>
+            <upperValueInternal>
+              <literalString Id="<#= new Guid(baseHashCode, (short)index, 8, 1, 0, 0, 0, 0, 0, 0, 0) #>" name="Upper" value="<#= collectionProperty.UpperValue.ToString() #>">
+                <elementDefinition Id="<#= collectionProperty.UpperValue.GetId() #>" />
+              </literalString>
+            </upperValueInternal>
+<# } #>
+            <elementDefinition Id="<#= collectionProperty.GetId() #>" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="<#= dataTypes[collectionProperty.Type.Name].Item1 #>" LastKnownName="<#= collectionProperty.Type.Name #>" />
+            </type_NamedElement>
+          </property>
+<#
+	index++;
+}
+#>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+<#
+// Auto Create Method
+bool buildCreatedEvent = stereoTypeProperties.PropertyInstances
+	.Single(property => property.Name == "BuildCreateCommand")
+	.Value == "true";
+
+if (buildCreatedEvent)
+{
+#>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="<#= new Guid(baseHashCode, (short)index, 9, 1, 0, 0, 0, 0, 0, 0, 0) #>" name="Create<#= className #>" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <targetEnds>
+          <association Id="<#= new Guid(baseHashCode, (short)index, 9, 2, 0, 0, 0, 0, 0, 0, 0) #>" isDerived="false" sourceEndRoleName="Create<#= className #>" targetEndRoleName="<#= className #>" isLeaf="false" name="Create<#= className #>" description="Receive the Create<#= className #>Command via the Create<#= className #>CommandHandler over the command bus and into the Create<#= className #> operation of the <#= className #> aggregate." isAbstract="false">
+            <classMoniker Id="<#= ElementClassRsn #>" LastKnownName="<#= className #>" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="<#= new Guid(baseHashCode, (short)index, 9, 3, 0, 0, 0, 0, 0, 0, 0) #>" name="Create<#= className #>" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="<#= new Guid(baseHashCode, (short)index, 9, 4, 0, 0, 0, 0, 0, 0, 0) #>" name="<#= className #>" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+<#
+// Properties
+index = 0;
+foreach(IProperty collectionProperty in collectionProperties)
+{
+	if (!collectionProperty.AppliedStereotypes.Any())
+		continue;
+	if (!dataTypes.ContainsKey(collectionProperty.Type.Name))
+	{
+		Guid typeKey = new Guid(baseHashCode, (short)9765, (short)(collectionProperty.Type.Name.GetHashCode() % short.MaxValue), 1, 0, 0, 0, 0, 0, 0, 0);
+		dataTypes.Add(collectionProperty.Type.Name, new Tuple<Guid, IType>(typeKey, collectionProperty.Type));
+	}
+#>
+          <property Id="<#= new Guid(baseHashCode, (short)index, 94, 1, 0, 0, 0, 0, 0, 0, 0) #>" name="<#= collectionProperty.Name #>" isLeaf="<#= collectionProperty.IsLeaf.ToString().ToLowerInvariant() #>" isStatic="<#= collectionProperty.IsStatic.ToString().ToLowerInvariant() #>" isReadOnly="<#= collectionProperty.IsReadOnly.ToString().ToLowerInvariant() #>" isDerived="<#= collectionProperty.IsDerived.ToString().ToLowerInvariant() #>" isDerivedUnion="<#= collectionProperty.IsDerivedUnion.ToString().ToLowerInvariant() #>" aggregation="<#= collectionProperty.Aggregation.ToString() #>" isComposite="<#= collectionProperty.IsComposite.ToString().ToLowerInvariant() #>">
+            <appliedStereotypesInternal>
+<#
+	int subIndex = 0;
+	foreach(IStereotypeInstance collectionStereotypeInstance in collectionProperty.AppliedStereotypes)
+	{
+#>
+              <stereotypeInstance Id="<#= new Guid(baseHashCode, (short)index, 95, 1, 0, 0, 0, 0, 0, (byte)subIndex, 0) #>" name="<#= collectionStereotypeInstance.Name #>" profile="<#= collectionStereotypeInstance.Profile #>">
+                <!-- <elementDefinition Id="<#= collectionStereotypeInstance.GetId() #>" /> -->
+<# if (collectionStereotypeInstance.PropertyInstances.Any()) { #>
+                <propertyInstances>
+<#
+		int propertyIndex = 0;
+		foreach(IStereotypePropertyInstance stereoTypeProperty in collectionStereotypeInstance.PropertyInstances)
+		{
+#>
+                  <stereotypeInstanceHasPropertyInstances Id="<#= new Guid(baseHashCode, (short)index, 96, 1, 0, 0, 0, 0, 0, (byte)subIndex, (byte)propertyIndex) #>">
+                    <propertyInstance Id="<#= new Guid(baseHashCode, (short)index, 96, 2, 0, 0, 0, 0, 0, (byte)subIndex, (byte)propertyIndex) #>" name="<#= stereoTypeProperty.Name #>"<# if (!string.IsNullOrWhiteSpace(stereoTypeProperty.Value)) { #> value="<#= stereoTypeProperty.Value #>"<# } #>>
+                      <!-- <elementDefinition Id="<#= stereoTypeProperty.GetId() #>" /> -->
+                    </propertyInstance>
+                    <!-- <elementDefinition Id="<#= stereoTypeProperty.GetId() #>" /> -->
+                  </stereotypeInstanceHasPropertyInstances>
+<#
+			propertyIndex++;
+		}
+#>
+                </propertyInstances>
+<# } #>
+              </stereotypeInstance>
+<#
+		subIndex++;
+	}
+#>
+            </appliedStereotypesInternal>
+<# if (collectionProperty.LowerValue != null) { #>
+            <lowerValueInternal>
+              <literalString Id="<#= new Guid(baseHashCode, (short)index, 97, 1, 0, 0, 0, 0, 0, 0, 0) #>" name="Lower" value="<#= collectionProperty.LowerValue.ToString() #>">
+                <!-- <elementDefinition Id="<#= collectionProperty.LowerValue.GetId() #>" /> -->
+              </literalString>
+            </lowerValueInternal>
+<# } #>
+<# if (collectionProperty.UpperValue != null) { #>
+            <upperValueInternal>
+              <literalString Id="<#= new Guid(baseHashCode, (short)index, 98, 1, 0, 0, 0, 0, 0, 0, 0) #>" name="Upper" value="<#= collectionProperty.UpperValue.ToString() #>">
+                <!-- <elementDefinition Id="<#= collectionProperty.UpperValue.GetId() #>" /> -->
+              </literalString>
+            </upperValueInternal>
+<# } #>
+            <!-- <elementDefinition Id="<#= collectionProperty.GetId() #>" /> -->
+            <type_NamedElement>
+              <referencedTypeMoniker Id="<#= dataTypes[collectionProperty.Type.Name].Item1 #>" LastKnownName="<#= collectionProperty.Type.Name #>" />
+            </type_NamedElement>
+          </property>
+<#
+	index++;
+}
+#>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="<#= new Guid(baseHashCode, (short)index, 9, 11, 0, 0, 0, 0, 0, 0, 0) #>" name="<#= className #>Created" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <targetEnds>
+          <association Id="<#= new Guid(baseHashCode, (short)index, 9, 12, 0, 0, 0, 0, 0, 0, 0) #>" isDerived="false" sourceEndRoleName="<#= className #>" targetEndRoleName="<#= className #>Created" isLeaf="false" name="Create<#= className #>" description="Publish the <#= className #>Created event over the event bus from the Create<#= className #> operation of the <#= className #> aggregate." isAbstract="false">
+            <classMoniker Id="<#= ElementClassRsn #>" LastKnownName="<#= className #>" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="<#= new Guid(baseHashCode, (short)index, 9, 14, 0, 0, 0, 0, 0, 0, 0) #>" name="<#= className #>Created" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="<#= new Guid(baseHashCode, (short)index, 9, 13, 0, 0, 0, 0, 0, 0, 0) #>" name="<#= className #>" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association Id="<#= new Guid(baseHashCode, (short)index, 9, 16, 0, 0, 0, 0, 0, 0, 0) #>" isDerived="false" sourceEndRoleName="<#= className #>Created" targetEndRoleName="<#= className #>CreatedEventHandler" isLeaf="false" name="<#= className #>Entity" description="Receive the <#= className #>Created event over the event bus into the <#= className #>CreatedEventHandler." isAbstract="false">
+            <classMoniker Id="<#= new Guid(baseHashCode, (short)index, 9, 15, 0, 0, 0, 0, 0, 0, 0) #>" LastKnownName="<#= className #>CreatedEventHandler" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="<#= new Guid(baseHashCode, (short)index, 9, 17, 0, 0, 0, 0, 0, 0, 0) #>" name="<#= className #>Created" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="<#= new Guid(baseHashCode, (short)index, 9, 18, 0, 0, 0, 0, 0, 0, 0) #>" name="<#= className #>CreatedEventHandler" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+<#
+// Properties
+index = 0;
+foreach(IProperty collectionProperty in collectionProperties)
+{
+	if (!collectionProperty.AppliedStereotypes.Any())
+		continue;
+	if (!dataTypes.ContainsKey(collectionProperty.Type.Name))
+	{
+		Guid typeKey = new Guid(baseHashCode, (short)9765, (short)(collectionProperty.Type.Name.GetHashCode() % short.MaxValue), 1, 0, 0, 0, 0, 0, 0, 0);
+		dataTypes.Add(collectionProperty.Type.Name, new Tuple<Guid, IType>(typeKey, collectionProperty.Type));
+	}
+#>
+          <property Id="<#= new Guid(baseHashCode, (short)index, 94, 11, 0, 0, 0, 0, 0, 0, 0) #>" name="<#= collectionProperty.Name #>" isLeaf="<#= collectionProperty.IsLeaf.ToString().ToLowerInvariant() #>" isStatic="<#= collectionProperty.IsStatic.ToString().ToLowerInvariant() #>" isReadOnly="<#= collectionProperty.IsReadOnly.ToString().ToLowerInvariant() #>" isDerived="<#= collectionProperty.IsDerived.ToString().ToLowerInvariant() #>" isDerivedUnion="<#= collectionProperty.IsDerivedUnion.ToString().ToLowerInvariant() #>" aggregation="<#= collectionProperty.Aggregation.ToString() #>" isComposite="<#= collectionProperty.IsComposite.ToString().ToLowerInvariant() #>">
+            <appliedStereotypesInternal>
+<#
+	int subIndex = 0;
+	foreach(IStereotypeInstance collectionStereotypeInstance in collectionProperty.AppliedStereotypes)
+	{
+#>
+              <stereotypeInstance Id="<#= new Guid(baseHashCode, (short)index, 95, 11, 0, 0, 0, 0, 0, (byte)subIndex, 0) #>" name="<#= collectionStereotypeInstance.Name #>" profile="<#= collectionStereotypeInstance.Profile #>">
+                <!-- <elementDefinition Id="<#= collectionStereotypeInstance.GetId() #>" /> -->
+<# if (collectionStereotypeInstance.PropertyInstances.Any()) { #>
+                <propertyInstances>
+<#
+		int propertyIndex = 0;
+		foreach(IStereotypePropertyInstance stereoTypeProperty in collectionStereotypeInstance.PropertyInstances)
+		{
+#>
+                  <stereotypeInstanceHasPropertyInstances Id="<#= new Guid(baseHashCode, (short)index, 96, 11, 0, 0, 0, 0, 0, (byte)subIndex, (byte)propertyIndex) #>">
+                    <propertyInstance Id="<#= new Guid(baseHashCode, (short)index, 96, 12, 0, 0, 0, 0, 0, (byte)subIndex, (byte)propertyIndex) #>" name="<#= stereoTypeProperty.Name #>"<# if (!string.IsNullOrWhiteSpace(stereoTypeProperty.Value)) { #> value="<#= stereoTypeProperty.Value #>"<# } #>>
+                      <!-- <elementDefinition Id="<#= stereoTypeProperty.GetId() #>" /> -->
+                    </propertyInstance>
+                    <!-- <elementDefinition Id="<#= stereoTypeProperty.GetId() #>" /> -->
+                  </stereotypeInstanceHasPropertyInstances>
+<#
+			propertyIndex++;
+		}
+#>
+                </propertyInstances>
+<# } #>
+              </stereotypeInstance>
+<#
+		subIndex++;
+	}
+#>
+            </appliedStereotypesInternal>
+<# if (collectionProperty.LowerValue != null) { #>
+            <lowerValueInternal>
+              <literalString Id="<#= new Guid(baseHashCode, (short)index, 97, 11, 0, 0, 0, 0, 0, 0, 0) #>" name="Lower" value="<#= collectionProperty.LowerValue.ToString() #>">
+                <!-- <elementDefinition Id="<#= collectionProperty.LowerValue.GetId() #>" /> -->
+              </literalString>
+            </lowerValueInternal>
+<# } #>
+<# if (collectionProperty.UpperValue != null) { #>
+            <upperValueInternal>
+              <literalString Id="<#= new Guid(baseHashCode, (short)index, 98, 11, 0, 0, 0, 0, 0, 0, 0) #>" name="Upper" value="<#= collectionProperty.UpperValue.ToString() #>">
+                <!-- <elementDefinition Id="<#= collectionProperty.UpperValue.GetId() #>" /> -->
+              </literalString>
+            </upperValueInternal>
+<# } #>
+            <!-- <elementDefinition Id="<#= collectionProperty.GetId() #>" /> -->
+            <type_NamedElement>
+              <referencedTypeMoniker Id="<#= dataTypes[collectionProperty.Type.Name].Item1 #>" LastKnownName="<#= collectionProperty.Type.Name #>" />
+            </type_NamedElement>
+          </property>
+<#
+	index++;
+}
+#>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="<#= new Guid(baseHashCode, (short)index, 9, 15, 0, 0, 0, 0, 0, 0, 0) #>" name="<#= className #>CreatedEventHandler" isAbstract="false" isLeaf="false" isActiveClass="false">
+      </class>
+    </logicalClassDesignerModelHasTypes><#
+}
+#>
+<#
+// Auto Update Method
+bool buildUpdatedEvent = stereoTypeProperties.PropertyInstances
+	.Single(property => property.Name == "BuildUpdateCommand")
+	.Value == "true";
+
+if (buildUpdatedEvent)
+{
+#>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="<#= new Guid(baseHashCode, (short)index, 10, 1, 0, 0, 0, 0, 0, 0, 0) #>" name="Update<#= className #>" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <targetEnds>
+          <association Id="<#= new Guid(baseHashCode, (short)index, 10, 2, 0, 0, 0, 0, 0, 0, 0) #>" isDerived="false" sourceEndRoleName="Update<#= className #>" targetEndRoleName="<#= className #>" isLeaf="false" name="Update<#= className #>" description="Receive the Update<#= className #>Command via the Update<#= className #>CommandHandler over the command bus and into the Update<#= className #> operation of the <#= className #> aggregate." isAbstract="false">
+            <classMoniker Id="<#= ElementClassRsn #>" LastKnownName="<#= className #>" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="<#= new Guid(baseHashCode, (short)index, 10, 3, 0, 0, 0, 0, 0, 0, 0) #>" name="Update<#= className #>" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="<#= new Guid(baseHashCode, (short)index, 10, 4, 0, 0, 0, 0, 0, 0, 0) #>" name="<#= className #>" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+<#
+// Properties
+index = 0;
+foreach(IProperty collectionProperty in collectionProperties)
+{
+	if (!collectionProperty.AppliedStereotypes.Any())
+		continue;
+	if (!dataTypes.ContainsKey(collectionProperty.Type.Name))
+	{
+		Guid typeKey = new Guid(baseHashCode, (short)9765, (short)(collectionProperty.Type.Name.GetHashCode() % short.MaxValue), 1, 0, 0, 0, 0, 0, 0, 0);
+		dataTypes.Add(collectionProperty.Type.Name, new Tuple<Guid, IType>(typeKey, collectionProperty.Type));
+	}
+#>
+          <property Id="<#= new Guid(baseHashCode, (short)index, 104, 1, 0, 0, 0, 0, 0, 0, 0) #>" name="<#= collectionProperty.Name #>" isLeaf="<#= collectionProperty.IsLeaf.ToString().ToLowerInvariant() #>" isStatic="<#= collectionProperty.IsStatic.ToString().ToLowerInvariant() #>" isReadOnly="<#= collectionProperty.IsReadOnly.ToString().ToLowerInvariant() #>" isDerived="<#= collectionProperty.IsDerived.ToString().ToLowerInvariant() #>" isDerivedUnion="<#= collectionProperty.IsDerivedUnion.ToString().ToLowerInvariant() #>" aggregation="<#= collectionProperty.Aggregation.ToString() #>" isComposite="<#= collectionProperty.IsComposite.ToString().ToLowerInvariant() #>">
+            <appliedStereotypesInternal>
+<#
+	int subIndex = 0;
+	foreach(IStereotypeInstance collectionStereotypeInstance in collectionProperty.AppliedStereotypes)
+	{
+#>
+              <stereotypeInstance Id="<#= new Guid(baseHashCode, (short)index, 105, 1, 0, 0, 0, 0, 0, (byte)subIndex, 0) #>" name="<#= collectionStereotypeInstance.Name #>" profile="<#= collectionStereotypeInstance.Profile #>">
+                <!-- <elementDefinition Id="<#= collectionStereotypeInstance.GetId() #>" /> -->
+<# if (collectionStereotypeInstance.PropertyInstances.Any()) { #>
+                <propertyInstances>
+<#
+		int propertyIndex = 0;
+		foreach(IStereotypePropertyInstance stereoTypeProperty in collectionStereotypeInstance.PropertyInstances)
+		{
+#>
+                  <stereotypeInstanceHasPropertyInstances Id="<#= new Guid(baseHashCode, (short)index, 106, 1, 0, 0, 0, 0, 0, (byte)subIndex, (byte)propertyIndex) #>">
+                    <propertyInstance Id="<#= new Guid(baseHashCode, (short)index, 106, 2, 0, 0, 0, 0, 0, (byte)subIndex, (byte)propertyIndex) #>" name="<#= stereoTypeProperty.Name #>"<# if (!string.IsNullOrWhiteSpace(stereoTypeProperty.Value)) { #> value="<#= stereoTypeProperty.Value #>"<# } #>>
+                      <!-- <elementDefinition Id="<#= stereoTypeProperty.GetId() #>" /> -->
+                    </propertyInstance>
+                    <!-- <elementDefinition Id="<#= stereoTypeProperty.GetId() #>" /> -->
+                  </stereotypeInstanceHasPropertyInstances>
+<#
+			propertyIndex++;
+		}
+#>
+                </propertyInstances>
+<# } #>
+              </stereotypeInstance>
+<#
+		subIndex++;
+	}
+#>
+            </appliedStereotypesInternal>
+<# if (collectionProperty.LowerValue != null) { #>
+            <lowerValueInternal>
+              <literalString Id="<#= new Guid(baseHashCode, (short)index, 107, 1, 0, 0, 0, 0, 0, 0, 0) #>" name="Lower" value="<#= collectionProperty.LowerValue.ToString() #>">
+                <!-- <elementDefinition Id="<#= collectionProperty.LowerValue.GetId() #>" /> -->
+              </literalString>
+            </lowerValueInternal>
+<# } #>
+<# if (collectionProperty.UpperValue != null) { #>
+            <upperValueInternal>
+              <literalString Id="<#= new Guid(baseHashCode, (short)index, 108, 1, 0, 0, 0, 0, 0, 0, 0) #>" name="Upper" value="<#= collectionProperty.UpperValue.ToString() #>">
+                <!-- <elementDefinition Id="<#= collectionProperty.UpperValue.GetId() #>" /> -->
+              </literalString>
+            </upperValueInternal>
+<# } #>
+            <!-- <elementDefinition Id="<#= collectionProperty.GetId() #>" /> -->
+            <type_NamedElement>
+              <referencedTypeMoniker Id="<#= dataTypes[collectionProperty.Type.Name].Item1 #>" LastKnownName="<#= collectionProperty.Type.Name #>" />
+            </type_NamedElement>
+          </property>
+<#
+	index++;
+}
+#>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="<#= new Guid(baseHashCode, (short)index, 10, 11, 0, 0, 0, 0, 0, 0, 0) #>" name="<#= className #>Updated" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <targetEnds>
+          <association Id="<#= new Guid(baseHashCode, (short)index, 10, 12, 0, 0, 0, 0, 0, 0, 0) #>" isDerived="false" sourceEndRoleName="<#= className #>" targetEndRoleName="<#= className #>Updated" isLeaf="false" name="Update<#= className #>" description="Publish the <#= className #>Updated event over the event bus from the Update<#= className #> operation of the <#= className #> aggregate." isAbstract="false">
+            <classMoniker Id="<#= ElementClassRsn #>" LastKnownName="<#= className #>" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="<#= new Guid(baseHashCode, (short)index, 10, 14, 0, 0, 0, 0, 0, 0, 0) #>" name="<#= className #>Updated" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="<#= new Guid(baseHashCode, (short)index, 10, 13, 0, 0, 0, 0, 0, 0, 0) #>" name="<#= className #>" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association Id="<#= new Guid(baseHashCode, (short)index, 10, 16, 0, 0, 0, 0, 0, 0, 0) #>" isDerived="false" sourceEndRoleName="<#= className #>Updated" targetEndRoleName="<#= className #>UpdatedEventHandler" isLeaf="false" name="<#= className #>Entity" description="Receive the <#= className #>Updated event over the event bus into the <#= className #>UpdatedEventHandler." isAbstract="false">
+            <classMoniker Id="<#= new Guid(baseHashCode, (short)index, 10, 15, 0, 0, 0, 0, 0, 0, 0) #>" LastKnownName="<#= className #>UpdatedEventHandler" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="<#= new Guid(baseHashCode, (short)index, 10, 17, 0, 0, 0, 0, 0, 0, 0) #>" name="<#= className #>Updated" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="<#= new Guid(baseHashCode, (short)index, 10, 18, 0, 0, 0, 0, 0, 0, 0) #>" name="<#= className #>UpdatedEventHandler" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+<#
+// Properties
+index = 0;
+foreach(IProperty collectionProperty in collectionProperties)
+{
+	if (!collectionProperty.AppliedStereotypes.Any())
+		continue;
+	if (!dataTypes.ContainsKey(collectionProperty.Type.Name))
+	{
+		Guid typeKey = new Guid(baseHashCode, (short)9765, (short)(collectionProperty.Type.Name.GetHashCode() % short.MaxValue), 1, 0, 0, 0, 0, 0, 0, 0);
+		dataTypes.Add(collectionProperty.Type.Name, new Tuple<Guid, IType>(typeKey, collectionProperty.Type));
+	}
+#>
+          <property Id="<#= new Guid(baseHashCode, (short)index, 104, 11, 0, 0, 0, 0, 0, 0, 0) #>" name="<#= collectionProperty.Name #>" isLeaf="<#= collectionProperty.IsLeaf.ToString().ToLowerInvariant() #>" isStatic="<#= collectionProperty.IsStatic.ToString().ToLowerInvariant() #>" isReadOnly="<#= collectionProperty.IsReadOnly.ToString().ToLowerInvariant() #>" isDerived="<#= collectionProperty.IsDerived.ToString().ToLowerInvariant() #>" isDerivedUnion="<#= collectionProperty.IsDerivedUnion.ToString().ToLowerInvariant() #>" aggregation="<#= collectionProperty.Aggregation.ToString() #>" isComposite="<#= collectionProperty.IsComposite.ToString().ToLowerInvariant() #>">
+            <appliedStereotypesInternal>
+<#
+	int subIndex = 0;
+	foreach(IStereotypeInstance collectionStereotypeInstance in collectionProperty.AppliedStereotypes)
+	{
+#>
+              <stereotypeInstance Id="<#= new Guid(baseHashCode, (short)index, 105, 11, 0, 0, 0, 0, 0, (byte)subIndex, 0) #>" name="<#= collectionStereotypeInstance.Name #>" profile="<#= collectionStereotypeInstance.Profile #>">
+                <!-- <elementDefinition Id="<#= collectionStereotypeInstance.GetId() #>" /> -->
+<# if (collectionStereotypeInstance.PropertyInstances.Any()) { #>
+                <propertyInstances>
+<#
+		int propertyIndex = 0;
+		foreach(IStereotypePropertyInstance stereoTypeProperty in collectionStereotypeInstance.PropertyInstances)
+		{
+#>
+                  <stereotypeInstanceHasPropertyInstances Id="<#= new Guid(baseHashCode, (short)index, 106, 11, 0, 0, 0, 0, 0, (byte)subIndex, (byte)propertyIndex) #>">
+                    <propertyInstance Id="<#= new Guid(baseHashCode, (short)index, 106, 12, 0, 0, 0, 0, 0, (byte)subIndex, (byte)propertyIndex) #>" name="<#= stereoTypeProperty.Name #>"<# if (!string.IsNullOrWhiteSpace(stereoTypeProperty.Value)) { #> value="<#= stereoTypeProperty.Value #>"<# } #>>
+                      <!-- <elementDefinition Id="<#= stereoTypeProperty.GetId() #>" /> -->
+                    </propertyInstance>
+                    <!-- <elementDefinition Id="<#= stereoTypeProperty.GetId() #>" /> -->
+                  </stereotypeInstanceHasPropertyInstances>
+<#
+			propertyIndex++;
+		}
+#>
+                </propertyInstances>
+<# } #>
+              </stereotypeInstance>
+<#
+		subIndex++;
+	}
+#>
+            </appliedStereotypesInternal>
+<# if (collectionProperty.LowerValue != null) { #>
+            <lowerValueInternal>
+              <literalString Id="<#= new Guid(baseHashCode, (short)index, 107, 11, 0, 0, 0, 0, 0, 0, 0) #>" name="Lower" value="<#= collectionProperty.LowerValue.ToString() #>">
+                <!-- <elementDefinition Id="<#= collectionProperty.LowerValue.GetId() #>" /> -->
+              </literalString>
+            </lowerValueInternal>
+<# } #>
+<# if (collectionProperty.UpperValue != null) { #>
+            <upperValueInternal>
+              <literalString Id="<#= new Guid(baseHashCode, (short)index, 108, 11, 0, 0, 0, 0, 0, 0, 0) #>" name="Upper" value="<#= collectionProperty.UpperValue.ToString() #>">
+                <!-- <elementDefinition Id="<#= collectionProperty.UpperValue.GetId() #>" /> -->
+              </literalString>
+            </upperValueInternal>
+<# } #>
+            <!-- <elementDefinition Id="<#= collectionProperty.GetId() #>" /> -->
+            <type_NamedElement>
+              <referencedTypeMoniker Id="<#= dataTypes[collectionProperty.Type.Name].Item1 #>" LastKnownName="<#= collectionProperty.Type.Name #>" />
+            </type_NamedElement>
+          </property>
+<#
+	index++;
+}
+#>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="<#= new Guid(baseHashCode, (short)index, 10, 15, 0, 0, 0, 0, 0, 0, 0) #>" name="<#= className #>UpdatedEventHandler" isAbstract="false" isLeaf="false" isActiveClass="false">
+      </class>
+    </logicalClassDesignerModelHasTypes><#
+}
+#>
+<#
+// Auto Delete Method
+bool buildDeletedEvent = stereoTypeProperties.PropertyInstances
+	.Single(property => property.Name == "BuildDeleteCommand")
+	.Value == "true";
+
+if (buildDeletedEvent)
+{
+#>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="<#= new Guid(baseHashCode, (short)index, 11, 1, 0, 0, 0, 0, 0, 0, 0) #>" name="Delete<#= className #>" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <targetEnds>
+          <association Id="<#= new Guid(baseHashCode, (short)index, 11, 2, 0, 0, 0, 0, 0, 0, 0) #>" isDerived="false" sourceEndRoleName="Delete<#= className #>" targetEndRoleName="<#= className #>" isLeaf="false" name="Delete<#= className #>" description="Receive the Delete<#= className #>Command via the Delete<#= className #>CommandHandler over the command bus and into the Delete<#= className #> operation of the <#= className #> aggregate." isAbstract="false">
+            <classMoniker Id="<#= ElementClassRsn #>" LastKnownName="<#= className #>" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="<#= new Guid(baseHashCode, (short)index, 11, 3, 0, 0, 0, 0, 0, 0, 0) #>" name="Delete<#= className #>" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="<#= new Guid(baseHashCode, (short)index, 11, 4, 0, 0, 0, 0, 0, 0, 0) #>" name="<#= className #>" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="<#= new Guid(baseHashCode, (short)index, 11, 11, 0, 0, 0, 0, 0, 0, 0) #>" name="<#= className #>Deleted" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <targetEnds>
+          <association Id="<#= new Guid(baseHashCode, (short)index, 11, 12, 0, 0, 0, 0, 0, 0, 0) #>" isDerived="false" sourceEndRoleName="<#= className #>" targetEndRoleName="<#= className #>Deleted" isLeaf="false" name="Delete<#= className #>" description="Publish the <#= className #>Deleted event over the event bus from the Delete<#= className #> operation of the <#= className #> aggregate." isAbstract="false">
+            <classMoniker Id="<#= ElementClassRsn #>" LastKnownName="<#= className #>" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="<#= new Guid(baseHashCode, (short)index, 11, 13, 0, 0, 0, 0, 0, 0, 0) #>" name="<#= className #>Deleted" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="<#= new Guid(baseHashCode, (short)index, 11, 14, 0, 0, 0, 0, 0, 0, 0) #>" name="<#= className #>" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association Id="<#= new Guid(baseHashCode, (short)index, 11, 16, 0, 0, 0, 0, 0, 0, 0) #>" isDerived="false" sourceEndRoleName="<#= className #>Deleted" targetEndRoleName="<#= className #>DeletedEventHandler" isLeaf="false" name="<#= className #>Entity" description="Receive the <#= className #>Deleted event over the event bus into the <#= className #>DeletedEventHandler." isAbstract="false">
+            <classMoniker Id="<#= new Guid(baseHashCode, (short)index, 11, 15, 0, 0, 0, 0, 0, 0, 0) #>" LastKnownName="<#= className #>DeletedEventHandler" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="<#= new Guid(baseHashCode, (short)index, 11, 17, 0, 0, 0, 0, 0, 0, 0) #>" name="<#= className #>Deleted" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="<#= new Guid(baseHashCode, (short)index, 11, 18, 0, 0, 0, 0, 0, 0, 0) #>" name="<#= className #>DeletedEventHandler" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="<#= new Guid(baseHashCode, (short)index, 11, 15, 0, 0, 0, 0, 0, 0, 0) #>" name="<#= className #>DeletedEventHandler" isAbstract="false" isLeaf="false" isActiveClass="false">
+      </class>
+    </logicalClassDesignerModelHasTypes>
+<#
+}
+#>
+<#
+foreach(string typeKey in dataTypes.Keys)
+{
+	IType dataType = dataTypes[typeKey].Item2;
+#>
+    <packageHasNamedElement>
+      <referencedType Id="<#= dataTypes[typeKey].Item1 #>" name="<#= dataType.Name #>" isAbstract="false" isLeaf="false" cachedFullName="<#= string.Join("::", NamespaceHierarchy(dataType.Namespace).Select(ns => ns.Name)) + "::" + dataType.Name #>">
+        <elementDefinition Id="<#= dataType.GetId() #>" />
+      </referencedType>
+    </packageHasNamedElement>
+<#
+}
+#>
+  </packagedElements>
+</logicalClassDesignerModel><#+
+	protected override bool AppliesToElement()
+	{
+		return ShouldGenerateCodeForElement(this.Element) && this.Element.AppliedStereotypes.Any(property => property.Name == "AggregateRoot");
+	}
+#>

@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="MYBAR.CustomControls.FatureFilter.FatureAdminFilter"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MYBAR.CustomControls.FatureFilter"
+             xmlns:control="clr-namespace:MYBAR.CustomControls"
+             mc:Ignorable="d"           >
+   
+    
+    <WrapPanel  >
+        <GroupBox Background="White" Padding="10" BorderBrush="Black" >
+            <WrapPanel>
+        <Label   FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center">Nga Data</Label>
+        
+        <control:DateOre x:Name="StartClock" ></control:DateOre>
+            </WrapPanel>
+        </GroupBox>
+        <GroupBox  Background="White" Padding="10" BorderBrush="Black">
+        <WrapPanel VerticalAlignment="Center">
+            <Label  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center">Ne Date</Label>
+            <control:DateOre x:Name="FinishClock" ></control:DateOre>
+        </WrapPanel>
+        </GroupBox>
+        <GroupBox  Background="White" Padding="10" BorderBrush="Black">
+        <WrapPanel >
+        <Label Background="White"  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center">Perdoruesi</Label>
+        <ComboBox  Background="White" Name="UserCombo"></ComboBox>
+        
+        </WrapPanel>
+        </GroupBox>
+        <GroupBox  Background="White" Padding="10" BorderBrush="Black">
+            <WrapPanel>
+                <CheckBox  Visibility="Collapsed" FontSize="14"  Checked="IntervalCheck_Checked" Unchecked="IntervalCheck_Unchecked"  Name="IntervalCheck"  VerticalAlignment="Center" Content="Nr Fature" >
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <ToggleButton Name="Switch" Click="Switch_Click" Margin="30,0"  Height="35" Style="{StaticResource AnimatedSwitch}" ></ToggleButton>
+                <Label FontSize="20" >Nga</Label>
+                <TextBox IsEnabled="False" MinWidth="50" Name="OrderNumberStart" VerticalContentAlignment="Center" FontSize="20">0</TextBox>
+                <Label FontSize="20" >Ne</Label>
+                <TextBox IsEnabled="False" MinWidth="50"  Name="OrderNumberFinish" VerticalContentAlignment="Center" FontSize="20">99999999</TextBox>
+            </WrapPanel>
+        </GroupBox>
+    </WrapPanel>
+</UserControl>

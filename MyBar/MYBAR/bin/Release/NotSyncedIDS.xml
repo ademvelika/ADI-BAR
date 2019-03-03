@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SyncIDS>
+  <ORDERS>
+    <ORDER ID="336" TYPE="new">
+      <NEW />
+      <CLOSE TABLEID="28" />
+    </ORDER>
+    <ORDER ID="337" TYPE="new">
+      <NEW />
+    </ORDER>
+  </ORDERS>
+  <CANCELORDERS />
+  <USERREPORT />
+  <TRANSFER></TRANSFER>
+</SyncIDS>

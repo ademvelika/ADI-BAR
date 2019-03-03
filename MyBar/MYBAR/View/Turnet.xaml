@@ -1,0 +1,110 @@
+﻿<UserControl x:Class="MYBAR.View.Turnet"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MYBAR.View" Loaded="UserControl_Loaded"
+             
+             mc:Ignorable="d" 
+             VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
+    <UserControl.Resources>
+        <Style TargetType="{x:Type TreeViewItem}">
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Margin" Value="0,5,25,5" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Style.Triggers>
+                <Trigger Property="IsSelected" Value="True">
+
+                    <Setter Property="BorderBrush" Value="Black" />
+                    <Setter Property="Background" Value="#f4f4f7" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="4*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+       
+        
+            <StackPanel   Grid.Column="0"  Background="#f4f4f7" >
+
+                <WrapPanel  >
+                <Label FontSize="20" >Nga Data</Label>
+                <DatePicker CalendarStyle="{StaticResource styleCalendar}" FontSize="20" Name="DateStart"></DatePicker>
+                </WrapPanel>
+            <WrapPanel>
+                <Label Margin="0,0,12,0" FontSize="20" >Ne Date </Label>
+                <DatePicker CalendarStyle="{StaticResource styleCalendar}" FontSize="20" Name="DateEnd"></DatePicker>
+            </WrapPanel>
+                <StackPanel Name="Perdoruesit">
+                    <Button Height="40" Name="AllUsers" Click="AllUsers_Click" FontSize="20">Te gjithe</Button>
+                    
+                </StackPanel>
+            </StackPanel>
+      
+
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+            <DataGrid ColumnHeaderStyle="{StaticResource HeaderStyle}" Name="TurnetGrid"  AutoGenerateColumns="False"  CanUserAddRows="False" ColumnWidth="*"    >
+                <DataGrid.Resources>
+                    <Style TargetType="{x:Type DataGridColumnHeader}">
+                        <Setter Property="Background" Value="#c5c9c9" />
+                        <Setter Property="FontSize" Value="25"></Setter>
+
+                    </Style>
+                   
+
+                </DataGrid.Resources>
+                <DataGrid.Columns>
+                   
+                    <DataGridTextColumn IsReadOnly="True" Header="Numer Faturash" Binding="{Binding NumerFaturash}"  />
+                    <DataGridTextColumn IsReadOnly="True" Header="Numer Produktesh" Binding="{Binding NrProduktesh}"  />
+                    <DataGridTextColumn IsReadOnly="True" Header="Data" Binding="{Binding Data}"  />
+                    <DataGridTextColumn  IsReadOnly="True" Header="Perdoruesi" Binding="{Binding UserName,StringFormat='N2'}"  />
+                    <!--<DataGridTextColumn IsReadOnly="True"  Header="Tips Cash" Binding="{Binding Tips,StringFormat='N2'}"  />-->
+                    <DataGridTextColumn  IsReadOnly="True" FontFamily="Arial"  Foreground="Red" FontWeight="ExtraBlack" Header="Total" Binding="{Binding Total,StringFormat='N2'}"  />
+                    <DataGridTextColumn IsReadOnly="True" FontFamily="Georgia" Foreground="Red" FontWeight="ExtraBlack" Header="total" Binding="{Binding Fiscal_Orders_Total_Sum,StringFormat='N2'}"  />
+                </DataGrid.Columns>
+
+                <DataGrid.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem  Name="PrintoTurn" Click="PrintoTurn_Click" Header="Print"></MenuItem>
+                    </ContextMenu>
+                </DataGrid.ContextMenu>
+            <DataGrid.CellStyle>
+                    <Style TargetType="{x:Type DataGridCell}">
+                        <Setter Property="FontSize" Value="20"/>
+                    <Setter Property="FontFamily" Value="Aileron Thin" ></Setter>
+                    <Setter Property="Height" Value="35" />
+
+                    <Style.Triggers>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter Property="Background" Value="LightBlue"/>
+                            <Setter Property="Foreground" Value="Black"/>
+
+                        </Trigger>
+
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.CellStyle>
+
+      
+                <DataGrid.RowStyle>
+                    <Style TargetType="DataGridRow">
+                        <Setter Property="Background" Value="{Binding RowBackground}"/>
+                    </Style>
+                </DataGrid.RowStyle>
+            </DataGrid>
+            <DockPanel Grid.Row="1">
+                <TextBlock FontSize="30" FontWeight="Bold" FontFamily="Arial" DockPanel.Dock="Left">Totali</TextBlock>
+                <TextBlock DockPanel.Dock="Right" FontWeight="Bold" FontFamily="Arial" HorizontalAlignment="Right" FontSize="30" Name="Total" Foreground="Red"></TextBlock>
+            </DockPanel>
+        </Grid>
+    </Grid>
+</UserControl>

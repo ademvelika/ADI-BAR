@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="MYBAR.CustomControls.POS.FatureGrid"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MYBAR.CustomControls.POS" 
+              
+           >
+  
+    <Grid Margin="0,0,0,0">
+        
+        
+            <StackPanel >
+                <Grid Name="Head"    Background="#31CBFF">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+
+                    </Grid.ColumnDefinitions>
+                    <Label FontWeight="ExtraBold" FontFamily="Bookman"   Foreground="White" Margin="10,0,0,0" FontSize="20">Emri</Label>
+                    <Label FontWeight="ExtraBold" FontFamily="Bookman"  HorizontalContentAlignment="Center"  Foreground="White" Margin="10,0,0,0" FontSize="20" Grid.Column="1">Sasia</Label>
+                    <Label FontWeight="ExtraBold" FontFamily="Bookman" HorizontalContentAlignment="Center"   Foreground="White" Margin="10,0,0,0" FontSize="20" Grid.Column="2">Cmimi</Label>
+
+                </Grid>
+              
+                <StackPanel Background="White"   Name="RowContainer">
+
+                </StackPanel>
+               
+            </StackPanel>
+       
+    </Grid> 
+   
+</UserControl>

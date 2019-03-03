@@ -1,0 +1,50 @@
+﻿<UserControl x:Class="MYBAR.CustomControls.Ora"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MYBAR.CustomControls"
+              xmlns:control="clr-namespace:MYBAR.CustomControls"
+             mc:Ignorable="d" 
+             >
+
+    <UserControl.Resources>
+        <Style TargetType="TextBox">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="FontWeight" Value="ExtraBlack" />
+            <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+
+        </Style>
+        
+    </UserControl.Resources>
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"  />
+            <ColumnDefinition />
+            <ColumnDefinition Width="50" />
+            <ColumnDefinition  />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <TextBox   LostFocus="OraBox_LostFocus" Name="OraBox">12</TextBox>
+        <StackPanel Grid.Column="1">
+            <Button Name="ShtoOre" Click="ShtoOre_Click" Background="Transparent">
+                <Image Height="10" Width="10" Source="/Images/collapse.png"></Image>
+            </Button>
+            <Button Name="ZbritOre" Click="ZbritOre_Click" Background="Transparent">
+                <Image Height="10" Width="10" Source="/Images/expand.png"></Image>
+            </Button>
+        </StackPanel>
+        <TextBox   LostFocus="MinutaBox_LostFocus" Grid.Column="2" Name="MinutaBox"  >00</TextBox>
+        <StackPanel Grid.Column="3">
+            <Button  Name="ShtoMinuta" Click="ShtoMinuta_Click" Background="Transparent">
+                <Image Height="10" Width="10" Source="/Images/collapse.png"></Image>
+            </Button>
+            <Button Name="ZbritMinuta" Click="ZbritMinuta_Click" Background="Transparent">
+                <Image  Height="10" Width="10" Source="/Images/expand.png"></Image>
+            </Button>
+        </StackPanel>
+        <Label Name="AMPM" MouseLeftButtonUp="AMPM_MouseLeftButtonUp" FontSize="20" VerticalContentAlignment="Center" Grid.Column="4">AM</Label>
+    </Grid>
+</UserControl>

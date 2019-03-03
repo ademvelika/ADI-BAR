@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="MYBAR.CustomControls.POS.OrderLine"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MYBAR.CustomControls.POS"
+             mc:Ignorable="d"  Margin="7,2,7,2" Padding="1"  FontFamily="Gisha" >
+    <Grid  MouseLeftButtonUp="Grid_MouseLeftButtonUp" >
+        <Grid.Style>
+            <Style>
+
+                <Style.Triggers>
+                    <Trigger Property="Grid.IsMouseOver" Value="True">
+                        <Setter Property="Grid.Background" Value="#c4dfe6" />
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+        </Grid.Style>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition Width="auto" />
+          
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock Name="Emer" TextWrapping="Wrap"  Text="{Binding Asortimenti}"  Margin="10,0,0,0" FontSize="20"></TextBlock>
+        <TextBox  MouseLeftButtonUp="Sasia_MouseLeftButtonUp" TextAlignment="Center" Name="Sasia" Text="{ Binding SASI,Mode=TwoWay ,UpdateSourceTrigger=PropertyChanged,NotifyOnSourceUpdated=True,NotifyOnTargetUpdated=True}" Margin="10,0,0,0" FontSize="20" Grid.Column="1"></TextBox>
+        <TextBlock  Name="Cmimi"  TextAlignment="Center"  Text="{Binding Cmim ,StringFormat=N2 }"   Margin="10,0,0,0" FontSize="20" Grid.Column="2"></TextBlock>
+        <Button  FontSize="20" Background="Transparent" Name="RowRemoveBtn" Click="RowRemoveBtn_Click" BorderThickness="0" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Column="3">x</Button>
+        <Separator Grid.Row="1" Grid.ColumnSpan="4"></Separator>
+    </Grid>
+</UserControl>

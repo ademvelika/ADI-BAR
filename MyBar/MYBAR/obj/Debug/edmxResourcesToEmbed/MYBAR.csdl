@@ -1,0 +1,987 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BPDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="C__MigrationHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+      <PropertyRef Name="ContextKey" />
+    </Key>
+    <Property Name="MigrationId" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ContextKey" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Model" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <Property Name="ProductVersion" Type="String" MaxLength="32" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetRoles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="AspNetUsers" Relationship="Self.AspNetUserRoles" FromRole="AspNetRoles" ToRole="AspNetUsers" />
+  </EntityType>
+  <EntityType Name="AspNetUserClaims">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ClaimType" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ClaimValue" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="AspNetUsers" Relationship="Self.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" FromRole="AspNetUserClaims" ToRole="AspNetUsers" />
+  </EntityType>
+  <EntityType Name="AspNetUserLogins">
+    <Key>
+      <PropertyRef Name="LoginProvider" />
+      <PropertyRef Name="ProviderKey" />
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="LoginProvider" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ProviderKey" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserId" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="AspNetUsers" Relationship="Self.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" FromRole="AspNetUserLogins" ToRole="AspNetUsers" />
+  </EntityType>
+  <EntityType Name="AspNetUsers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="EmailConfirmed" Type="Boolean" Nullable="false" />
+    <Property Name="PasswordHash" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SecurityStamp" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNumberConfirmed" Type="Boolean" Nullable="false" />
+    <Property Name="TwoFactorEnabled" Type="Boolean" Nullable="false" />
+    <Property Name="LockoutEndDateUtc" Type="DateTime" Precision="3" />
+    <Property Name="LockoutEnabled" Type="Boolean" Nullable="false" />
+    <Property Name="AccessFailedCount" Type="Int32" Nullable="false" />
+    <Property Name="UserName" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="AspNetUserClaims" Relationship="Self.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" FromRole="AspNetUsers" ToRole="AspNetUserClaims" />
+    <NavigationProperty Name="AspNetUserLogins" Relationship="Self.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" FromRole="AspNetUsers" ToRole="AspNetUserLogins" />
+    <NavigationProperty Name="AspNetRoles" Relationship="Self.AspNetUserRoles" FromRole="AspNetUsers" ToRole="AspNetRoles" />
+    <NavigationProperty Name="Goods_Dispatch_Note" Relationship="BPDBModel.c" FromRole="AspNetUsers" ToRole="Goods_Dispatch_Note" />
+    <NavigationProperty Name="Goods_Received_Note" Relationship="BPDBModel.con" FromRole="AspNetUsers" ToRole="Goods_Received_Note" />
+    <NavigationProperty Name="Reports" Relationship="BPDBModel.FK__Reports__User_Id__10E07F16" FromRole="AspNetUsers" ToRole="Reports" />
+    <NavigationProperty Name="Orders" Relationship="BPDBModel.FK_Orders_Orders1" FromRole="AspNetUsers" ToRole="Orders" />
+    <NavigationProperty Name="ClientOrder" Relationship="BPDBModel.FK__ClientOrd__User___2B0A656D" FromRole="AspNetUsers" ToRole="ClientOrder" />
+    <NavigationProperty Name="UserDatas" Relationship="BPDBModel.FK_dbo_UserDatas_dbo_AspNetUsers_User_Id" FromRole="AspNetUsers" ToRole="UserDatas" />
+    <Property Name="IsActive" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MenuCategories">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Media_Id" Type="Int32" Nullable="false" />
+    <Property Name="Place_Id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Places" Relationship="Self.FK_dbo_MenuCategories_dbo_Places_Place_Id" FromRole="MenuCategories" ToRole="Places" />
+    <NavigationProperty Name="MenuItems" Relationship="Self.FK_dbo_MenuItems_dbo_MenuCategories_MenuCategory_Id" FromRole="MenuCategories" ToRole="MenuItems" />
+    <Property Name="CategoryImage" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="OnlineId" Type="Int32" Nullable="false" />
+    <Property Name="IsItemActive" Type="Boolean" Nullable="false" />
+    <Property Name="Printer" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="MenuItems">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="MenuCategory_Id" Type="Int32" Nullable="false" />
+    <Property Name="Supplier_Id" Type="Int32" />
+    <NavigationProperty Name="MenuCategories" Relationship="Self.FK_dbo_MenuItems_dbo_MenuCategories_MenuCategory_Id" FromRole="MenuItems" ToRole="MenuCategories" />
+    <NavigationProperty Name="OrderDetails" Relationship="BPDBModel.FK_OrderDetails_ToMenuItems" FromRole="MenuItems" ToRole="OrderDetails" />
+    <NavigationProperty Name="Balance" Relationship="BPDBModel.FK__Balance__MenuIte__15DA3E5D" FromRole="MenuItems" ToRole="Balance" />
+    <NavigationProperty Name="Goods_Dispatch_Note_Details" Relationship="BPDBModel.FK__Goods_Dis__MenuI__1209AD79" FromRole="MenuItems" ToRole="Goods_Dispatch_Note_Details" />
+    <NavigationProperty Name="Goods_Received_Note_Details" Relationship="BPDBModel.FK__Goods_Rec__MenuI__0C50D423" FromRole="MenuItems" ToRole="Goods_Received_Note_Details" />
+    <NavigationProperty Name="LastBalance" Relationship="BPDBModel.FK__LastBalan__MenuI__18B6AB08" FromRole="MenuItems" ToRole="LastBalance" />
+    <NavigationProperty Name="PriceList" Relationship="BPDBModel.FK__OrderPric__MenuI__1B9317B3" FromRole="MenuItems" ToRole="PriceList" />
+    <Property Name="MinimumQuantityNotify" Type="Int32" Nullable="false" />
+    <Property Name="OnlineId" Type="Int32" Nullable="false" />
+    <Property Name="IsItemActive" Type="Boolean" Nullable="false" />
+    <Property Name="MenuItemTypeId" Type="Int32" Nullable="false" />
+    <Property Name="UnitId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="ComposedItems" Relationship="BPDBModel.FKChild" FromRole="MenuItems" ToRole="ComposedItems" />
+    <NavigationProperty Name="ComposedItems1" Relationship="BPDBModel.FKParent" FromRole="MenuItems" ToRole="ComposedItems" />
+    <NavigationProperty Name="MenuItemType" Relationship="BPDBModel.FK_MenuItems_MenuItemType" FromRole="MenuItems" ToRole="MenuItemType" />
+    <NavigationProperty Name="Unit" Relationship="BPDBModel.FK_MenuItems_Unit" FromRole="MenuItems" ToRole="Unit" />
+  </EntityType>
+  <EntityType Name="OrderDetails">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="SalePrice" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="MenuItem_Id" Type="Int32" Nullable="false" />
+    <Property Name="Order_Id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Orders" Relationship="Self.FK_dbo_OrderDetails_dbo_Orders_Order_Id" FromRole="OrderDetails" ToRole="Orders" />
+    <NavigationProperty Name="MenuItems" Relationship="BPDBModel.FK_OrderDetails_ToMenuItems" FromRole="OrderDetails" ToRole="MenuItems" />
+    <Property Name="Data" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="Orders">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Table_Id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="OrderDetails" Relationship="Self.FK_dbo_OrderDetails_dbo_Orders_Order_Id" FromRole="Orders" ToRole="OrderDetails" />
+    <NavigationProperty Name="OrderSessions" Relationship="Self.FK_dbo_OrderSessions_dbo_Orders_Order_Id" FromRole="Orders" ToRole="OrderSessions" />
+    <Property Name="OperationTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="OrderStatus_Id" Type="Int32" Nullable="false" />
+    <Property Name="User_Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="AspNetUsers" Relationship="BPDBModel.FK_Orders_Orders1" FromRole="Orders" ToRole="AspNetUsers" />
+    <NavigationProperty Name="OrderStatus" Relationship="BPDBModel.FK_Orders_OrderStatus" FromRole="Orders" ToRole="OrderStatus" />
+    <NavigationProperty Name="Tables" Relationship="BPDBModel.FK_Orders_Tables" FromRole="Orders" ToRole="Tables" />
+    <Property Name="FiscalCash" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="OrderForCancellation" Relationship="BPDBModel.FK__OrderForC__Order__67DE6983" FromRole="Orders" ToRole="OrderForCancellation" />
+    <Property Name="POS_ID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="OrderSessions">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Order_Id" Type="Int32" Nullable="false" />
+    <Property Name="User_Id" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Table_Id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Orders" Relationship="Self.FK_dbo_OrderSessions_dbo_Orders_Order_Id" FromRole="OrderSessions" ToRole="Orders" />
+    <NavigationProperty Name="Tables" Relationship="Self.FK_OrderSessions_ToTable" FromRole="OrderSessions" ToRole="Tables" />
+  </EntityType>
+  <EntityType Name="OrderStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StatusName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Orders" Relationship="BPDBModel.FK_Orders_OrderStatus" FromRole="OrderStatus" ToRole="Orders" />
+    <NavigationProperty Name="ClientOrder" Relationship="BPDBModel.FK__ClientOrd__Order__29221CFB" FromRole="OrderStatus" ToRole="ClientOrder" />
+  </EntityType>
+  <EntityType Name="Places">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PlaceType_Id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="MenuCategories" Relationship="Self.FK_dbo_MenuCategories_dbo_Places_Place_Id" FromRole="Places" ToRole="MenuCategories" />
+    <NavigationProperty Name="Tables" Relationship="Self.FK_dbo_Tables_dbo_Places_Place_Id" FromRole="Places" ToRole="Tables" />
+    <NavigationProperty Name="ClientOrder" Relationship="BPDBModel.FK__ClientOrd__Place__2A164134" FromRole="Places" ToRole="ClientOrder" />
+  </EntityType>
+  <EntityType Name="PlaceTypes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TypeName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Tables">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Number" Type="Int32" Nullable="false" />
+    <Property Name="Place_Id" Type="Int32" Nullable="false" />
+    <Property Name="index" Type="Int32" />
+    <NavigationProperty Name="OrderSessions" Relationship="Self.FK_OrderSessions_ToTable" FromRole="Tables" ToRole="OrderSessions" />
+    <NavigationProperty Name="Places" Relationship="Self.FK_dbo_Tables_dbo_Places_Place_Id" FromRole="Tables" ToRole="Places" />
+    <NavigationProperty Name="Orders" Relationship="BPDBModel.FK_Orders_Tables" FromRole="Tables" ToRole="Orders" />
+    <Property Name="IsItemActive" Type="Boolean" Nullable="false" />
+    <Property Name="OnLineId" Type="Int32" Nullable="false" />
+    <Property Name="POS_Id" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserClaims" Type="Self.AspNetUserClaims" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserClaims">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserLogins" Type="Self.AspNetUserLogins" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserLogins">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_MenuCategories_dbo_Places_Place_Id">
+    <End Role="Places" Type="Self.Places" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="MenuCategories" Type="Self.MenuCategories" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Places">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="MenuCategories">
+        <PropertyRef Name="Place_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_MenuItems_dbo_MenuCategories_MenuCategory_Id">
+    <End Role="MenuCategories" Type="Self.MenuCategories" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="MenuItems" Type="Self.MenuItems" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MenuCategories">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="MenuItems">
+        <PropertyRef Name="MenuCategory_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_OrderDetails_dbo_Orders_Order_Id">
+    <End Role="Orders" Type="Self.Orders" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="OrderDetails" Type="Self.OrderDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Orders">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="OrderDetails">
+        <PropertyRef Name="Order_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_OrderSessions_dbo_Orders_Order_Id">
+    <End Role="Orders" Type="Self.Orders" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="OrderSessions" Type="Self.OrderSessions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Orders">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="OrderSessions">
+        <PropertyRef Name="Order_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderSessions_ToTable">
+    <End Role="Tables" Type="Self.Tables" Multiplicity="1" />
+    <End Role="OrderSessions" Type="Self.OrderSessions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tables">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="OrderSessions">
+        <PropertyRef Name="Table_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Tables_dbo_Places_Place_Id">
+    <End Role="Places" Type="Self.Places" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Tables" Type="Self.Tables" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Places">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Tables">
+        <PropertyRef Name="Place_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AspNetUserRoles">
+    <End Role="AspNetRoles" Type="Self.AspNetRoles" Multiplicity="*" />
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="BPDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="C__MigrationHistory" EntityType="Self.C__MigrationHistory" />
+    <EntitySet Name="AspNetRoles" EntityType="Self.AspNetRoles" />
+    <EntitySet Name="AspNetUserClaims" EntityType="Self.AspNetUserClaims" />
+    <EntitySet Name="AspNetUserLogins" EntityType="Self.AspNetUserLogins" />
+    <EntitySet Name="AspNetUsers" EntityType="Self.AspNetUsers" />
+    <EntitySet Name="MenuCategories" EntityType="Self.MenuCategories" />
+    <EntitySet Name="MenuItems" EntityType="Self.MenuItems" />
+    <EntitySet Name="OrderDetails" EntityType="Self.OrderDetails" />
+    <EntitySet Name="Orders" EntityType="Self.Orders" />
+    <EntitySet Name="OrderSessions" EntityType="Self.OrderSessions" />
+    <EntitySet Name="OrderStatus" EntityType="Self.OrderStatus" />
+    <EntitySet Name="Places" EntityType="Self.Places" />
+    <EntitySet Name="PlaceTypes" EntityType="Self.PlaceTypes" />
+    <EntitySet Name="Tables" EntityType="Self.Tables" />
+    <AssociationSet Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserClaims" EntitySet="AspNetUserClaims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserLogins" EntitySet="AspNetUserLogins" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_MenuCategories_dbo_Places_Place_Id" Association="Self.FK_dbo_MenuCategories_dbo_Places_Place_Id">
+      <End Role="Places" EntitySet="Places" />
+      <End Role="MenuCategories" EntitySet="MenuCategories" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_MenuItems_dbo_MenuCategories_MenuCategory_Id" Association="Self.FK_dbo_MenuItems_dbo_MenuCategories_MenuCategory_Id">
+      <End Role="MenuCategories" EntitySet="MenuCategories" />
+      <End Role="MenuItems" EntitySet="MenuItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_OrderDetails_dbo_Orders_Order_Id" Association="Self.FK_dbo_OrderDetails_dbo_Orders_Order_Id">
+      <End Role="Orders" EntitySet="Orders" />
+      <End Role="OrderDetails" EntitySet="OrderDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_OrderSessions_dbo_Orders_Order_Id" Association="Self.FK_dbo_OrderSessions_dbo_Orders_Order_Id">
+      <End Role="Orders" EntitySet="Orders" />
+      <End Role="OrderSessions" EntitySet="OrderSessions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderSessions_ToTable" Association="Self.FK_OrderSessions_ToTable">
+      <End Role="Tables" EntitySet="Tables" />
+      <End Role="OrderSessions" EntitySet="OrderSessions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Tables_dbo_Places_Place_Id" Association="Self.FK_dbo_Tables_dbo_Places_Place_Id">
+      <End Role="Places" EntitySet="Places" />
+      <End Role="Tables" EntitySet="Tables" />
+    </AssociationSet>
+    <AssociationSet Name="AspNetUserRoles" Association="Self.AspNetUserRoles">
+      <End Role="AspNetRoles" EntitySet="AspNetRoles" />
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderDetails_ToMenuItems" Association="BPDBModel.FK_OrderDetails_ToMenuItems">
+      <End Role="MenuItems" EntitySet="MenuItems" />
+      <End Role="OrderDetails" EntitySet="OrderDetails" />
+    </AssociationSet>
+    <EntitySet Name="OrderInfo" EntityType="BPDBModel.OrderInfo" />
+    <EntitySet Name="Balance" EntityType="BPDBModel.Balance" />
+    <EntitySet Name="Goods_Dispatch_Note" EntityType="BPDBModel.Goods_Dispatch_Note" />
+    <EntitySet Name="Goods_Dispatch_Note_Details" EntityType="BPDBModel.Goods_Dispatch_Note_Details" />
+    <EntitySet Name="Goods_Received_Note" EntityType="BPDBModel.Goods_Received_Note" />
+    <EntitySet Name="Goods_Received_Note_Details" EntityType="BPDBModel.Goods_Received_Note_Details" />
+    <EntitySet Name="LastBalance" EntityType="BPDBModel.LastBalance" />
+    <AssociationSet Name="c" Association="BPDBModel.c">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Goods_Dispatch_Note" EntitySet="Goods_Dispatch_Note" />
+    </AssociationSet>
+    <AssociationSet Name="con" Association="BPDBModel.con">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Goods_Received_Note" EntitySet="Goods_Received_Note" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Balance__MenuIte__15DA3E5D" Association="BPDBModel.FK__Balance__MenuIte__15DA3E5D">
+      <End Role="MenuItems" EntitySet="MenuItems" />
+      <End Role="Balance" EntitySet="Balance" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Goods_Dis__GDNId__12FDD1B2" Association="BPDBModel.FK__Goods_Dis__GDNId__12FDD1B2">
+      <End Role="Goods_Dispatch_Note" EntitySet="Goods_Dispatch_Note" />
+      <End Role="Goods_Dispatch_Note_Details" EntitySet="Goods_Dispatch_Note_Details" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Goods_Dis__MenuI__1209AD79" Association="BPDBModel.FK__Goods_Dis__MenuI__1209AD79">
+      <End Role="MenuItems" EntitySet="MenuItems" />
+      <End Role="Goods_Dispatch_Note_Details" EntitySet="Goods_Dispatch_Note_Details" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Goods_Rec__GRNId__0D44F85C" Association="BPDBModel.FK__Goods_Rec__GRNId__0D44F85C">
+      <End Role="Goods_Received_Note" EntitySet="Goods_Received_Note" />
+      <End Role="Goods_Received_Note_Details" EntitySet="Goods_Received_Note_Details" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Goods_Rec__MenuI__0C50D423" Association="BPDBModel.FK__Goods_Rec__MenuI__0C50D423">
+      <End Role="MenuItems" EntitySet="MenuItems" />
+      <End Role="Goods_Received_Note_Details" EntitySet="Goods_Received_Note_Details" />
+    </AssociationSet>
+    <AssociationSet Name="FK__LastBalan__MenuI__18B6AB08" Association="BPDBModel.FK__LastBalan__MenuI__18B6AB08">
+      <End Role="MenuItems" EntitySet="MenuItems" />
+      <End Role="LastBalance" EntitySet="LastBalance" />
+    </AssociationSet>
+    <FunctionImport Name="getXhiroDitore" IsComposable="true" ReturnType="Collection(BPDBModel.getXhiroDitore_Result)">
+      <Parameter Name="userid" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="PriceList" EntityType="BPDBModel.PriceList" />
+    <AssociationSet Name="FK__OrderPric__MenuI__1B9317B3" Association="BPDBModel.FK__OrderPric__MenuI__1B9317B3">
+      <End Role="MenuItems" EntitySet="MenuItems" />
+      <End Role="PriceList" EntitySet="PriceList" />
+    </AssociationSet>
+    <EntitySet Name="Reports" EntityType="BPDBModel.Reports" />
+    <AssociationSet Name="FK__Reports__User_Id__10E07F16" Association="BPDBModel.FK__Reports__User_Id__10E07F16">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Reports" EntitySet="Reports" />
+    </AssociationSet>
+    <FunctionImport Name="ArtikullHistory" IsComposable="true" ReturnType="Collection(BPDBModel.ArtikullHistory_Result)">
+      <Parameter Name="menuItemId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <AssociationSet Name="FK_Orders_Orders1" Association="BPDBModel.FK_Orders_Orders1">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orders_OrderStatus" Association="BPDBModel.FK_Orders_OrderStatus">
+      <End Role="OrderStatus" EntitySet="OrderStatus" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orders_Tables" Association="BPDBModel.FK_Orders_Tables">
+      <End Role="Tables" EntitySet="Tables" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <EntitySet Name="ClientOrder" EntityType="BPDBModel.ClientOrder" />
+    <AssociationSet Name="FK__ClientOrd__User___2B0A656D" Association="BPDBModel.FK__ClientOrd__User___2B0A656D">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="ClientOrder" EntitySet="ClientOrder" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ClientOrd__Order__29221CFB" Association="BPDBModel.FK__ClientOrd__Order__29221CFB">
+      <End Role="OrderStatus" EntitySet="OrderStatus" />
+      <End Role="ClientOrder" EntitySet="ClientOrder" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ClientOrd__Place__2A164134" Association="BPDBModel.FK__ClientOrd__Place__2A164134">
+      <End Role="Places" EntitySet="Places" />
+      <End Role="ClientOrder" EntitySet="ClientOrder" />
+    </AssociationSet>
+    <EntitySet Name="ClientOrderDetails" EntityType="BPDBModel.ClientOrderDetails" />
+    <AssociationSet Name="FK_ClientOrderDetails_ClientOrder" Association="BPDBModel.FK_ClientOrderDetails_ClientOrder">
+      <End Role="ClientOrder" EntitySet="ClientOrder" />
+      <End Role="ClientOrderDetails" EntitySet="ClientOrderDetails" />
+    </AssociationSet>
+    <EntitySet Name="UserDatas" EntityType="BPDBModel.UserDatas" />
+    <AssociationSet Name="FK_dbo_UserDatas_dbo_AspNetUsers_User_Id" Association="BPDBModel.FK_dbo_UserDatas_dbo_AspNetUsers_User_Id">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="UserDatas" EntitySet="UserDatas" />
+    </AssociationSet>
+    <FunctionImport Name="getXhiroDitoreTotalAllUser" IsComposable="true" ReturnType="Collection(BPDBModel.getXhiroDitoreTotalAllUser_Result1)" />
+    <EntitySet Name="Logs" EntityType="BPDBModel.Logs" />
+    <EntitySet Name="OrderForCancellation" EntityType="BPDBModel.OrderForCancellation" />
+    <AssociationSet Name="FK__OrderForC__Order__67DE6983" Association="BPDBModel.FK__OrderForC__Order__67DE6983">
+      <End Role="Orders" EntitySet="Orders" />
+      <End Role="OrderForCancellation" EntitySet="OrderForCancellation" />
+    </AssociationSet>
+    <FunctionImport Name="mbyllTurn">
+      <Parameter Name="userid" Mode="In" Type="String" />
+      <Parameter Name="PosId" Mode="In" Type="Int32" />
+      <Parameter Name="cashTotal" Mode="In" Type="Decimal" />
+      <Parameter Name="TipsTotal" Mode="In" Type="Decimal" />
+      <Parameter Name="id" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="ComposedItems" EntityType="BPDBModel.ComposedItems" />
+    <EntitySet Name="MenuItemType" EntityType="BPDBModel.MenuItemType" />
+    <EntitySet Name="Unit" EntityType="BPDBModel.Unit" />
+    <AssociationSet Name="FKChild" Association="BPDBModel.FKChild">
+      <End Role="MenuItems" EntitySet="MenuItems" />
+      <End Role="ComposedItems" EntitySet="ComposedItems" />
+    </AssociationSet>
+    <AssociationSet Name="FKParent" Association="BPDBModel.FKParent">
+      <End Role="MenuItems" EntitySet="MenuItems" />
+      <End Role="ComposedItems" EntitySet="ComposedItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MenuItems_MenuItemType" Association="BPDBModel.FK_MenuItems_MenuItemType">
+      <End Role="MenuItemType" EntitySet="MenuItemType" />
+      <End Role="MenuItems" EntitySet="MenuItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MenuItems_Unit" Association="BPDBModel.FK_MenuItems_Unit">
+      <End Role="Unit" EntitySet="Unit" />
+      <End Role="MenuItems" EntitySet="MenuItems" />
+    </AssociationSet>
+  </EntityContainer>
+  <Association Name="FK_OrderDetails_ToMenuItems">
+    <End Type="BPDBModel.MenuItems" Role="MenuItems" Multiplicity="1" />
+    <End Type="BPDBModel.OrderDetails" Role="OrderDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MenuItems">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="OrderDetails">
+        <PropertyRef Name="MenuItem_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="OrderInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="HeadText" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="FootText" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="Image" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Balance">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MenuItemId" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="QuantityState" Type="Int32" Nullable="false" />
+    <Property Name="Price" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <NavigationProperty Name="MenuItems" Relationship="BPDBModel.FK__Balance__MenuIte__15DA3E5D" FromRole="Balance" ToRole="MenuItems" />
+  </EntityType>
+  <EntityType Name="Goods_Dispatch_Note">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="UserId" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="OrderDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="LastUpdateDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="AspNetUsers" Relationship="BPDBModel.c" FromRole="Goods_Dispatch_Note" ToRole="AspNetUsers" />
+    <NavigationProperty Name="Goods_Dispatch_Note_Details" Relationship="BPDBModel.FK__Goods_Dis__GDNId__12FDD1B2" FromRole="Goods_Dispatch_Note" ToRole="Goods_Dispatch_Note_Details" />
+    <Property Name="OrderId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Goods_Dispatch_Note_Details">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GDNId" Type="Int32" Nullable="false" />
+    <Property Name="MenuItemId" Type="Int32" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="Price" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <NavigationProperty Name="Goods_Dispatch_Note" Relationship="BPDBModel.FK__Goods_Dis__GDNId__12FDD1B2" FromRole="Goods_Dispatch_Note_Details" ToRole="Goods_Dispatch_Note" />
+    <NavigationProperty Name="MenuItems" Relationship="BPDBModel.FK__Goods_Dis__MenuI__1209AD79" FromRole="Goods_Dispatch_Note_Details" ToRole="MenuItems" />
+  </EntityType>
+  <EntityType Name="Goods_Received_Note">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="UserId" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="OrderDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="LastUpdateDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="AspNetUsers" Relationship="BPDBModel.con" FromRole="Goods_Received_Note" ToRole="AspNetUsers" />
+    <NavigationProperty Name="Goods_Received_Note_Details" Relationship="BPDBModel.FK__Goods_Rec__GRNId__0D44F85C" FromRole="Goods_Received_Note" ToRole="Goods_Received_Note_Details" />
+    <Property Name="Online_Id" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Goods_Received_Note_Details">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GRNId" Type="Int32" Nullable="false" />
+    <Property Name="MenuItemId" Type="Int32" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="Price" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <NavigationProperty Name="Goods_Received_Note" Relationship="BPDBModel.FK__Goods_Rec__GRNId__0D44F85C" FromRole="Goods_Received_Note_Details" ToRole="Goods_Received_Note" />
+    <NavigationProperty Name="MenuItems" Relationship="BPDBModel.FK__Goods_Rec__MenuI__0C50D423" FromRole="Goods_Received_Note_Details" ToRole="MenuItems" />
+  </EntityType>
+  <EntityType Name="LastBalance">
+    <Key>
+      <PropertyRef Name="MenuItemId" />
+    </Key>
+    <Property Name="MenuItemId" Type="Int32" Nullable="false" />
+    <Property Name="LastQuantity" Type="Int32" Nullable="false" />
+    <Property Name="LastPrice" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <NavigationProperty Name="MenuItems" Relationship="BPDBModel.FK__LastBalan__MenuI__18B6AB08" FromRole="LastBalance" ToRole="MenuItems" />
+  </EntityType>
+  <Association Name="c">
+    <End Type="BPDBModel.AspNetUsers" Role="AspNetUsers" Multiplicity="1" />
+    <End Type="BPDBModel.Goods_Dispatch_Note" Role="Goods_Dispatch_Note" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Goods_Dispatch_Note">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="con">
+    <End Type="BPDBModel.AspNetUsers" Role="AspNetUsers" Multiplicity="1" />
+    <End Type="BPDBModel.Goods_Received_Note" Role="Goods_Received_Note" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Goods_Received_Note">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Balance__MenuIte__15DA3E5D">
+    <End Type="BPDBModel.MenuItems" Role="MenuItems" Multiplicity="0..1" />
+    <End Type="BPDBModel.Balance" Role="Balance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MenuItems">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Balance">
+        <PropertyRef Name="MenuItemId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Goods_Dis__GDNId__12FDD1B2">
+    <End Type="BPDBModel.Goods_Dispatch_Note" Role="Goods_Dispatch_Note" Multiplicity="1" />
+    <End Type="BPDBModel.Goods_Dispatch_Note_Details" Role="Goods_Dispatch_Note_Details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Goods_Dispatch_Note">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Goods_Dispatch_Note_Details">
+        <PropertyRef Name="GDNId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Goods_Dis__MenuI__1209AD79">
+    <End Type="BPDBModel.MenuItems" Role="MenuItems" Multiplicity="1" />
+    <End Type="BPDBModel.Goods_Dispatch_Note_Details" Role="Goods_Dispatch_Note_Details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MenuItems">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Goods_Dispatch_Note_Details">
+        <PropertyRef Name="MenuItemId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Goods_Rec__GRNId__0D44F85C">
+    <End Type="BPDBModel.Goods_Received_Note" Role="Goods_Received_Note" Multiplicity="1" />
+    <End Type="BPDBModel.Goods_Received_Note_Details" Role="Goods_Received_Note_Details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Goods_Received_Note">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Goods_Received_Note_Details">
+        <PropertyRef Name="GRNId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Goods_Rec__MenuI__0C50D423">
+    <End Type="BPDBModel.MenuItems" Role="MenuItems" Multiplicity="1" />
+    <End Type="BPDBModel.Goods_Received_Note_Details" Role="Goods_Received_Note_Details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MenuItems">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Goods_Received_Note_Details">
+        <PropertyRef Name="MenuItemId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__LastBalan__MenuI__18B6AB08">
+    <End Type="BPDBModel.MenuItems" Role="MenuItems" Multiplicity="1" />
+    <End Type="BPDBModel.LastBalance" Role="LastBalance" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="MenuItems">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="LastBalance">
+        <PropertyRef Name="MenuItemId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <ComplexType Name="getXhiroDitore_Result">
+    <Property Type="String" Name="Asortimenti" Nullable="true" />
+    <Property Type="Decimal" Name="Cmim" Nullable="true" Precision="19" Scale="4" />
+    <Property Type="Int32" Name="Nr" Nullable="true" />
+    <Property Type="Decimal" Name="Total" Nullable="true" Precision="19" Scale="4" />
+  </ComplexType>
+  <EntityType Name="PriceList">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MenuItemId" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Price" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <NavigationProperty Name="MenuItems" Relationship="BPDBModel.FK__OrderPric__MenuI__1B9317B3" FromRole="PriceList" ToRole="MenuItems" />
+  </EntityType>
+  <Association Name="FK__OrderPric__MenuI__1B9317B3">
+    <End Type="BPDBModel.MenuItems" Role="MenuItems" Multiplicity="1" />
+    <End Type="BPDBModel.PriceList" Role="PriceList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MenuItems">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PriceList">
+        <PropertyRef Name="MenuItemId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Reports">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Orders_No" Type="Int32" Nullable="false" />
+    <Property Name="Sold_Items_No" Type="Int32" Nullable="false" />
+    <Property Name="Orders_Total_Sum" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="Cash_Total" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="Tips_Total_Sum" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="Date_Time" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Place_Id" Type="Int32" Nullable="false" />
+    <Property Name="User_Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="AspNetUsers" Relationship="BPDBModel.FK__Reports__User_Id__10E07F16" FromRole="Reports" ToRole="AspNetUsers" />
+    <Property Name="Fiscal_Orders_Total_Sum" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="Start_Date_Time" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="POS_Id" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Reports__User_Id__10E07F16">
+    <End Type="BPDBModel.AspNetUsers" Role="AspNetUsers" Multiplicity="0..1" />
+    <End Type="BPDBModel.Reports" Role="Reports" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Reports">
+        <PropertyRef Name="User_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <ComplexType Name="getXhiroDitoreTotalAllUser_Result">
+    <Property Type="String" Name="UserId" Nullable="true" />
+    <Property Type="Decimal" Name="XhiroReale" Nullable="true" Precision="19" Scale="4" />
+  </ComplexType>
+  <ComplexType Name="ArtikullHistory_Result">
+    <Property Type="String" Name="tipi" Nullable="false" MaxLength="5" />
+    <Property Type="Int32" Name="Quantity" Nullable="false" />
+    <Property Type="Decimal" Name="Price" Nullable="false" Precision="19" Scale="4" />
+    <Property Type="DateTime" Name="OrderDate" Nullable="false" Precision="23" />
+  </ComplexType>
+  <Association Name="FK_Orders_Orders1">
+    <End Type="BPDBModel.AspNetUsers" Role="AspNetUsers" Multiplicity="1" />
+    <End Type="BPDBModel.Orders" Role="Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="User_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orders_OrderStatus">
+    <End Type="BPDBModel.OrderStatus" Role="OrderStatus" Multiplicity="1" />
+    <End Type="BPDBModel.Orders" Role="Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrderStatus">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="OrderStatus_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orders_Tables">
+    <End Type="BPDBModel.Tables" Role="Tables" Multiplicity="1" />
+    <End Type="BPDBModel.Orders" Role="Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tables">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="Table_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="ClientOrder">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OperationTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="OrderNotes" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="OrderStatus_Id" Type="Int32" Nullable="false" />
+    <Property Name="Place_Id" Type="Int32" Nullable="false" />
+    <Property Name="User_Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="AspNetUsers" Relationship="BPDBModel.FK__ClientOrd__User___2B0A656D" FromRole="ClientOrder" ToRole="AspNetUsers" />
+    <NavigationProperty Name="OrderStatus" Relationship="BPDBModel.FK__ClientOrd__Order__29221CFB" FromRole="ClientOrder" ToRole="OrderStatus" />
+    <NavigationProperty Name="Places" Relationship="BPDBModel.FK__ClientOrd__Place__2A164134" FromRole="ClientOrder" ToRole="Places" />
+    <NavigationProperty Name="ClientOrderDetails" Relationship="BPDBModel.FK_ClientOrderDetails_ClientOrder" FromRole="ClientOrder" ToRole="ClientOrderDetails" />
+  </EntityType>
+  <Association Name="FK__ClientOrd__User___2B0A656D">
+    <End Type="BPDBModel.AspNetUsers" Role="AspNetUsers" Multiplicity="1" />
+    <End Type="BPDBModel.ClientOrder" Role="ClientOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ClientOrder">
+        <PropertyRef Name="User_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ClientOrd__Order__29221CFB">
+    <End Type="BPDBModel.OrderStatus" Role="OrderStatus" Multiplicity="1" />
+    <End Type="BPDBModel.ClientOrder" Role="ClientOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrderStatus">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ClientOrder">
+        <PropertyRef Name="OrderStatus_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ClientOrd__Place__2A164134">
+    <End Type="BPDBModel.Places" Role="Places" Multiplicity="1" />
+    <End Type="BPDBModel.ClientOrder" Role="ClientOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Places">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ClientOrder">
+        <PropertyRef Name="Place_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="ClientOrderDetails">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="SalePrice" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="MenuItem_Id" Type="Int32" Nullable="false" />
+    <Property Name="Order_Id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="ClientOrder" Relationship="BPDBModel.FK_ClientOrderDetails_ClientOrder" FromRole="ClientOrderDetails" ToRole="ClientOrder" />
+  </EntityType>
+  <Association Name="FK_ClientOrderDetails_ClientOrder">
+    <End Type="BPDBModel.ClientOrder" Role="ClientOrder" Multiplicity="1" />
+    <End Type="BPDBModel.ClientOrderDetails" Role="ClientOrderDetails" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="ClientOrder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ClientOrderDetails">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="UserDatas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="User_Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="FirstName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Place_Id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="AspNetUsers" Relationship="BPDBModel.FK_dbo_UserDatas_dbo_AspNetUsers_User_Id" FromRole="UserDatas" ToRole="AspNetUsers" />
+  </EntityType>
+  <Association Name="FK_dbo_UserDatas_dbo_AspNetUsers_User_Id">
+    <End Type="BPDBModel.AspNetUsers" Role="AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="BPDBModel.UserDatas" Role="UserDatas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserDatas">
+        <PropertyRef Name="User_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <ComplexType Name="getXhiroDitoreTotalAllUser_Result1">
+    <Property Type="String" Name="UserId" Nullable="false" MaxLength="128" />
+    <Property Type="Decimal" Name="XhiroReale" Nullable="true" Precision="19" Scale="4" />
+    <Property Type="Decimal" Name="XhiroKase" Nullable="true" Precision="19" Scale="4" />
+  </ComplexType>
+  <EntityType Name="Logs">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Text" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="OrderForCancellation">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderId" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Orders" Relationship="BPDBModel.FK__OrderForC__Order__67DE6983" FromRole="OrderForCancellation" ToRole="Orders" />
+  </EntityType>
+  <Association Name="FK__OrderForC__Order__67DE6983">
+    <End Type="BPDBModel.Orders" Role="Orders" Multiplicity="1" />
+    <End Type="BPDBModel.OrderForCancellation" Role="OrderForCancellation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Orders">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="OrderForCancellation">
+        <PropertyRef Name="OrderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="ComposedItems">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ParentId" Type="Int32" Nullable="false" />
+    <Property Name="ChildId" Type="Int32" Nullable="false" />
+    <Property Name="quantity" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="MenuItems" Relationship="BPDBModel.FKChild" FromRole="ComposedItems" ToRole="MenuItems" />
+    <NavigationProperty Name="MenuItems1" Relationship="BPDBModel.FKParent" FromRole="ComposedItems" ToRole="MenuItems" />
+  </EntityType>
+  <EntityType Name="MenuItemType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="MenuItems" Relationship="BPDBModel.FK_MenuItems_MenuItemType" FromRole="MenuItemType" ToRole="MenuItems" />
+  </EntityType>
+  <EntityType Name="Unit">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="MenuItems" Relationship="BPDBModel.FK_MenuItems_Unit" FromRole="Unit" ToRole="MenuItems" />
+  </EntityType>
+  <Association Name="FKChild">
+    <End Type="BPDBModel.MenuItems" Role="MenuItems" Multiplicity="1" />
+    <End Type="BPDBModel.ComposedItems" Role="ComposedItems" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MenuItems">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ComposedItems">
+        <PropertyRef Name="ChildId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKParent">
+    <End Type="BPDBModel.MenuItems" Role="MenuItems" Multiplicity="1" />
+    <End Type="BPDBModel.ComposedItems" Role="ComposedItems" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MenuItems">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ComposedItems">
+        <PropertyRef Name="ParentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MenuItems_MenuItemType">
+    <End Type="BPDBModel.MenuItemType" Role="MenuItemType" Multiplicity="1" />
+    <End Type="BPDBModel.MenuItems" Role="MenuItems" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MenuItemType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="MenuItems">
+        <PropertyRef Name="MenuItemTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MenuItems_Unit">
+    <End Type="BPDBModel.Unit" Role="Unit" Multiplicity="1" />
+    <End Type="BPDBModel.MenuItems" Role="MenuItems" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Unit">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="MenuItems">
+        <PropertyRef Name="UnitId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

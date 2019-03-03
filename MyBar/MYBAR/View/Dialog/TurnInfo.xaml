@@ -1,0 +1,26 @@
+﻿<Window x:Class="MYBAR.View.Dialog.TurnInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MYBAR.View.Dialog"
+        mc:Ignorable="d"
+        Title="TurnInfo" Height="300" Width="350" WindowStartupLocation="CenterScreen" FontSize="22" >
+    <Grid >
+        <StackPanel  HorizontalAlignment="Center">
+            
+            <WrapPanel >
+                <Label  MinWidth="200" Background="#f4f4f7">Parate ne xhep</Label>
+                <Label Name="Parate">00</Label>
+            </WrapPanel>
+            <WrapPanel>
+                <Label MinWidth="200" Background="#f4f4f7">Xhiroja</Label>
+                <Label Foreground="Red" Name="Xhiroja">00</Label>
+            </WrapPanel>
+            <WrapPanel>
+                <Label MinWidth="200" Background="#f4f4f7">Bakshishet</Label>
+                <Label Foreground="Green" Name="Bakshiset">00</Label>
+            </WrapPanel>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="MYBAR.View.Settings"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MYBAR.View"
+             mc:Ignorable="d" 
+             VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="#f4f4f7">
+
+    <UserControl.Resources>
+        <Style x:Key="Fonti"  TargetType="{x:Type Control}">
+            <Setter  Property="FontSize" Value="30"></Setter>
+        </Style>
+
+        <Style BasedOn="{StaticResource Fonti }"  TargetType="{x:Type Label }"/>
+        
+    </UserControl.Resources>
+    <Grid>
+
+        <Grid Background="White" HorizontalAlignment="Center" Height="500" Width="auto" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition  Height="auto" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <TextBlock  Background="{StaticResource HeaderBrush}" FontSize="30" TextAlignment="Center" Foreground="White" Grid.ColumnSpan="2">Konfigurimet</TextBlock>
+            <Label Margin="10"  Grid.Row="1">Kasa Path</Label>
+            <WrapPanel Margin="10" Grid.Row="1" Grid.Column="1">
+                <Button FontSize="30" Name="BroswerFolder" Click="BroswerFolder_Click">Broswer</Button>
+                <TextBox VerticalContentAlignment="Center" MinWidth="200" MaxWidth="200" Name="PathString"></TextBox>
+            </WrapPanel>
+            <Label Margin="10" Grid.Row="2"   >Kasa Type</Label>
+            <ComboBox Background="White" Foreground="Black" Margin="10" FontSize="30"  Grid.Row="2" Grid.Column="1"  Name="TipetEKasave"></ComboBox>
+            <Button VerticalAlignment="Bottom" Name="Ruaj" Click="Ruaj_Click" FontSize="30" Grid.Row="3" Grid.ColumnSpan="2" >Ruaj</Button>
+        </Grid>
+
+    </Grid>
+</UserControl>

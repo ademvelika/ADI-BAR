@@ -1,0 +1,91 @@
+﻿<Window x:Class="MYBAR.View.KerkoDialog.MinimumQuantityArtikuj"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MYBAR.View.KerkoDialog"
+        mc:Ignorable="d"
+        Title="Kujdes" VerticalAlignment="Center" HorizontalAlignment="Center" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow" >
+  
+
+        <TabControl  >
+         
+        <TabItem Height="45" MinWidth="120" HorizontalAlignment="Stretch" FontSize="18"  IsSelected="True"  Header="Gjendje ne Perfundim">
+
+                <Grid Name="MinimumaArtikuj">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Label Background="#f4f4f7"  FontSize="20">Artikujt e meposhtem jane nen kufirin e limitit</Label>
+                    <DataGrid  ColumnHeaderStyle="{StaticResource HeaderStyle}" Grid.Row="1" HeadersVisibility="Column" AutoGenerateColumns="False" Name="Lista" ColumnWidth="*" IsReadOnly="True" CanUserAddRows="False">
+                        <DataGrid.Columns>
+
+                            <DataGridTextColumn IsReadOnly="True" FontWeight="Bold"  Header="Asortimenti" Binding="{Binding Asortimenti}"  />
+                            <DataGridTextColumn IsReadOnly="True" FontWeight="Bold"  Header="Sasia" Binding="{Binding Sasi}"  />
+
+                            <DataGridTextColumn IsReadOnly="True" FontWeight="Bold"  Header="Sasia Minimale" Binding="{Binding SasiaMinimale}"  />
+                        </DataGrid.Columns>
+                        <DataGrid.CellStyle>
+                            <Style TargetType="{x:Type DataGridCell}">
+
+                                <Setter Property="Height" Value="40"/>
+                                <Setter Property="Background" Value="#f2f4f4"/>
+                                <Setter Property="FontSize" Value="18"/>
+                                <Setter Property="FontFamily" Value="Aileron Thin" ></Setter>
+
+                                <Style.Triggers>
+                                    <Trigger Property="IsSelected" Value="True">
+                                        <Setter Property="Background" Value="#f2f4f4"/>
+                                        <Setter Property="Foreground" Value="Black"/>
+
+                                    </Trigger>
+
+                                </Style.Triggers>
+                            </Style>
+                        </DataGrid.CellStyle>
+
+
+                        <DataGrid.Resources>
+                            <Style TargetType="{x:Type DataGridColumnHeader}">
+                                <Setter Property="Background" Value="#c5c9c9" />
+                                <Setter Property="FontSize" Value="18"></Setter>
+
+                            </Style>
+                        </DataGrid.Resources>
+                    </DataGrid>
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Button   Name="BejFurnizim" Click="BejFurnizim_Click" Height="40" Background="#444c5c" FontSize="25" Foreground="White" >Bej Furnizim per keto Produkte</Button>
+                    <Button  Grid.Column="1"   Name="Dil" Click="Dil_Click"  Height="40" Background="#CE5A57" FontSize="25" Foreground="White" >Mbyll</Button>
+           </Grid>
+                </Grid>
+            </TabItem>
+            <TabItem MinWidth="120" FontSize="18" Height="45" Margin="4,0,0,0" Name="AnullimeTab"  Header="Anullime" >
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="*" />
+                    
+                    </Grid.ColumnDefinitions>
+                    <DataGrid RowStyle="{StaticResource RowStyleWithAlternation}"   ColumnHeaderStyle="{StaticResource HeaderStyle}"  HeadersVisibility="Column" Grid.Row="1"  IsReadOnly="True"  MouseUp="KerkesaPerAnullimList_MouseUp"  ColumnWidth="*" Name="KerkesaPerAnullimList" >
+
+                        
+
+                      
+
+                    </DataGrid>
+                    <StackPanel Grid.Column="1" >
+                        <FlowDocumentReader Grid.Column="1" Grid.Row="0"  Zoom="200" HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" FlowDirection="LeftToRight"  Name="FaturaShow" ></FlowDocumentReader>
+                    <Button  Height="50" Name="Anullo" Visibility="Hidden" Click="Anullo_Click"  Background="#2B4D60" Foreground="White" FontSize="25" Margin="2,10,2,10" VerticalAlignment="Bottom" >Anullo</Button>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+        </TabControl>
+  
+ 
+</Window>

@@ -1,0 +1,53 @@
+﻿<Window x:Class="MYBAR.View.Artikuj.KategoriView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:Printing="clr-namespace:System.Drawing.Printing;assembly=System.Drawing"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MYBAR.View.Artikuj"
+        mc:Ignorable="d"
+        Title="KategoriView" Height="400"  Width="400" WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+        <Style x:Key="LabelStyle" TargetType="{x:Type Label}">
+            <Setter Property="FontSize" Value="20" ></Setter>
+            <Setter Property="Background" Value="AliceBlue" />
+            <Setter Property="Margin" Value="3" />
+
+        </Style>
+
+        <Style TargetType="Label" BasedOn="{StaticResource LabelStyle}"></Style>
+    </Window.Resources>
+    <Grid Margin="0,10">
+        <Grid.RowDefinitions >
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Label>Emertimi</Label>
+        
+        <TextBox FontSize="20" Margin="3" Grid.Column="1" Name="Emer"></TextBox>
+        <WrapPanel  Grid.Row="1" >
+            <ToggleButton Name="Switch" Click="Switch_Click" Margin="0,0,25,0"   Height="30" Style="{StaticResource AnimatedSwitch}"></ToggleButton>
+            
+            <Label Background="Transparent" Visibility="Visible">Printer</Label>
+        </WrapPanel>
+
+        <ComboBox Name="cmbPrinterSelection" VerticalContentAlignment="Center" Visibility="Hidden" Grid.Column="1" Grid.Row="1" ItemsSource="{x:Static Printing:PrinterSettings.InstalledPrinters}"  SelectedIndex="0"  />
+        <WrapPanel Visibility="Collapsed" Margin="3" Grid.Row="1" Grid.Column="1">
+            
+            <Button Name="PhotoChosenBtn" Click="PhotoChosenBtn_Click" FontSize="18">Choose File</Button>
+            <Button Name="ClearPhoto"  Margin="7,0,0,0" Click="ClearPhoto_Click" FontSize="18" Foreground="White" Background="Red" Content="Fshij foto" />
+
+        </WrapPanel>
+        <Image  Visibility="Collapsed" Height="200" Grid.Row="2" Grid.ColumnSpan="2" Name="ImageViwer" ></Image>
+        <Button  Name="Ruaj" Click="Ruaj_Click" Grid.Row="3" Background="AliceBlue" Height="50"  VerticalAlignment="Bottom" FontSize="18"  >Ruaj</Button>
+        <Button  Name="Fshij" Grid.Row="3" Click="Fshij_Click"  Grid.Column="1" Background="Red" Height="50" Foreground="White"  VerticalAlignment="Bottom" FontSize="18"  >Fshij</Button>
+    </Grid>
+</Window>

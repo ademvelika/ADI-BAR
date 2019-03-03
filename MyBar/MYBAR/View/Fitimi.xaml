@@ -1,0 +1,62 @@
+﻿<UserControl x:Class="MYBAR.View.Fitimi"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MYBAR.View"
+             mc:Ignorable="d"   Loaded="UserControl_Loaded"  >
+    <Grid>
+        <Grid.RowDefinitions>
+        
+            <RowDefinition Height="auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <StackPanel>
+            <TextBlock  Padding="5" Foreground="White" Background="#66CCFF" FontFamily="Georgia" TextAlignment="Center"  HorizontalAlignment="Stretch" FontSize="45" >Fitimi sipas periudhës</TextBlock>
+            <WrapPanel   Margin="0,10" >
+                <Label FontSize="25">Nga Data</Label> 
+                <DatePicker Name="Date1" BorderBrush="Transparent" FontSize="22" CalendarStyle="{StaticResource styleCalendar}" VerticalContentAlignment="Center" ></DatePicker>
+                <Label FontSize="25">Ne Date</Label>
+                <DatePicker Name="Date2"  BorderBrush="Transparent" FontSize="22" CalendarStyle="{StaticResource styleCalendar}" VerticalContentAlignment="Center"  ></DatePicker>
+                <Button Name="FiltoBtn" Click="FiltoBtn_Click" FontSize="25" Background="{StaticResource shiritibackgroud}" Margin="10,0">Filtro</Button>
+            </WrapPanel>
+            <Separator Margin="0,0,0,40"></Separator>
+        </StackPanel>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition ></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            
+                <Label Margin="10,0,10,0" FontFamily="Georgia"  HorizontalContentAlignment="Center"  FontSize="20"   >Te ardhurat nga shitja</Label>
+            <Border BorderBrush="Transparent" Margin="10,0,10,0"  MinHeight="300" MaxHeight="300" Grid.Row="1"   BorderThickness="1">
+                <Border.Background>
+                    <ImageBrush ImageSource="/Images/statistic-box-red.png" AlignmentY="Top" Stretch="None"/>
+                </Border.Background>
+                <TextBlock  Name="Shitje" FontWeight="DemiBold"  VerticalAlignment="Center" Foreground="White" FontSize="60" FontFamily="Arial"  HorizontalAlignment="Center" >-</TextBlock>
+                </Border>
+
+
+            <Label Margin="10,0,10,0" FontFamily="Georgia"  Grid.Column="1" HorizontalContentAlignment="Center"  FontSize="20"    >Kosto artikuj</Label>
+            <Border BorderBrush="Transparent" Margin="10,0,10,0"  MinHeight="300" MaxHeight="300"  Grid.Row="1" Grid.Column="1"    BorderThickness="1">
+                <Border.Background>
+                    <ImageBrush ImageSource="/Images/statistic-box-green.png" AlignmentY="Top" Stretch="None"/>
+                </Border.Background>
+                <TextBlock  Name="Dalje" FontWeight="DemiBold" VerticalAlignment="Center" Foreground="White" FontSize="60" FontFamily="Arial"  HorizontalAlignment="Center" >-</TextBlock>
+                </Border>
+           
+            <WrapPanel VerticalAlignment="Bottom" Background="{StaticResource shiritibackgroud}"   Grid.Row="2" Grid.ColumnSpan="2">
+                
+                <Label FontFamily="Georgia" FontSize="80" >Fitimi </Label>
+                <TextBlock Name="FITIMIIM"  VerticalAlignment="Center" FontWeight="ExtraBold" Foreground="Red"  FontSize="80">0</TextBlock>
+            </WrapPanel>
+        </Grid>
+    </Grid>
+</UserControl>

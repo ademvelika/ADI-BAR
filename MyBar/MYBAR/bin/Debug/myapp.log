@@ -1,0 +1,22 @@
+2017-12-19 20:19:36,042 [15] ERROR MYBAR.Helper.SyncingWorker - Error in data Inserting in DataBase locallyObject reference not set to an instance of an object.
+2017-12-19 20:22:12,515 [27] ERROR MYBAR.Helper.SyncingWorker - Error in data Inserting in DataBase locallyObject reference not set to an instance of an object.
+2017-12-19 20:40:17,700 [24] ERROR MYBAR.Services.FatureService - Fail to Save Fature Hyrje from Server An error occurred while updating the entries. See the inner exception for details.
+2017-12-19 20:40:22,666 [23] ERROR MYBAR.Services.FatureService - Fail to Save Fature Hyrje from Server An error occurred while updating the entries. See the inner exception for details.
+2018-01-16 20:32:21,574 [13] ERROR MYBAR.Helper.SyncingWorker - Fail to Close Table  [Table Id =28] ! response code InternalServerError
+2018-01-16 20:32:23,779 [13] ERROR MYBAR.Helper.SyncingWorker - Fail to send Order to server ,data is register in log with Id 311http status=InternalServerError
+2018-01-20 12:58:56,730 [14] ERROR MYBAR.Helper.SyncingWorker - Fail to send Order to server ,data is register in log with Id 311http status=InternalServerError
+2018-01-20 12:58:57,022 [14] ERROR MYBAR.Helper.SyncingWorker - Fail to Close Table  [Table Id =28] ! response code InternalServerError
+2018-01-20 13:00:07,758 [21] ERROR MYBAR.Helper.SyncingWorker - Fail to send Order to server ,data is register in log with Id 312http status=InternalServerError
+2018-01-20 13:00:18,289 [15] ERROR MYBAR.Helper.SyncingWorker - Fail to Close Table  [Table Id =28] ! response code InternalServerError
+2018-01-20 13:01:49,060 [23] ERROR MYBAR.Helper.SyncingWorker - Fail to send Order to server ,data is register in log with Id 313http status=InternalServerError
+2018-01-20 13:03:06,696 [29] ERROR MYBAR.Helper.SyncingWorker - Fail to send Order to server ,data is register in log with Id 314http status=InternalServerError
+2018-01-20 13:03:54,034 [31] ERROR MYBAR.Helper.SyncingWorker - Fail to Close Table  [Table Id =31] ! response code InternalServerError
+2018-01-20 13:03:57,209 [31] ERROR MYBAR.Helper.SyncingWorker - Fail to Close Table  [Table Id =29] ! response code InternalServerError
+2018-06-24 11:19:28,757 [4] ERROR MYBAR.Helper.BackgroundWorker - ============Fail To Save data in Register=============Value cannot be null.
+Parameter name: value
+2018-06-24 11:19:52,986 [1] ERROR MYBAR.Services.UserService - Fail to get all users The underlying provider failed on Open.
+2018-06-24 11:30:47,572 [1] ERROR MYBAR.Services.UserService - Fail to get all users The underlying provider failed on Open.
+2018-09-05 13:23:04,118 [1] ERROR MYBAR.Services.UserService - Fail to add users localy Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+2018-09-05 13:23:08,402 [1] ERROR MYBAR.Services.UserService - Fail to add users localy Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+2018-09-05 13:24:45,853 [1] ERROR MYBAR.Services.UserService - Fail to add users localy Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+2018-09-05 13:25:25,450 [1] ERROR MYBAR.Services.UserService - Fail to add users localy Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="611c6179b4014111bc1d6b43e452dad6" Name="Diagram1" ZoomLevel="67">
+        <EntityTypeShape EntityType="BPDBModel.C__MigrationHistory" Width="1.5" PointX="5.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BPDBModel.AspNetRoles" Width="1.5" PointX="5.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BPDBModel.AspNetUserClaims" Width="2.625" PointX="10.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="BPDBModel.AspNetUserLogins" Width="3.125" PointX="10.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BPDBModel.AspNetUsers" Width="1.5" PointX="8" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BPDBModel.MenuCategories" Width="1.5" PointX="3.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BPDBModel.MenuItems" Width="1.5" PointX="7.125" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BPDBModel.OrderDetails" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BPDBModel.Orders" Width="1.5" PointX="0.875" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BPDBModel.OrderSessions" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BPDBModel.OrderStatus" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BPDBModel.Places" Width="1.5" PointX="1.5" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BPDBModel.PlaceTypes" Width="1.5" PointX="8.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="BPDBModel.Tables" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <AssociationConnector Association="BPDBModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="BPDBModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="BPDBModel.FK_dbo_MenuCategories_dbo_Places_Place_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="BPDBModel.FK_dbo_MenuItems_dbo_MenuCategories_MenuCategory_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="BPDBModel.FK_dbo_OrderDetails_dbo_Orders_Order_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="BPDBModel.FK_dbo_OrderSessions_dbo_Orders_Order_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="BPDBModel.FK_OrderSessions_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="BPDBModel.FK_dbo_Tables_dbo_Places_Place_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="BPDBModel.AspNetUserRoles" ManuallyRouted="false" />
+        <AssociationConnector Association="BPDBModel.FK_OrderDetails_ToMenuItems" ManuallyRouted="false" >
+        </AssociationConnector>
+        <EntityTypeShape EntityType="BPDBModel.OrderInfo" Width="1.5" PointX="13.375" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BPDBModel.Balance" Width="1.5" PointX="5" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BPDBModel.Goods_Dispatch_Note" Width="1.5" PointX="13.875" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BPDBModel.Goods_Dispatch_Note_Details" Width="2.375" PointX="16" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BPDBModel.Goods_Received_Note" Width="2" PointX="9" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BPDBModel.Goods_Received_Note_Details" Width="1.5" PointX="12.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BPDBModel.LastBalance" Width="1.5" PointX="9.375" PointY="13.625" IsExpanded="true" />
+        <AssociationConnector Association="BPDBModel.c" />
+        <AssociationConnector Association="BPDBModel.con" />
+        <AssociationConnector Association="BPDBModel.FK__Balance__MenuIte__15DA3E5D" />
+        <AssociationConnector Association="BPDBModel.FK__Goods_Dis__GDNId__12FDD1B2" />
+        <AssociationConnector Association="BPDBModel.FK__Goods_Dis__MenuI__1209AD79" />
+        <AssociationConnector Association="BPDBModel.FK__Goods_Rec__GRNId__0D44F85C" />
+        <AssociationConnector Association="BPDBModel.FK__Goods_Rec__MenuI__0C50D423" />
+        <AssociationConnector Association="BPDBModel.FK__LastBalan__MenuI__18B6AB08" />
+        <EntityTypeShape EntityType="BPDBModel.PriceList" Width="1.5" PointX="11.625" PointY="8.5" IsExpanded="true" />
+        <AssociationConnector Association="BPDBModel.FK__OrderPric__MenuI__1B9317B3" />
+        <EntityTypeShape EntityType="BPDBModel.Reports" Width="1.5" PointX="13.75" PointY="20.5" />
+        <AssociationConnector Association="BPDBModel.FK__Reports__User_Id__10E07F16" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="BPDBModel.FK_Orders_Orders1" />
+        <AssociationConnector Association="BPDBModel.FK_Orders_OrderStatus" />
+        <AssociationConnector Association="BPDBModel.FK_Orders_Tables" />
+        <EntityTypeShape EntityType="BPDBModel.ClientOrder" Width="1.5" PointX="14.625" PointY="2.625" />
+        <AssociationConnector Association="BPDBModel.FK__ClientOrd__User___2B0A656D" />
+        <AssociationConnector Association="BPDBModel.FK__ClientOrd__Order__29221CFB" />
+        <AssociationConnector Association="BPDBModel.FK__ClientOrd__Place__2A164134" />
+        <EntityTypeShape EntityType="BPDBModel.ClientOrderDetails" Width="1.5" PointX="16.875" PointY="3" />
+        <AssociationConnector Association="BPDBModel.FK_ClientOrderDetails_ClientOrder" />
+        <EntityTypeShape EntityType="BPDBModel.UserDatas" Width="1.5" PointX="10" PointY="27.5" />
+        <AssociationConnector Association="BPDBModel.FK_dbo_UserDatas_dbo_AspNetUsers_User_Id" />
+        <EntityTypeShape EntityType="BPDBModel.Logs" Width="1.5" PointX="0.75" PointY="13.75" />
+        <EntityTypeShape EntityType="BPDBModel.OrderForCancellation" Width="1.5" PointX="6.25" PointY="0.5" />
+        <AssociationConnector Association="BPDBModel.FK__OrderForC__Order__67DE6983" />
+        <EntityTypeShape EntityType="BPDBModel.ComposedItems" Width="1.5" PointX="9.375" PointY="20.875" />
+        <EntityTypeShape EntityType="BPDBModel.MenuItemType" Width="1.5" PointX="4.875" PointY="22.375" />
+        <EntityTypeShape EntityType="BPDBModel.Unit" Width="1.5" PointX="4.875" PointY="15" />
+        <AssociationConnector Association="BPDBModel.FKChild" />
+        <AssociationConnector Association="BPDBModel.FKParent" />
+        <AssociationConnector Association="BPDBModel.FK_MenuItems_MenuItemType" />
+        <AssociationConnector Association="BPDBModel.FK_MenuItems_Unit" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

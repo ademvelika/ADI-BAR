@@ -1,0 +1,153 @@
+﻿<UserControl x:Class="MYBAR.View.Artikuj.ShitjetArtikuj"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MYBAR.View.Artikuj"
+             xmlns:control="clr-namespace:MYBAR.CustomControls"
+             mc:Ignorable="d" 
+             VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="20">
+
+    <UserControl.Resources>
+        <Style TargetType="GroupBox">
+            <Setter Property="Background" Value="#fcfdfe"></Setter>
+            <Setter Property="Margin" Value="0,5,5,5" />
+            <Setter Property="Padding" Value="1,10,1,1" />
+        </Style>
+       
+    </UserControl.Resources>
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition />
+            <RowDefinition  Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid   Background="#f4f4f7" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition  Width="auto" />
+               
+                <ColumnDefinition  Width="auto"/>
+                <ColumnDefinition  Width="*"/>
+                <ColumnDefinition  Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                          
+            </Grid.RowDefinitions>
+            <Grid.Resources>
+            
+                
+                
+
+
+
+
+            </Grid.Resources>
+            <GroupBox Name="DateFilter"  >
+                <StackPanel>
+                <DockPanel>
+                <Label  HorizontalAlignment="Left"   Content="Nga Data" FontWeight="Black"   ></Label>
+                    <control:DateOre x:Name="StartClock" ></control:DateOre>
+                    </DockPanel>
+                    <DockPanel Margin="0,10,0,0" >
+                        <Label  HorizontalAlignment="Left"    Content="Tek Data" FontWeight="Black"   ></Label>
+
+                        <control:DateOre x:Name="FinishClock" ></control:DateOre>
+
+                    </DockPanel>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Name="UserCategoryFilter"  Grid.Column="1">
+                <StackPanel>
+                    <DockPanel >
+                        <Label  HorizontalAlignment="Left"  Content="Perdoruesi" FontWeight="Black"   ></Label>
+                        <ComboBox DockPanel.Dock="Right" HorizontalAlignment="Right"  Margin="0,0,0,0"   Name="PerdoruesiCombo"   >
+
+                        </ComboBox>
+                    </DockPanel>
+                    <DockPanel Visibility="Collapsed" >
+                        <Label  HorizontalAlignment="Left"  Content="Kategoria" FontWeight="Black"  ></Label>
+                        <ComboBox DockPanel.Dock="Right" HorizontalAlignment="Right"  Margin="0,0,0,20"  Name="KategoriCombo"  />
+                    </DockPanel>
+                    <Button  Margin="5,10" HorizontalAlignment="Left"  Background="#66a5ad" Width="210"  Foreground="White" Name="ArtikujSearch" FontSize="20"  Click="ArtikujSearch_Click" >Shto artikull ne filter</Button>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Name="AdvancedFilter"   Grid.Column="2">
+
+                
+                    
+                    <ScrollViewer   HorizontalScrollBarVisibility="Auto"    VerticalScrollBarVisibility="Hidden" >
+                        <WrapPanel VerticalAlignment="Center"        Name="ListContainer">
+
+                        </WrapPanel>
+                    </ScrollViewer>
+                
+            </GroupBox>
+            <GroupBox Name="CommandFilter"  Grid.Column="3">
+
+                <WrapPanel >
+                    <Button Height="50" FontSize="22" Background="#78a5a3" Foreground="White"  Content="Filtro"  Name="Filtro" Click="Filtro_Click"       />
+                    <Button  FontSize="20" Background="#e1b16a" Foreground="White" Content="Printo"  Margin="5,0" Click="Printo_Click" Name="Printo"    />
+                    <Button Height="50" Click="ExportToExcel_Click"  Name="ExportToExcel"  ToolTip="Eksporto ne excel" Background="Transparent" DockPanel.Dock="Right" HorizontalAlignment="Right" Margin="0,0,5,0">
+                        <Image VerticalAlignment="Stretch"  Source="/Images/Excel-icon.png" />
+                    </Button>
+                    <Label Content="Loading..." Name="Loading" Visibility="Hidden" VerticalAlignment="Center"  />
+            </WrapPanel>
+            </GroupBox>
+            
+
+
+
+            
+           
+           
+           
+
+
+        </Grid>
+        <DataGrid  GridLinesVisibility="Horizontal" ColumnHeaderStyle="{StaticResource HeaderStyle}" AutoGenerateColumns="False"   HeadersVisibility="Column" AlternatingRowBackground="AliceBlue" Name="Result" Grid.Row="1" ColumnWidth="*" IsReadOnly="True">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn  FontSize="18"   IsReadOnly="True" FontWeight="Bold"  Header="Asortimenti" Binding="{Binding Asortimenti}"  />
+                <DataGridTextColumn  FontSize="18"   IsReadOnly="True" FontWeight="Bold"  Header="Sasia" Binding="{Binding Sasia}"  />
+
+                <DataGridTextColumn  FontSize="18"   IsReadOnly="True" FontWeight="Bold"  Header="Cmimi" Binding="{Binding Cmimi,StringFormat=N2}"  />
+                <DataGridTextColumn  FontSize="18"   IsReadOnly="True" FontWeight="Bold"  Header="Vlera" Binding="{Binding Vlera,StringFormat=N2}"  />
+                <DataGridTextColumn  FontSize="18"   IsReadOnly="True" FontWeight="Bold"  Header="Kategoria" Binding="{Binding Kategoria}"  />
+
+            </DataGrid.Columns>
+            <DataGrid.CellStyle>
+                <Style TargetType="{x:Type DataGridCell}">
+
+
+
+                    <Setter Property="FontSize" Value="20"/>
+                    <Setter Property="FontFamily" Value="Aileron Thin" ></Setter>
+                    <Setter Property="Height" Value="30" />
+                    <Style.Triggers>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter Property="Background" Value="#7DA7D9"/>
+                            <Setter Property="Foreground" Value="Black"/>
+
+                        </Trigger>
+
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.CellStyle>
+
+            <DataGrid.Resources>
+                <Style TargetType="{x:Type DataGridColumnHeader}">
+                    <Setter Property="Background" Value="#414144" />
+                    <Setter Property="Foreground" Value="White" />
+                    <Setter Property="FontSize" Value="27"></Setter>
+
+                </Style>
+            </DataGrid.Resources>
+        </DataGrid>
+        <DockPanel Background="#363636"  Height="50" Grid.Row="2">
+            <TextBlock DockPanel.Dock="Left"  VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="30">Total</TextBlock>
+            <TextBlock  DockPanel.Dock="Right"   Name="Totali" VerticalAlignment="Center" HorizontalAlignment="Right" Foreground="White" FontWeight="Bold" FontSize="30" >00</TextBlock>
+        </DockPanel>
+    </Grid>
+</UserControl>

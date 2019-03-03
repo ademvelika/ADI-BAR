@@ -1,0 +1,1883 @@
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\MYBAR.exe.config
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\MYBAR.exe
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\MYBAR.pdb
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\EntityFramework.dll
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\Microsoft.ReportViewer.WinForms.dll
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\Newtonsoft.Json.dll
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\System.Net.Http.Extensions.dll
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\System.Net.Http.Primitives.dll
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\EntityFramework.xml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.xml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\Newtonsoft.Json.xml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\System.Net.Http.Extensions.xml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\System.Net.Http.Primitives.xml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\MYBAR.csproj.App.config
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\CustomControls\TaskBar.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Dialog\KerkoForm.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\CustomControls\ArtikullFilterItem.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\CustomControls\Block.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureAdminFilter.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureUserFilter.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\CustomControls\Loading.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\CustomControls\LoadingAnimation.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\CustomControls\LoadingDialog.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\CustomControls\ProduktEmerSasi.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\CustomControls\TaskBar.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\MainWindow.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikujList.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikullHistory.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Artikuj\KategoriView.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Artikuj\ShitjetArtikuj.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\FatureDetailsView.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\FatureView.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\FleteHyrje\FleteHyrje.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Dialog\KerkoForm.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Dialog\MinimumQuantityArtikuj.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\LoginView.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\MainView.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Dialog\MbyllTurnin.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\MyFatura.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Porosi\PorosiView.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Raportet.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\ReportDialog.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\ReportViewer.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Settings.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Tavolinat.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Turnet.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\WebBroswer.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\XhiroDitore.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\App.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\MYBAR_Content.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\MYBAR_MarkupCompile.cache
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\MYBAR_MarkupCompile.lref
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\CustomControls\ArtikullFilterItem.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\CustomControls\Block.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureAdminFilter.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureUserFilter.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\CustomControls\Loading.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\CustomControls\LoadingAnimation.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\CustomControls\LoadingDialog.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\CustomControls\ProduktEmerSasi.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\MainWindow.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikujList.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikullHistory.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Artikuj\KategoriView.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Artikuj\ShitjetArtikuj.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\FatureDetailsView.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\FatureView.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\FleteHyrje\FleteHyrje.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Dialog\MinimumQuantityArtikuj.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\LoginView.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\MainView.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Dialog\MbyllTurnin.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\MyFatura.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Porosi\PorosiView.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Raportet.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\ReportDialog.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\ReportViewer.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Settings.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Tavolinat.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Turnet.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\WebBroswer.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\XhiroDitore.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\MYBAR.g.resources
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\MYBAR.Properties.Resources.resources
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\MYBAR.csproj.GenerateResource.Cache
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\RdlCompile.cache
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\RdlCompile.compiled
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\MYBAR.exe
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\MYBAR.pdb
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\EPPlus.dll
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\bin\Release\EPPlus.xml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Artikuj\ExcelImport.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Artikuj\ExcelImport.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Dialog\AnulloFature.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Tavolina\TavolinaView.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Dialog\AnulloFature.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Tavolina\TavolinaView.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Dialog\TurnInfo.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\StartUp\StartUpWindow.g.cs
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\Dialog\TurnInfo.baml
+C:\Users\GERMAN\Desktop\MyBar\MYBAR\obj\Release\View\StartUp\StartUpWindow.baml
+G:\MyBar\MYBAR\bin\Release\MYBAR.exe.config
+G:\MyBar\MYBAR\obj\Release\MYBAR.exe
+G:\MyBar\MYBAR\obj\Release\MYBAR.pdb
+G:\MyBar\MYBAR\bin\Release\App.config
+G:\MyBar\MYBAR\bin\Release\MYBAR.exe
+G:\MyBar\MYBAR\bin\Release\MYBAR.pdb
+G:\MyBar\MYBAR\bin\Release\EntityFramework.dll
+G:\MyBar\MYBAR\bin\Release\EntityFramework.SqlServer.dll
+G:\MyBar\MYBAR\bin\Release\EPPlus.dll
+G:\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll
+G:\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.Core.dll
+G:\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Client.dll
+G:\MyBar\MYBAR\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+G:\MyBar\MYBAR\bin\Release\Newtonsoft.Json.dll
+G:\MyBar\MYBAR\bin\Release\System.Net.Http.Extensions.dll
+G:\MyBar\MYBAR\bin\Release\System.Net.Http.Formatting.dll
+G:\MyBar\MYBAR\bin\Release\System.Net.Http.Primitives.dll
+G:\MyBar\MYBAR\bin\Release\EntityFramework.xml
+G:\MyBar\MYBAR\bin\Release\EntityFramework.SqlServer.xml
+G:\MyBar\MYBAR\bin\Release\EPPlus.xml
+G:\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+G:\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.xml
+G:\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.Core.xml
+G:\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Client.xml
+G:\MyBar\MYBAR\bin\Release\Newtonsoft.Json.xml
+G:\MyBar\MYBAR\bin\Release\System.Net.Http.Extensions.xml
+G:\MyBar\MYBAR\bin\Release\System.Net.Http.Formatting.xml
+G:\MyBar\MYBAR\bin\Release\System.Net.Http.Primitives.xml
+G:\MyBar\MYBAR\obj\Release\MYBAR.csproj.App.config
+G:\MyBar\MYBAR\obj\Release\MYBAR.csprojResolveAssemblyReference.cache
+G:\MyBar\MYBAR\obj\Release\CustomControls\TaskBar.baml
+G:\MyBar\MYBAR\obj\Release\View\Dialog\KerkoForm.baml
+G:\MyBar\MYBAR\obj\Release\CustomControls\ArtikullFilterItem.g.cs
+G:\MyBar\MYBAR\obj\Release\CustomControls\Block.g.cs
+G:\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureAdminFilter.g.cs
+G:\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureUserFilter.g.cs
+G:\MyBar\MYBAR\obj\Release\CustomControls\Loading.g.cs
+G:\MyBar\MYBAR\obj\Release\CustomControls\LoadingAnimation.g.cs
+G:\MyBar\MYBAR\obj\Release\CustomControls\LoadingDialog.g.cs
+G:\MyBar\MYBAR\obj\Release\CustomControls\ProduktEmerSasi.g.cs
+G:\MyBar\MYBAR\obj\Release\CustomControls\TaskBar.g.cs
+G:\MyBar\MYBAR\obj\Release\MainWindow.g.cs
+G:\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikujList.g.cs
+G:\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikullHistory.g.cs
+G:\MyBar\MYBAR\obj\Release\View\Artikuj\ExcelImport.g.cs
+G:\MyBar\MYBAR\obj\Release\View\Artikuj\KategoriView.g.cs
+G:\MyBar\MYBAR\obj\Release\View\Artikuj\ShitjetArtikuj.g.cs
+G:\MyBar\MYBAR\obj\Release\View\Dialog\AnulloFature.g.cs
+G:\MyBar\MYBAR\obj\Release\View\Dialog\TurnInfo.g.cs
+G:\MyBar\MYBAR\obj\Release\View\FatureDetailsView.g.cs
+G:\MyBar\MYBAR\obj\Release\View\FatureView.g.cs
+G:\MyBar\MYBAR\obj\Release\View\FleteHyrje\FleteHyrje.g.cs
+G:\MyBar\MYBAR\obj\Release\View\Dialog\KerkoForm.g.cs
+G:\MyBar\MYBAR\obj\Release\View\Dialog\MinimumQuantityArtikuj.g.cs
+G:\MyBar\MYBAR\obj\Release\View\LoginView.g.cs
+G:\MyBar\MYBAR\obj\Release\View\MainView.g.cs
+G:\MyBar\MYBAR\obj\Release\View\Dialog\MbyllTurnin.g.cs
+G:\MyBar\MYBAR\obj\Release\View\MyFatura.g.cs
+G:\MyBar\MYBAR\obj\Release\View\Porosi\PorosiView.g.cs
+G:\MyBar\MYBAR\obj\Release\View\Raportet.g.cs
+G:\MyBar\MYBAR\obj\Release\View\ReportDialog.g.cs
+G:\MyBar\MYBAR\obj\Release\View\ReportViewer.g.cs
+G:\MyBar\MYBAR\obj\Release\View\Settings.g.cs
+G:\MyBar\MYBAR\obj\Release\View\StartUp\StartUpWindow.g.cs
+G:\MyBar\MYBAR\obj\Release\View\Tavolinat.g.cs
+G:\MyBar\MYBAR\obj\Release\View\Tavolina\TavolinaView.g.cs
+G:\MyBar\MYBAR\obj\Release\View\Turnet.g.cs
+G:\MyBar\MYBAR\obj\Release\View\WebBroswer.g.cs
+G:\MyBar\MYBAR\obj\Release\View\XhiroDitore.g.cs
+G:\MyBar\MYBAR\obj\Release\App.g.cs
+G:\MyBar\MYBAR\obj\Release\MYBAR_Content.g.cs
+G:\MyBar\MYBAR\obj\Release\GeneratedInternalTypeHelper.g.cs
+G:\MyBar\MYBAR\obj\Release\MYBAR_MarkupCompile.cache
+G:\MyBar\MYBAR\obj\Release\MYBAR_MarkupCompile.lref
+G:\MyBar\MYBAR\obj\Release\CustomControls\ArtikullFilterItem.baml
+G:\MyBar\MYBAR\obj\Release\CustomControls\Block.baml
+G:\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureAdminFilter.baml
+G:\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureUserFilter.baml
+G:\MyBar\MYBAR\obj\Release\CustomControls\Loading.baml
+G:\MyBar\MYBAR\obj\Release\CustomControls\LoadingAnimation.baml
+G:\MyBar\MYBAR\obj\Release\CustomControls\LoadingDialog.baml
+G:\MyBar\MYBAR\obj\Release\CustomControls\ProduktEmerSasi.baml
+G:\MyBar\MYBAR\obj\Release\MainWindow.baml
+G:\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikujList.baml
+G:\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikullHistory.baml
+G:\MyBar\MYBAR\obj\Release\View\Artikuj\ExcelImport.baml
+G:\MyBar\MYBAR\obj\Release\View\Artikuj\KategoriView.baml
+G:\MyBar\MYBAR\obj\Release\View\Artikuj\ShitjetArtikuj.baml
+G:\MyBar\MYBAR\obj\Release\View\Dialog\AnulloFature.baml
+G:\MyBar\MYBAR\obj\Release\View\Dialog\TurnInfo.baml
+G:\MyBar\MYBAR\obj\Release\View\FatureDetailsView.baml
+G:\MyBar\MYBAR\obj\Release\View\FatureView.baml
+G:\MyBar\MYBAR\obj\Release\View\FleteHyrje\FleteHyrje.baml
+G:\MyBar\MYBAR\obj\Release\View\Dialog\MinimumQuantityArtikuj.baml
+G:\MyBar\MYBAR\obj\Release\View\LoginView.baml
+G:\MyBar\MYBAR\obj\Release\View\MainView.baml
+G:\MyBar\MYBAR\obj\Release\View\Dialog\MbyllTurnin.baml
+G:\MyBar\MYBAR\obj\Release\View\MyFatura.baml
+G:\MyBar\MYBAR\obj\Release\View\Porosi\PorosiView.baml
+G:\MyBar\MYBAR\obj\Release\View\Raportet.baml
+G:\MyBar\MYBAR\obj\Release\View\ReportDialog.baml
+G:\MyBar\MYBAR\obj\Release\View\ReportViewer.baml
+G:\MyBar\MYBAR\obj\Release\View\Settings.baml
+G:\MyBar\MYBAR\obj\Release\View\StartUp\StartUpWindow.baml
+G:\MyBar\MYBAR\obj\Release\View\Tavolinat.baml
+G:\MyBar\MYBAR\obj\Release\View\Tavolina\TavolinaView.baml
+G:\MyBar\MYBAR\obj\Release\View\Turnet.baml
+G:\MyBar\MYBAR\obj\Release\View\WebBroswer.baml
+G:\MyBar\MYBAR\obj\Release\View\XhiroDitore.baml
+G:\MyBar\MYBAR\obj\Release\MYBAR.g.resources
+G:\MyBar\MYBAR\obj\Release\MYBAR.Properties.Resources.resources
+G:\MyBar\MYBAR\obj\Release\MYBAR.csproj.GenerateResource.Cache
+G:\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\MYBAR.exe.config
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\MYBAR.exe
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\MYBAR.pdb
+G:\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\App.config
+G:\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\MYBAR.exe
+G:\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\MYBAR.pdb
+G:\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\EntityFramework.dll
+G:\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\EntityFramework.SqlServer.dll
+G:\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\EPPlus.dll
+G:\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll
+G:\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.Core.dll
+G:\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Client.dll
+G:\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+G:\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\Newtonsoft.Json.dll
+G:\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\System.Net.Http.Extensions.dll
+G:\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\System.Net.Http.Formatting.dll
+G:\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\System.Net.Http.Primitives.dll
+G:\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\EntityFramework.xml
+G:\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\EntityFramework.SqlServer.xml
+G:\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\EPPlus.xml
+G:\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+G:\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.xml
+G:\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.Core.xml
+G:\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Client.xml
+G:\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\Newtonsoft.Json.xml
+G:\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\System.Net.Http.Extensions.xml
+G:\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\System.Net.Http.Formatting.xml
+G:\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\System.Net.Http.Primitives.xml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\MYBAR.csproj.App.config
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\MYBAR.csprojResolveAssemblyReference.cache
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\TaskBar.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Dialog\KerkoForm.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\ArtikullFilterItem.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\Block.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureAdminFilter.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureUserFilter.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\Loading.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\LoadingAnimation.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\LoadingDialog.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\ProduktEmerSasi.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\TaskBar.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\MainWindow.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikujList.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikullHistory.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Artikuj\ExcelImport.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Artikuj\KategoriView.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Artikuj\ShitjetArtikuj.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Dialog\AnulloFature.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Dialog\TurnInfo.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\FatureDetailsView.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\FatureView.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\FleteHyrje\FleteHyrje.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Dialog\KerkoForm.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Dialog\MinimumQuantityArtikuj.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\LoginView.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\MainView.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Dialog\MbyllTurnin.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\MyFatura.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Porosi\PorosiView.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Raportet.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\ReportDialog.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\ReportViewer.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Settings.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\StartUp\StartUpWindow.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Tavolinat.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Tavolina\TavolinaView.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Turnet.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\WebBroswer.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\XhiroDitore.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\App.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\MYBAR_Content.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\GeneratedInternalTypeHelper.g.cs
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\MYBAR_MarkupCompile.cache
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\MYBAR_MarkupCompile.lref
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\ArtikullFilterItem.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\Block.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureAdminFilter.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureUserFilter.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\Loading.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\LoadingAnimation.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\LoadingDialog.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\ProduktEmerSasi.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\MainWindow.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikujList.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikullHistory.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Artikuj\ExcelImport.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Artikuj\KategoriView.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Artikuj\ShitjetArtikuj.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Dialog\AnulloFature.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Dialog\TurnInfo.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\FatureDetailsView.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\FatureView.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\FleteHyrje\FleteHyrje.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Dialog\MinimumQuantityArtikuj.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\LoginView.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\MainView.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Dialog\MbyllTurnin.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\MyFatura.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Porosi\PorosiView.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Raportet.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\ReportDialog.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\ReportViewer.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Settings.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\StartUp\StartUpWindow.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Tavolinat.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Tavolina\TavolinaView.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Turnet.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\WebBroswer.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\XhiroDitore.baml
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\MYBAR.g.resources
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\MYBAR.Properties.Resources.resources
+G:\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\MYBAR.csproj.GenerateResource.Cache
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\MYBAR.exe.config
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\MYBAR.exe
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\MYBAR.pdb
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\App.config
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\MYBAR.exe
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\MYBAR.pdb
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\EntityFramework.dll
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\EPPlus.dll
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\Microsoft.ReportViewer.WinForms.dll
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\Newtonsoft.Json.dll
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\System.Net.Http.Extensions.dll
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\System.Net.Http.Primitives.dll
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\EntityFramework.xml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\EPPlus.xml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.xml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\Newtonsoft.Json.xml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\System.Net.Http.Extensions.xml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\bin\Release\System.Net.Http.Primitives.xml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\MYBAR.csproj.App.config
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\MYBAR.csprojResolveAssemblyReference.cache
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\TaskBar.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Dialog\KerkoForm.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\ArtikullFilterItem.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\Block.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureAdminFilter.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureUserFilter.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\Loading.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\LoadingAnimation.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\LoadingDialog.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\ProduktEmerSasi.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\TaskBar.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\MainWindow.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikujList.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikullHistory.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Artikuj\ExcelImport.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Artikuj\KategoriView.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Artikuj\ShitjetArtikuj.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Dialog\AnulloFature.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Dialog\TurnInfo.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\FatureDetailsView.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\FatureView.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\FleteHyrje\FleteHyrje.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Dialog\KerkoForm.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Dialog\MinimumQuantityArtikuj.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\LoginView.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\MainView.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Dialog\MbyllTurnin.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\MyFatura.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Porosi\PorosiView.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Raportet.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\ReportDialog.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\ReportViewer.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Settings.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\StartUp\StartUpWindow.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Tavolinat.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Tavolina\TavolinaView.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Turnet.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\WebBroswer.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\XhiroDitore.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\App.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\MYBAR_Content.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\MYBAR_MarkupCompile.cache
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\MYBAR_MarkupCompile.lref
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\ArtikullFilterItem.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\Block.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureAdminFilter.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureUserFilter.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\Loading.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\LoadingAnimation.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\LoadingDialog.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\CustomControls\ProduktEmerSasi.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\MainWindow.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikujList.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikullHistory.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Artikuj\ExcelImport.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Artikuj\KategoriView.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Artikuj\ShitjetArtikuj.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Dialog\AnulloFature.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Dialog\TurnInfo.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\FatureDetailsView.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\FatureView.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\FleteHyrje\FleteHyrje.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Dialog\MinimumQuantityArtikuj.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\LoginView.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\MainView.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Dialog\MbyllTurnin.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\MyFatura.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Porosi\PorosiView.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Raportet.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\ReportDialog.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\ReportViewer.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Settings.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\StartUp\StartUpWindow.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Tavolinat.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Tavolina\TavolinaView.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\Turnet.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\WebBroswer.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\View\XhiroDitore.baml
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\MYBAR.g.resources
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\MYBAR.Properties.Resources.resources
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\MYBAR.csproj.GenerateResource.Cache
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\RdlCompile.cache
+C:\Users\GERMAN\Desktop\1.6.2017\Final Version\MyBar\MYBAR\obj\Release\RdlCompile.compiled
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\MYBAR.exe.config
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\MYBAR.exe
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\MYBAR.pdb
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\App.config
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\MYBAR.exe
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\MYBAR.pdb
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\EntityFramework.dll
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\EPPlus.dll
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\Microsoft.ReportViewer.WinForms.dll
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\Newtonsoft.Json.dll
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\System.Net.Http.Extensions.dll
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\System.Net.Http.Primitives.dll
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\EntityFramework.xml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\EPPlus.xml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.xml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\Newtonsoft.Json.xml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\System.Net.Http.Extensions.xml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\bin\Release\System.Net.Http.Primitives.xml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\MYBAR.csproj.App.config
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\MYBAR.csprojResolveAssemblyReference.cache
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\CustomControls\TaskBar.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Dialog\KerkoForm.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\CustomControls\ArtikullFilterItem.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\CustomControls\Block.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureAdminFilter.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureUserFilter.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\CustomControls\Loading.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\CustomControls\LoadingAnimation.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\CustomControls\LoadingDialog.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\CustomControls\ProduktEmerSasi.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\CustomControls\TaskBar.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\MainWindow.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikujList.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikullHistory.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Artikuj\ExcelImport.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Artikuj\KategoriView.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Artikuj\ShitjetArtikuj.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Dialog\AnulloFature.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Dialog\TurnInfo.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\FatureDetailsView.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\FatureView.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\FleteHyrje\FleteHyrje.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Dialog\KerkoForm.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Dialog\MinimumQuantityArtikuj.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\LoginView.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\MainView.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Dialog\MbyllTurnin.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\MyFatura.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Porosi\PorosiView.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Raportet.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\ReportDialog.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\ReportViewer.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Settings.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\StartUp\StartUpWindow.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Tavolinat.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Tavolina\TavolinaView.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Turnet.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\WebBroswer.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\XhiroDitore.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\App.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\MYBAR_Content.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\MYBAR_MarkupCompile.cache
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\MYBAR_MarkupCompile.lref
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\App.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\CustomControls\ArtikullFilterItem.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\CustomControls\Block.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureAdminFilter.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureUserFilter.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\CustomControls\Loading.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\CustomControls\LoadingAnimation.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\CustomControls\LoadingDialog.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\CustomControls\ProduktEmerSasi.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\MainWindow.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikujList.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikullHistory.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Artikuj\ExcelImport.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Artikuj\KategoriView.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Artikuj\ShitjetArtikuj.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Dialog\AnulloFature.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Dialog\TurnInfo.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\FatureDetailsView.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\FatureView.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\FleteHyrje\FleteHyrje.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Dialog\MinimumQuantityArtikuj.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\LoginView.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\MainView.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Dialog\MbyllTurnin.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\MyFatura.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Porosi\PorosiView.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Raportet.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\ReportDialog.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\ReportViewer.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Settings.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\StartUp\StartUpWindow.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Tavolinat.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Tavolina\TavolinaView.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\Turnet.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\WebBroswer.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\View\XhiroDitore.baml
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\MYBAR.g.resources
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\MYBAR.Properties.Resources.resources
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\MYBAR.csproj.GenerateResource.Cache
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\RdlCompile.cache
+C:\Users\GERMAN\Desktop\6.6.2017\MyBar\MYBAR\obj\Release\RdlCompile.compiled
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\App.config
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\log4net.config
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\MYBAR.exe.config
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\MYBAR.exe
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\MYBAR.pdb
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\EntityFramework.dll
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\EPPlus.dll
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\log4net.dll
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\Microsoft.ReportViewer.WinForms.dll
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\Newtonsoft.Json.dll
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\System.Net.Http.Extensions.dll
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\System.Net.Http.Primitives.dll
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\Microsoft.SqlServer.Types.dll
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\EntityFramework.xml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\EPPlus.xml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.xml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\log4net.xml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\Newtonsoft.Json.xml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\System.Net.Http.Extensions.xml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\System.Net.Http.Primitives.xml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\bin\Release\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\MYBAR.csproj.App.config
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\CustomControls\TaskBar.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\CustomControls\ArtikullFilterItem.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\CustomControls\Block.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\CustomControls\DateOre.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureAdminFilter.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureUserFilter.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\CustomControls\Loading.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\CustomControls\LoadingAnimation.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\CustomControls\LoadingDialog.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\CustomControls\Ora.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\CustomControls\ProduktEmerSasi.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\CustomControls\TaskBar.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\MainWindow.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikujList.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikullHistory.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\ExcelImport.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\KategoriView.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\ShitjetArtikuj.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\AnulloFature.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\TurnInfo.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\FatureDetailsView.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\FatureView.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\FleteHyrje\FleteHyrje.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\KerkoForm.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\MinimumQuantityArtikuj.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\LoginView.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\MainView.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\MbyllTurnin.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\MyFatura.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Perdorues\ChangePassword.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Porosi\PorosiView.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Raportet.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\ReportDialog.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\ReportViewer.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Settings.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\StartUp\StartUpWindow.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Tavolinat.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Tavolina\TavolinaView.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Turnet.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\WebBroswer.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\XhiroDitore.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\App.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\MYBAR_Content.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\MYBAR_MarkupCompile.cache
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\MYBAR_MarkupCompile.lref
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\App.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\CustomControls\ArtikullFilterItem.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\CustomControls\Block.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\CustomControls\DateOre.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureAdminFilter.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureUserFilter.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\CustomControls\Loading.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\CustomControls\LoadingAnimation.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\CustomControls\LoadingDialog.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\CustomControls\Ora.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\CustomControls\ProduktEmerSasi.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\MainWindow.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikujList.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikullHistory.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\ExcelImport.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\KategoriView.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\ShitjetArtikuj.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\AnulloFature.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\TurnInfo.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\FatureDetailsView.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\FatureView.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\FleteHyrje\FleteHyrje.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\KerkoForm.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\MinimumQuantityArtikuj.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\LoginView.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\MainView.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\MbyllTurnin.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\MyFatura.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Perdorues\ChangePassword.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Porosi\PorosiView.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Raportet.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\ReportDialog.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\ReportViewer.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Settings.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\StartUp\StartUpWindow.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Tavolinat.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Tavolina\TavolinaView.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Turnet.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\WebBroswer.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\XhiroDitore.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\MYBAR.g.resources
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\MYBAR.Properties.Resources.resources
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\MYBAR.csproj.GenerateResource.Cache
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\RdlCompile.cache
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\RdlCompile.compiled
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\MYBAR.exe
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\MYBAR.pdb
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\MYBAR.csprojResolveAssemblyReference.cache
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\KorrigjimInventariView.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\KorrigjimInventariView.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\AdvancedArtikullSelect.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\AdvancedArtikullSelect.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\About.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\About.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\CustomControls\UsersRow\UserLine.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Perdorues\UserView.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\CustomControls\UsersRow\UserLine.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Perdorues\UserView.baml
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Fitimi.g.cs
+C:\Users\GERMAN\Desktop\Last Version\MyBar\MYBAR\obj\Release\View\Fitimi.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\MYBAR.exe.config
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\MYBAR.exe
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\MYBAR.pdb
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\App.config
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\log4net.config
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\MYBAR.exe
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\MYBAR.pdb
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\EntityFramework.dll
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\EntityFramework.SqlServer.dll
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\EPPlus.dll
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\log4net.dll
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.Core.dll
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Client.dll
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\Microsoft.ReportViewer.WinForms.dll
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\Newtonsoft.Json.dll
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\System.Net.Http.Extensions.dll
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\System.Net.Http.Formatting.dll
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\System.Net.Http.Primitives.dll
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\Microsoft.SqlServer.Types.dll
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\EntityFramework.xml
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\EntityFramework.SqlServer.xml
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\EPPlus.xml
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.xml
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\log4net.xml
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.Core.xml
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Client.xml
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\Newtonsoft.Json.xml
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\System.Net.Http.Extensions.xml
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\System.Net.Http.Formatting.xml
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\System.Net.Http.Primitives.xml
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\de\Microsoft.SqlServer.Types.resources.dll
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\es\Microsoft.SqlServer.Types.resources.dll
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\fr\Microsoft.SqlServer.Types.resources.dll
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\it\Microsoft.SqlServer.Types.resources.dll
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\ja\Microsoft.SqlServer.Types.resources.dll
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\ko\Microsoft.SqlServer.Types.resources.dll
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\pt\Microsoft.SqlServer.Types.resources.dll
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\ru\Microsoft.SqlServer.Types.resources.dll
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\2.5.5\Last Version\MyBar\MYBAR\bin\Release\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\MYBAR.csproj.App.config
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\MYBAR.csprojResolveAssemblyReference.cache
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\CustomControls\TaskBar.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\CustomControls\ArtikullFilterItem.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\CustomControls\Block.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\CustomControls\DateOre.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureAdminFilter.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureUserFilter.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\CustomControls\Loading.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\CustomControls\LoadingAnimation.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\CustomControls\LoadingDialog.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\CustomControls\Ora.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\CustomControls\ProduktEmerSasi.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\CustomControls\TaskBar.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\CustomControls\UsersRow\UserLine.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\MainWindow.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\About.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikujList.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikullHistory.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\ExcelImport.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\KategoriView.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\KorrigjimInventariView.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\ShitjetArtikuj.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\AdvancedArtikullSelect.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\AnulloFature.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\TurnInfo.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\FatureDetailsView.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\FatureView.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Fitimi.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\FleteHyrje\FleteHyrje.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\KerkoForm.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\MinimumQuantityArtikuj.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\LoginView.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\MainView.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\MbyllTurnin.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\MyFatura.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Perdorues\ChangePassword.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Perdorues\UserView.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Porosi\PorosiView.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Raportet.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\ReportDialog.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\ReportViewer.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Settings.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\StartUp\StartUpWindow.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Tavolinat.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Tavolina\TavolinaView.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Turnet.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\WebBroswer.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\XhiroDitore.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\App.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\MYBAR_Content.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\GeneratedInternalTypeHelper.g.cs
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\MYBAR_MarkupCompile.cache
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\MYBAR_MarkupCompile.lref
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\App.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\CustomControls\ArtikullFilterItem.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\CustomControls\Block.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\CustomControls\DateOre.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureAdminFilter.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureUserFilter.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\CustomControls\Loading.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\CustomControls\LoadingAnimation.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\CustomControls\LoadingDialog.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\CustomControls\Ora.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\CustomControls\ProduktEmerSasi.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\CustomControls\UsersRow\UserLine.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\MainWindow.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\About.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikujList.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikullHistory.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\ExcelImport.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\KategoriView.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\KorrigjimInventariView.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\ShitjetArtikuj.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\AdvancedArtikullSelect.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\AnulloFature.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\TurnInfo.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\FatureDetailsView.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\FatureView.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Fitimi.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\FleteHyrje\FleteHyrje.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\KerkoForm.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\MinimumQuantityArtikuj.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\LoginView.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\MainView.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\MbyllTurnin.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\MyFatura.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Perdorues\ChangePassword.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Perdorues\UserView.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Porosi\PorosiView.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Raportet.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\ReportDialog.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\ReportViewer.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Settings.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\StartUp\StartUpWindow.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Tavolinat.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Tavolina\TavolinaView.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\Turnet.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\WebBroswer.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\View\XhiroDitore.baml
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\MYBAR.g.resources
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\MYBAR.Properties.Resources.resources
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\MYBAR.csproj.GenerateResource.Cache
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\RdlCompile.cache
+D:\2.5.5\Last Version\MyBar\MYBAR\obj\Release\RdlCompile.compiled
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\MYBAR.exe.config
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\MYBAR.exe
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\MYBAR.pdb
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\App.config
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\log4net.config
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\MYBAR.exe
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\MYBAR.pdb
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\EntityFramework.dll
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\EntityFramework.SqlServer.dll
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\EPPlus.dll
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\log4net.dll
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.Core.dll
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Client.dll
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\Microsoft.ReportViewer.WinForms.dll
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\Newtonsoft.Json.dll
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\System.Net.Http.Extensions.dll
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\System.Net.Http.Formatting.dll
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\System.Net.Http.Primitives.dll
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\Microsoft.SqlServer.Types.dll
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\EntityFramework.xml
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\EntityFramework.SqlServer.xml
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\EPPlus.xml
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.xml
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\log4net.xml
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.Core.xml
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Client.xml
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\Newtonsoft.Json.xml
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\System.Net.Http.Extensions.xml
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\System.Net.Http.Formatting.xml
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\System.Net.Http.Primitives.xml
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\de\Microsoft.SqlServer.Types.resources.dll
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\es\Microsoft.SqlServer.Types.resources.dll
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\fr\Microsoft.SqlServer.Types.resources.dll
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\it\Microsoft.SqlServer.Types.resources.dll
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\ja\Microsoft.SqlServer.Types.resources.dll
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\ko\Microsoft.SqlServer.Types.resources.dll
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\pt\Microsoft.SqlServer.Types.resources.dll
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\ru\Microsoft.SqlServer.Types.resources.dll
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\2.5.6\Last Version\MyBar\MYBAR\bin\Release\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\MYBAR.csproj.App.config
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\MYBAR.csprojResolveAssemblyReference.cache
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\CustomControls\TaskBar.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\CustomControls\ArtikullFilterItem.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\CustomControls\Block.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\CustomControls\DateOre.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureAdminFilter.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureUserFilter.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\CustomControls\Loading.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\CustomControls\LoadingAnimation.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\CustomControls\LoadingDialog.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\CustomControls\Ora.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\CustomControls\ProduktEmerSasi.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\CustomControls\TaskBar.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\CustomControls\UsersRow\UserLine.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\MainWindow.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\About.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikujList.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikullHistory.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\ExcelImport.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\KategoriView.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\KorrigjimInventariView.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\ShitjetArtikuj.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\AdvancedArtikullSelect.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\AnulloFature.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\TurnInfo.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\FatureDetailsView.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\FatureView.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Fitimi.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\FleteHyrje\FleteHyrje.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\KerkoForm.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\MinimumQuantityArtikuj.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\LoginView.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\MainView.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\MbyllTurnin.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\MyFatura.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Perdorues\ChangePassword.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Perdorues\UserView.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Porosi\PorosiView.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Raportet.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\ReportDialog.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\ReportViewer.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Settings.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\StartUp\StartUpWindow.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Tavolinat.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Tavolina\TavolinaView.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Turnet.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\WebBroswer.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\XhiroDitore.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\App.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\MYBAR_Content.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\GeneratedInternalTypeHelper.g.cs
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\MYBAR_MarkupCompile.cache
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\MYBAR_MarkupCompile.lref
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\App.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\CustomControls\ArtikullFilterItem.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\CustomControls\Block.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\CustomControls\DateOre.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureAdminFilter.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureUserFilter.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\CustomControls\Loading.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\CustomControls\LoadingAnimation.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\CustomControls\LoadingDialog.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\CustomControls\Ora.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\CustomControls\ProduktEmerSasi.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\CustomControls\UsersRow\UserLine.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\MainWindow.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\About.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikujList.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikullHistory.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\ExcelImport.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\KategoriView.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\KorrigjimInventariView.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Artikuj\ShitjetArtikuj.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\AdvancedArtikullSelect.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\AnulloFature.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\TurnInfo.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\FatureDetailsView.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\FatureView.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Fitimi.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\FleteHyrje\FleteHyrje.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\KerkoForm.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\MinimumQuantityArtikuj.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\LoginView.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\MainView.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Dialog\MbyllTurnin.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\MyFatura.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Perdorues\ChangePassword.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Perdorues\UserView.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Porosi\PorosiView.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Raportet.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\ReportDialog.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\ReportViewer.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Settings.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\StartUp\StartUpWindow.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Tavolinat.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Tavolina\TavolinaView.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\Turnet.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\WebBroswer.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\View\XhiroDitore.baml
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\MYBAR.g.resources
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\MYBAR.Properties.Resources.resources
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\MYBAR.csproj.GenerateResource.Cache
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\RdlCompile.cache
+D:\2.5.6\Last Version\MyBar\MYBAR\obj\Release\RdlCompile.compiled
+D:\Nuri\MyBar\MYBAR\bin\Release\MYBAR.exe.config
+D:\Nuri\MyBar\MYBAR\obj\Release\MYBAR.exe
+D:\Nuri\MyBar\MYBAR\obj\Release\MYBAR.pdb
+D:\Nuri\MyBar\MYBAR\obj\Release\MYBAR.csproj.App.config
+D:\Nuri\MyBar\MYBAR\obj\Release\MYBAR.csprojResolveAssemblyReference.cache
+D:\Nuri\MyBar\MYBAR\obj\Release\CustomControls\TaskBar.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\CustomControls\ArtikullFilterItem.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\CustomControls\Block.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\CustomControls\DateOre.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureAdminFilter.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureUserFilter.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\CustomControls\Loading.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\CustomControls\LoadingAnimation.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\CustomControls\LoadingDialog.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\CustomControls\Ora.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\CustomControls\POS\FatureGrid.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\CustomControls\POS\OrderLine.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\CustomControls\ProduktEmerSasi.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\CustomControls\TaskBar.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\CustomControls\UsersRow\UserLine.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\MainWindow.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\About.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikujList.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikullHistory.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Artikuj\ExcelImport.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Artikuj\KategoriView.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Artikuj\KorrigjimInventariView.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Artikuj\ShitjetArtikuj.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Dialog\AdvancedArtikullSelect.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Dialog\AnulloFature.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Dialog\TurnInfo.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\FatureDetailsView.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\FatureView.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Fitimi.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\FleteHyrje\FleteHyrje.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Dialog\KerkoForm.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Dialog\MinimumQuantityArtikuj.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\LoginView.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\MainView.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Dialog\MbyllTurnin.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\MyFatura.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Perdorues\ChangePassword.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Perdorues\UserView.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Porosi\PorosiView.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\POSView.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Raportet.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\ReportDialog.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\ReportViewer.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Settings.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\StartUp\StartUpWindow.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Tavolinat.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Tavolina\TavolinaView.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Turnet.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\WebBroswer.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\XhiroDitore.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\App.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\MYBAR_Content.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\GeneratedInternalTypeHelper.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\MYBAR_MarkupCompile.cache
+D:\Nuri\MyBar\MYBAR\obj\Release\MYBAR_MarkupCompile.lref
+D:\Nuri\MyBar\MYBAR\bin\Release\App.config
+D:\Nuri\MyBar\MYBAR\bin\Release\log4net.config
+D:\Nuri\MyBar\MYBAR\bin\Release\MYBAR.exe
+D:\Nuri\MyBar\MYBAR\bin\Release\MYBAR.pdb
+D:\Nuri\MyBar\MYBAR\bin\Release\EntityFramework.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\EntityFramework.SqlServer.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\EPPlus.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\log4net.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.Core.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Client.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\Microsoft.ReportViewer.WinForms.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\Newtonsoft.Json.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\System.Net.Http.Extensions.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\System.Net.Http.Formatting.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\System.Net.Http.Primitives.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\Microsoft.SqlServer.Types.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\EntityFramework.xml
+D:\Nuri\MyBar\MYBAR\bin\Release\EntityFramework.SqlServer.xml
+D:\Nuri\MyBar\MYBAR\bin\Release\EPPlus.xml
+D:\Nuri\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+D:\Nuri\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.xml
+D:\Nuri\MyBar\MYBAR\bin\Release\log4net.xml
+D:\Nuri\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.Core.xml
+D:\Nuri\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Nuri\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Client.xml
+D:\Nuri\MyBar\MYBAR\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\Nuri\MyBar\MYBAR\bin\Release\Newtonsoft.Json.xml
+D:\Nuri\MyBar\MYBAR\bin\Release\System.Net.Http.Extensions.xml
+D:\Nuri\MyBar\MYBAR\bin\Release\System.Net.Http.Formatting.xml
+D:\Nuri\MyBar\MYBAR\bin\Release\System.Net.Http.Primitives.xml
+D:\Nuri\MyBar\MYBAR\bin\Release\de\Microsoft.SqlServer.Types.resources.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\es\Microsoft.SqlServer.Types.resources.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\fr\Microsoft.SqlServer.Types.resources.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\it\Microsoft.SqlServer.Types.resources.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\ja\Microsoft.SqlServer.Types.resources.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\ko\Microsoft.SqlServer.Types.resources.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\pt\Microsoft.SqlServer.Types.resources.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\ru\Microsoft.SqlServer.Types.resources.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\Nuri\MyBar\MYBAR\obj\Release\App.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\CustomControls\ArtikullFilterItem.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\CustomControls\Block.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\CustomControls\DateOre.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureAdminFilter.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureUserFilter.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\CustomControls\Loading.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\CustomControls\LoadingAnimation.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\CustomControls\LoadingDialog.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\CustomControls\Ora.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\CustomControls\POS\FatureGrid.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\CustomControls\POS\OrderLine.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\CustomControls\ProduktEmerSasi.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\CustomControls\UsersRow\UserLine.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\MainWindow.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\About.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikujList.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikullHistory.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Artikuj\ExcelImport.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Artikuj\KategoriView.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Artikuj\KorrigjimInventariView.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Artikuj\ShitjetArtikuj.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Dialog\AdvancedArtikullSelect.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Dialog\AnulloFature.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Dialog\TurnInfo.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\FatureDetailsView.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\FatureView.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Fitimi.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\FleteHyrje\FleteHyrje.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Dialog\KerkoForm.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Dialog\MinimumQuantityArtikuj.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\LoginView.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\MainView.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Dialog\MbyllTurnin.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\MyFatura.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Perdorues\ChangePassword.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Perdorues\UserView.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Porosi\PorosiView.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\POSView.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Raportet.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\ReportDialog.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\ReportViewer.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Settings.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\StartUp\StartUpWindow.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Tavolinat.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Tavolina\TavolinaView.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Turnet.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\WebBroswer.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\View\XhiroDitore.baml
+D:\Nuri\MyBar\MYBAR\obj\Release\MYBAR.g.resources
+D:\Nuri\MyBar\MYBAR\obj\Release\MYBAR.Properties.Resources.resources
+D:\Nuri\MyBar\MYBAR\obj\Release\MYBAR.csproj.GenerateResource.Cache
+D:\Nuri\MyBar\MYBAR\obj\Release\RdlCompile.cache
+D:\Nuri\MyBar\MYBAR\obj\Release\RdlCompile.compiled
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Other\OtherConfigView.g.cs
+D:\Nuri\MyBar\MYBAR\obj\Release\View\Other\OtherConfigView.baml
+D:\Nuri\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Core.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\Microsoft.Owin.Cors.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\Microsoft.Owin.Diagnostics.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\Microsoft.Owin.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\Microsoft.Owin.Host.HttpListener.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\Microsoft.Owin.Hosting.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\Microsoft.Owin.Security.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\Owin.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\System.Web.Cors.dll
+D:\Nuri\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Core.xml
+D:\Nuri\MyBar\MYBAR\bin\Release\Microsoft.Owin.xml
+D:\Nuri\MyBar\MYBAR\bin\Release\Microsoft.Owin.Cors.xml
+D:\Nuri\MyBar\MYBAR\bin\Release\Microsoft.Owin.Diagnostics.xml
+D:\Nuri\MyBar\MYBAR\bin\Release\Microsoft.Owin.Host.HttpListener.xml
+D:\Nuri\MyBar\MYBAR\bin\Release\Microsoft.Owin.Hosting.xml
+D:\Nuri\MyBar\MYBAR\bin\Release\Microsoft.Owin.Security.xml
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\MYBAR.exe.config
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR.exe
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR.pdb
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\App.config
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\log4net.config
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\MYBAR.exe
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\MYBAR.pdb
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\EntityFramework.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\EntityFramework.SqlServer.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\EPPlus.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\log4net.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.Core.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Client.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Core.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Cors.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Diagnostics.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Host.HttpListener.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Hosting.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Security.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.ReportViewer.WinForms.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Newtonsoft.Json.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Owin.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\System.Net.Http.Extensions.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\System.Net.Http.Formatting.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\System.Net.Http.Primitives.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\System.Web.Cors.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.SqlServer.Types.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\EntityFramework.xml
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\EntityFramework.SqlServer.xml
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\EPPlus.xml
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.xml
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\log4net.xml
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.Core.xml
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Client.xml
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Core.xml
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.xml
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Cors.xml
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Diagnostics.xml
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Host.HttpListener.xml
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Hosting.xml
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Security.xml
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\Newtonsoft.Json.xml
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\System.Net.Http.Extensions.xml
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\System.Net.Http.Formatting.xml
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\System.Net.Http.Primitives.xml
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\de\Microsoft.SqlServer.Types.resources.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\es\Microsoft.SqlServer.Types.resources.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\fr\Microsoft.SqlServer.Types.resources.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\it\Microsoft.SqlServer.Types.resources.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\ja\Microsoft.SqlServer.Types.resources.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\ko\Microsoft.SqlServer.Types.resources.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\pt\Microsoft.SqlServer.Types.resources.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\ru\Microsoft.SqlServer.Types.resources.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\LastVersion2.7\MyBar\MYBAR\bin\Release\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR.csproj.App.config
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR.csprojResolveAssemblyReference.cache
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\TaskBar.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\ArtikullFilterItem.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\Block.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\DateOre.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureAdminFilter.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureUserFilter.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\Loading.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\LoadingAnimation.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\LoadingDialog.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\Ora.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\POS\FatureGrid.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\POS\OrderLine.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\ProduktEmerSasi.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\TaskBar.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\UsersRow\UserLine.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\MainWindow.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\About.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikujList.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikullHistory.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ExcelImport.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\KategoriView.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\KorrigjimInventariView.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ShitjetArtikuj.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\AdvancedArtikullSelect.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\AnulloFature.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\TurnInfo.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\FatureDetailsView.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\FatureView.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Fitimi.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\FleteHyrje\FleteHyrje.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\KerkoForm.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\MinimumQuantityArtikuj.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\LoginView.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\MainView.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\MbyllTurnin.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\MyFatura.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Other\OtherConfigView.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Perdorues\ChangePassword.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Perdorues\UserView.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Porosi\PorosiView.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\POSView.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Raportet.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\ReportDialog.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\ReportViewer.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Settings.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\StartUp\StartUpWindow.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Tavolinat.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Tavolina\TavolinaView.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Turnet.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\WebBroswer.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\XhiroDitore.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\App.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR_Content.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\GeneratedInternalTypeHelper.g.cs
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR_MarkupCompile.cache
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR_MarkupCompile.lref
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\App.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\ArtikullFilterItem.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\Block.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\DateOre.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureAdminFilter.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureUserFilter.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\Loading.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\LoadingAnimation.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\LoadingDialog.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\Ora.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\POS\FatureGrid.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\POS\OrderLine.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\ProduktEmerSasi.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\UsersRow\UserLine.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\MainWindow.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\About.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikujList.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikullHistory.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ExcelImport.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\KategoriView.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\KorrigjimInventariView.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ShitjetArtikuj.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\AdvancedArtikullSelect.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\AnulloFature.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\TurnInfo.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\FatureDetailsView.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\FatureView.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Fitimi.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\FleteHyrje\FleteHyrje.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\KerkoForm.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\MinimumQuantityArtikuj.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\LoginView.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\MainView.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\MbyllTurnin.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\MyFatura.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Other\OtherConfigView.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Perdorues\ChangePassword.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Perdorues\UserView.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Porosi\PorosiView.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\POSView.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Raportet.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\ReportDialog.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\ReportViewer.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Settings.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\StartUp\StartUpWindow.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Tavolinat.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Tavolina\TavolinaView.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Turnet.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\WebBroswer.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\View\XhiroDitore.baml
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR.g.resources
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR.Properties.Resources.resources
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR.csproj.GenerateResource.Cache
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\RdlCompile.cache
+D:\LastVersion2.7\MyBar\MYBAR\obj\Release\RdlCompile.compiled
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\MYBAR.exe.config
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR.exe
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR.pdb
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\App.config
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\log4net.config
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\MYBAR.exe
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\MYBAR.pdb
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\EntityFramework.dll
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\EPPlus.dll
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\log4net.dll
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Cors.dll
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Diagnostics.dll
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.dll
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Hosting.dll
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Security.dll
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Newtonsoft.Json.dll
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Owin.dll
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\System.Net.Http.Extensions.dll
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\System.Net.Http.Primitives.dll
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\System.Web.Cors.dll
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\EntityFramework.xml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\EPPlus.xml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.xml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\log4net.xml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.xml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Cors.xml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Diagnostics.xml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Hosting.xml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Security.xml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Newtonsoft.Json.xml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\System.Net.Http.Extensions.xml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\System.Net.Http.Primitives.xml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR.csproj.App.config
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR.csprojResolveAssemblyReference.cache
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\TaskBar.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\ArtikullFilterItem.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\Block.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\DateOre.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureAdminFilter.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureUserFilter.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\Loading.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\LoadingAnimation.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\LoadingDialog.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\Ora.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\POS\FatureGrid.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\POS\OrderLine.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\ProduktEmerSasi.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\TaskBar.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\UsersRow\UserLine.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\MainWindow.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\About.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikujList.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikullHistory.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ExcelImport.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\KategoriView.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\KorrigjimInventariView.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ShitjetArtikuj.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\AdvancedArtikullSelect.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\AnulloFature.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\TurnInfo.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\FatureDetailsView.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\FatureView.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Fitimi.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\FleteHyrje\FleteHyrje.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\KerkoForm.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\MinimumQuantityArtikuj.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\LoginView.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\MainView.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\MbyllTurnin.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\MyFatura.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Other\OtherConfigView.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Perdorues\ChangePassword.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Perdorues\UserView.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Porosi\PorosiView.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\POSView.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Raportet.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\ReportDialog.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\ReportViewer.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Settings.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\StartUp\StartUpWindow.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Tavolinat.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Tavolina\TavolinaView.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Turnet.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\WebBroswer.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\XhiroDitore.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\App.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR_Content.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR_MarkupCompile.cache
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR_MarkupCompile.lref
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\App.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\ArtikullFilterItem.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\Block.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\DateOre.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureAdminFilter.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureUserFilter.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\Loading.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\LoadingAnimation.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\LoadingDialog.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\Ora.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\POS\FatureGrid.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\POS\OrderLine.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\ProduktEmerSasi.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\UsersRow\UserLine.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\MainWindow.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\About.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikujList.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikullHistory.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ExcelImport.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\KategoriView.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\KorrigjimInventariView.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ShitjetArtikuj.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\AdvancedArtikullSelect.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\AnulloFature.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\TurnInfo.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\FatureDetailsView.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\FatureView.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Fitimi.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\FleteHyrje\FleteHyrje.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\KerkoForm.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\MinimumQuantityArtikuj.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\LoginView.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\MainView.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\MbyllTurnin.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\MyFatura.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Other\OtherConfigView.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Perdorues\ChangePassword.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Perdorues\UserView.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Porosi\PorosiView.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\POSView.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Raportet.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\ReportDialog.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\ReportViewer.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Settings.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\StartUp\StartUpWindow.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Tavolinat.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Tavolina\TavolinaView.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Turnet.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\WebBroswer.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\XhiroDitore.baml
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR.g.resources
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR.Properties.Resources.resources
+C:\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR.csproj.GenerateResource.Cache
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\MYBAR.exe.config
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR.exe
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR.pdb
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\App.config
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\log4net.config
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\MYBAR.exe
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\MYBAR.pdb
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\EntityFramework.dll
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\EntityFramework.SqlServer.dll
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\EPPlus.dll
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\log4net.dll
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Client.dll
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Core.dll
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Cors.dll
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Diagnostics.dll
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.dll
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Host.HttpListener.dll
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Hosting.dll
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Security.dll
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Newtonsoft.Json.dll
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Owin.dll
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\System.Net.Http.Extensions.dll
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\System.Net.Http.Formatting.dll
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\System.Net.Http.Primitives.dll
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\System.Web.Cors.dll
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\EntityFramework.xml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\EntityFramework.SqlServer.xml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\EPPlus.xml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.xml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\log4net.xml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Client.xml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Core.xml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.xml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Cors.xml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Diagnostics.xml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Host.HttpListener.xml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Hosting.xml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Security.xml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\Newtonsoft.Json.xml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\System.Net.Http.Extensions.xml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\System.Net.Http.Formatting.xml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\bin\Release\System.Net.Http.Primitives.xml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR.csproj.App.config
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR.csprojResolveAssemblyReference.cache
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\TaskBar.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\ArtikullFilterItem.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\Block.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\DateOre.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureAdminFilter.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureUserFilter.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\Loading.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\LoadingAnimation.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\LoadingDialog.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\Ora.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\POS\FatureGrid.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\POS\OrderLine.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\ProduktEmerSasi.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\TaskBar.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\UsersRow\UserLine.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\MainWindow.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\About.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikujList.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikullHistory.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ExcelImport.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\KategoriView.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\KorrigjimInventariView.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ShitjetArtikuj.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\AdvancedArtikullSelect.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\AnulloFature.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\TurnInfo.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\FatureDetailsView.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\FatureView.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Fitimi.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\FleteHyrje\FleteHyrje.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\KerkoForm.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\MinimumQuantityArtikuj.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\LoginView.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\MainView.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\MbyllTurnin.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\MyFatura.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Other\OtherConfigView.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Perdorues\ChangePassword.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Perdorues\UserView.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Porosi\PorosiView.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\POSView.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Raportet.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\ReportDialog.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\ReportViewer.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Settings.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\StartUp\StartUpWindow.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Tavolinat.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Tavolina\TavolinaView.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Turnet.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\WebBroswer.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\XhiroDitore.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\App.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR_Content.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR_MarkupCompile.cache
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR_MarkupCompile.lref
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\App.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\ArtikullFilterItem.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\Block.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\DateOre.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureAdminFilter.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureUserFilter.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\Loading.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\LoadingAnimation.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\LoadingDialog.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\Ora.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\POS\FatureGrid.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\POS\OrderLine.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\ProduktEmerSasi.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\UsersRow\UserLine.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\MainWindow.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\About.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikujList.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikullHistory.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ExcelImport.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\KategoriView.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\KorrigjimInventariView.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ShitjetArtikuj.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\AdvancedArtikullSelect.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\AnulloFature.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\TurnInfo.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\FatureDetailsView.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\FatureView.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Fitimi.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\FleteHyrje\FleteHyrje.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\KerkoForm.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\MinimumQuantityArtikuj.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\LoginView.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\MainView.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\MbyllTurnin.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\MyFatura.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Other\OtherConfigView.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Perdorues\ChangePassword.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Perdorues\UserView.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Porosi\PorosiView.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\POSView.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Raportet.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\ReportDialog.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\ReportViewer.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Settings.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\StartUp\StartUpWindow.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Tavolinat.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Tavolina\TavolinaView.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Turnet.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\WebBroswer.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\View\XhiroDitore.baml
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR.g.resources
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR.Properties.Resources.resources
+C:\Windows.old\Users\Elitebook\Desktop\programiim\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR.csproj.GenerateResource.Cache
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\MYBAR.exe.config
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR.exe
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR.pdb
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\App.config
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\log4net.config
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\MYBAR.exe
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\MYBAR.pdb
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\EntityFramework.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\EPPlus.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\log4net.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Cors.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Diagnostics.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Hosting.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Security.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Newtonsoft.Json.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Owin.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\System.Net.Http.Extensions.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\System.Net.Http.Primitives.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\System.Web.Cors.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\EntityFramework.xml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\EPPlus.xml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Hardcodet.Wpf.TaskbarNotification.xml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\log4net.xml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.xml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Cors.xml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Diagnostics.xml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Hosting.xml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.Owin.Security.xml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Newtonsoft.Json.xml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\System.Net.Http.Extensions.xml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\System.Net.Http.Primitives.xml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR.csproj.App.config
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR.csprojResolveAssemblyReference.cache
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\TaskBar.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\ArtikullFilterItem.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\Block.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\DateOre.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureAdminFilter.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureUserFilter.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\Loading.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\LoadingAnimation.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\LoadingDialog.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\Ora.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\POS\FatureGrid.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\POS\OrderLine.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\ProduktEmerSasi.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\TaskBar.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\UsersRow\UserLine.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\MainWindow.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\About.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikujList.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikullHistory.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ExcelImport.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\KategoriView.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\KorrigjimInventariView.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ShitjetArtikuj.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\AdvancedArtikullSelect.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\AnulloFature.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\TurnInfo.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\FatureDetailsView.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\FatureView.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Fitimi.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\FleteHyrje\FleteHyrje.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\KerkoForm.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\MinimumQuantityArtikuj.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\LoginView.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\MainView.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\MbyllTurnin.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\MyFatura.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Other\OtherConfigView.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Perdorues\ChangePassword.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Perdorues\UserView.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Porosi\PorosiView.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\POSView.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Raportet.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\ReportDialog.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\ReportViewer.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Settings.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\StartUp\StartUpWindow.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Tavolinat.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Tavolina\TavolinaView.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Turnet.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\WebBroswer.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\XhiroDitore.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\App.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR_Content.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR_MarkupCompile.cache
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR_MarkupCompile.lref
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\App.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\ArtikullFilterItem.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\Block.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\DateOre.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureAdminFilter.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\FatureFilter\FatureUserFilter.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\Loading.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\LoadingAnimation.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\LoadingDialog.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\Ora.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\POS\FatureGrid.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\POS\OrderLine.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\ProduktEmerSasi.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\CustomControls\UsersRow\UserLine.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\MainWindow.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\About.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikujList.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ArtikullHistory.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ExcelImport.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\KategoriView.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\KorrigjimInventariView.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Artikuj\ShitjetArtikuj.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\AdvancedArtikullSelect.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\AnulloFature.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\TurnInfo.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\FatureDetailsView.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\FatureView.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Fitimi.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\FleteHyrje\FleteHyrje.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\KerkoForm.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\MinimumQuantityArtikuj.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\LoginView.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\MainView.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Dialog\MbyllTurnin.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\MyFatura.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Other\OtherConfigView.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Perdorues\ChangePassword.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Perdorues\UserView.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Porosi\PorosiView.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\POSView.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Raportet.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\ReportDialog.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\ReportViewer.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Settings.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\StartUp\StartUpWindow.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Tavolinat.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Tavolina\TavolinaView.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\Turnet.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\WebBroswer.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\View\XhiroDitore.baml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR.g.resources
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR.Properties.Resources.resources
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\obj\Release\MYBAR.csproj.GenerateResource.Cache
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.ReportViewer.Common.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.ReportViewer.WinForms.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.SqlServer.Types.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\Microsoft.ReportViewer.WinForms.xml
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\adi\Desktop\LastVersion2.7\MyBar\MYBAR\bin\Release\zh-Hant\Microsoft.SqlServer.Types.resources.dll

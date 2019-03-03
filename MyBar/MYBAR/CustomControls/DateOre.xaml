@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="MYBAR.CustomControls.DateOre"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MYBAR.CustomControls"
+              xmlns:control="clr-namespace:MYBAR.CustomControls"
+             mc:Ignorable="d" 
+             >
+    <Grid>
+        <WrapPanel>
+            <DatePicker  CalendarStyle="{StaticResource styleCalendar}" BorderBrush="Transparent" Background="White" VerticalContentAlignment="Center" FontSize="20" Name="Data">
+                <DatePicker.Resources>
+                    <Style TargetType="{x:Type DatePickerTextBox}">
+                        <Setter Property="FontFamily" Value="Arial"/>
+                        <Setter Property="IsEnabled" Value="False" />
+                        <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+                    </Style>
+                    
+                </DatePicker.Resources>
+            </DatePicker>
+            <control:Ora x:Name="Ora"></control:Ora>
+        </WrapPanel>     
+    </Grid>
+</UserControl>

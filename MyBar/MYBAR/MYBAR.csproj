@@ -1,0 +1,913 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CC092B73-8A7D-49B7-8688-4E4F8D163626}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MYBAR</RootNamespace>
+    <AssemblyName>MYBAR</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>myicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EPPlus, Version=4.1.0.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.4.1.0\lib\net40\EPPlus.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Hardcodet.Wpf.TaskbarNotification, Version=1.0.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Hardcodet.NotifyIcon.Wpf.1.0.8\lib\net451\Hardcodet.Wpf.TaskbarNotification.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.Client, Version=2.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.Client.2.2.1\lib\net45\Microsoft.AspNet.SignalR.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.Core, Version=2.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.Core.2.2.2\lib\net45\Microsoft.AspNet.SignalR.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin, Version=3.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.3.1.0\lib\net45\Microsoft.Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Cors, Version=3.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Cors.3.1.0\lib\net45\Microsoft.Owin.Cors.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Diagnostics, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Diagnostics.2.1.0\lib\net40\Microsoft.Owin.Diagnostics.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.HttpListener, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Host.HttpListener.2.1.0\lib\net45\Microsoft.Owin.Host.HttpListener.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Hosting, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Hosting.2.1.0\lib\net45\Microsoft.Owin.Hosting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.2.1.0\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.Runtime.Common.12.0.2402.15\lib\Microsoft.ReportViewer.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.Runtime.Common.12.0.2402.15\lib\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.Runtime.Common.12.0.2402.15\lib\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.2012.Runtime.11.0.3452.0\lib\Microsoft.ReportViewer.WebForms.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.VS2015.WinForms.12.0.2.2402\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ReachFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http.Extensions, Version=2.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\net45\System.Net.Http.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.2\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives, Version=4.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\net45\System.Net.Http.Primitives.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Cors, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Cors.5.0.0\lib\net45\System.Web.Cors.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="ArtikullHistory_Result.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetRoles.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUserClaims.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUserLogins.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUsers.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Balance.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClientOrder.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClientOrderDetails.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ComposedItems.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControls\ArtikullFilterItem.xaml.cs">
+      <DependentUpon>ArtikullFilterItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControls\Block.xaml.cs">
+      <DependentUpon>Block.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControls\DateOre.xaml.cs">
+      <DependentUpon>DateOre.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControls\FatureFilter\FatureAdminFilter.xaml.cs">
+      <DependentUpon>FatureAdminFilter.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControls\FatureFilter\FatureUserFilter.xaml.cs">
+      <DependentUpon>FatureUserFilter.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControls\Loading.xaml.cs">
+      <DependentUpon>Loading.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControls\LoadingAnimation.xaml.cs">
+      <DependentUpon>LoadingAnimation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControls\LoadingDialog.xaml.cs">
+      <DependentUpon>LoadingDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControls\Ora.xaml.cs">
+      <DependentUpon>Ora.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControls\POS\FatureGrid.xaml.cs" />
+    <Compile Include="CustomControls\POS\OrderLine.xaml.cs" />
+    <Compile Include="CustomControls\ProduktEmerSasi.xaml.cs">
+      <DependentUpon>ProduktEmerSasi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControls\TaskBar.xaml.cs">
+      <DependentUpon>TaskBar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControls\UsersRow\UserAdder.cs" />
+    <Compile Include="CustomControls\UsersRow\UserLine.xaml.cs">
+      <DependentUpon>UserLine.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="C__MigrationHistory.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="getXhiroDitoreTotalAllUser_Result.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="getXhiroDitoreTotalAllUser_Result1.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="getXhiroDitore_Result.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Goods_Dispatch_Note.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Goods_Dispatch_Note_Details.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Goods_Received_Note.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Goods_Received_Note_Details.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\BackgroundWorker.cs" />
+    <Compile Include="Helper\Constants.cs" />
+    <Compile Include="Helper\KasaFiskale.cs" />
+    <Compile Include="Helper\Messages.cs" />
+    <Compile Include="Helper\PrintDirect.cs" />
+    <Compile Include="Helper\Dependency.cs" />
+    <Compile Include="Helper\ImageConverter.cs" />
+    <Compile Include="Helper\Printer.cs" />
+    <Compile Include="Helper\RegisterData.cs" />
+    <Compile Include="Helper\Syncer.cs" />
+    <Compile Include="Helper\SyncingWorker.cs" />
+    <Compile Include="Helper\TimerChanger.cs" />
+    <Compile Include="Helper\XMLFileSync.cs" />
+    <Compile Include="Interface\BindingInteface.cs" />
+    <Compile Include="Interface\FaturaFilterInterface.cs" />
+    <Compile Include="Interface\SearchDialogInterface.cs" />
+    <Compile Include="LastBalance.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Logs.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MenuCategories.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MenuItems.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MenuItemType.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile\FatureEditMobile.cs" />
+    <Compile Include="Mobile\FatureNewMoblie.cs" />
+    <Compile Include="Mobile\MobileSyncer.cs" />
+    <Compile Include="Model\AnullimFatureModel.cs" />
+    <Compile Include="Model\Artikuj\ArtikullListRow.cs" />
+    <Compile Include="Model\Artikuj\ArtikullListRowComposed.cs" />
+    <Compile Include="Model\Artikuj\ArtikullListRowSimple.cs" />
+    <Compile Include="Model\Artikuj\KorrigjimInventariModel.cs" />
+    <Compile Include="Model\Artikuj\MenuCategoriesEditModel.cs" />
+    <Compile Include="Model\Artikuj\MenuCategoriesModel.cs" />
+    <Compile Include="Model\Artikuj\MenuCategoriesNewModel.cs" />
+    <Compile Include="Model\Artikuj\MenuItemTypeModel.cs" />
+    <Compile Include="Model\Artikuj\ReceptureModel.cs" />
+    <Compile Include="Model\ComboBoxData.cs" />
+    <Compile Include="Model\Fature.cs" />
+    <Compile Include="Model\FatureEdit.cs" />
+    <Compile Include="Model\FatureList.cs" />
+    <Compile Include="Model\FatureModel\FatureHyrje.cs" />
+    <Compile Include="Model\FatureModel\FatureHyrjeEdit.cs" />
+    <Compile Include="Model\FatureModel\FatureInfo.cs" />
+    <Compile Include="Model\FatureNew.cs" />
+    <Compile Include="Model\FaturePreview.cs" />
+    <Compile Include="Model\FatureRow.cs" />
+    <Compile Include="Model\FatureRowComposed.cs" />
+    <Compile Include="Model\GUICreator.cs" />
+    <Compile Include="Model\GUICreator2.cs" />
+    <Compile Include="Model\Porosi\ClientOrderModel.cs" />
+    <Compile Include="Model\Porosi\ClientOrderDetailsModel.cs" />
+    <Compile Include="Model\ReportData.cs" />
+    <Compile Include="Model\Reports\ArtikullHistoryModelReport.cs" />
+    <Compile Include="Model\Reports\FleteHyrjeRpModel.cs" />
+    <Compile Include="Model\Reports\InventarModel.cs" />
+    <Compile Include="Model\Reports\XhiroDitoreModel.cs" />
+    <Compile Include="Model\Reports\XhiroDitoreRow.cs" />
+    <Compile Include="Model\SyncModel\CancelOrderViewModel.cs" />
+    <Compile Include="Model\SyncModel\CategoryViewModel.cs" />
+    <Compile Include="Model\SyncModel\CollectViewModel.cs" />
+    <Compile Include="Model\SyncModel\InventarySyncOnly\InventorySync.cs" />
+    <Compile Include="Model\SyncModel\InventarySyncOnly\InventorySyncViewModel.cs" />
+    <Compile Include="Model\SyncModel\IvoiceReceive\InvoiceDetailSyncViewModel.cs" />
+    <Compile Include="Model\SyncModel\IvoiceReceive\InvoiceSyncViewModel.cs" />
+    <Compile Include="Model\SyncModel\IvoiceReceive\WaiterInvoiceMenuItemViewModel.cs" />
+    <Compile Include="Model\SyncModel\IvoiceReceive\WaiterInvoiceViewModel.cs" />
+    <Compile Include="Model\SyncModel\LocalOrderViewModel.cs" />
+    <Compile Include="Model\SyncModel\ManagerOrderCancelViewModel.cs" />
+    <Compile Include="Model\SyncModel\NewOrderViewModel.cs" />
+    <Compile Include="Model\SyncModel\NewReportViewModel.cs" />
+    <Compile Include="Model\SyncModel\OrderDetailViewModel.cs" />
+    <Compile Include="Model\SyncModel\OrderSyncViewModel.cs" />
+    <Compile Include="Model\SyncModel\PasswordResetViewModel.cs" />
+    <Compile Include="Model\SyncModel\POSINFO.cs" />
+    <Compile Include="Model\SyncModel\POSSignal.cs" />
+    <Compile Include="Model\SyncModel\POSSyncViewModel.cs" />
+    <Compile Include="Model\SyncModel\StartUp\MenuCategoryStartViewModel.cs" />
+    <Compile Include="Model\SyncModel\StartUp\OrderDetailsStartViewModel.cs" />
+    <Compile Include="Model\SyncModel\StartUp\OrderStartViewModel.cs" />
+    <Compile Include="Model\SyncModel\StartUp\RequestAccessViewModel.cs" />
+    <Compile Include="Model\SyncModel\StartUp\StartupPlaceViewModel.cs" />
+    <Compile Include="Model\SyncModel\StartUp\StartupPOSViewModel.cs" />
+    <Compile Include="Model\SyncModel\StartUp\StartupReportViewModel.cs" />
+    <Compile Include="Model\SyncModel\StartUp\StartupRequestViewModel.cs" />
+    <Compile Include="Model\SyncModel\StartUp\StartupViewModel.cs" />
+    <Compile Include="Model\SyncModel\StartUp\TableSyncViewModel.cs" />
+    <Compile Include="Model\SyncModel\SyncDetail.cs" />
+    <Compile Include="Model\SyncModel\SyncViewModel.cs" />
+    <Compile Include="Model\SyncModel\TransferTableViewModel.cs" />
+    <Compile Include="Model\SyncModel\MenuItemSyncViewModel.cs" />
+    <Compile Include="Model\SyncModel\TransferWaiterViewModel.cs" />
+    <Compile Include="Model\SyncModel\UpdateClientOrderViewModel.cs" />
+    <Compile Include="Model\SyncModel\UserDataSyncViewModel.cs" />
+    <Compile Include="Model\SyncModel\UserSyncViewModel.cs" />
+    <Compile Include="Model\SyncModel\WaiterNotificationViewModel.cs" />
+    <Compile Include="Model\SyncModel\WaiterTableViewModel.cs" />
+    <Compile Include="Model\Tavoline\TavolineEditModel.cs" />
+    <Compile Include="Model\Tavoline\TavolineModel.cs" />
+    <Compile Include="Model\Tavoline\TavolineNewModel.cs" />
+    <Compile Include="Model\User.cs" />
+    <Compile Include="Model\UserModel\UserModel.cs" />
+    <Compile Include="Model\UserRights\Rights.cs" />
+    <Compile Include="Model\UserRights\KamarierRights.cs" />
+    <Compile Include="Model\Xhiro\TurnetRowModel.cs" />
+    <Compile Include="Model\Xhiro\XhiroDitoreUser.cs" />
+    <Compile Include="MYBAR.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDetails.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderForCancellation.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderInfo.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Orders.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderSessions.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderStatus.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Places.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PlaceTypes.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PriceList.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Raports\FatureBuilder.cs" />
+    <Compile Include="Raports\XhiroDitoreBuilder.cs" />
+    <Compile Include="Reports.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Services\ArtikullService.cs" />
+    <Compile Include="Services\FatureInfoService.cs" />
+    <Compile Include="Services\FatureService.cs" />
+    <Compile Include="Services\FinanceService.cs" />
+    <Compile Include="Services\KerkimeDialogService.cs" />
+    <Compile Include="Services\LoggingService.cs" />
+    <Compile Include="Services\OrderForCancellationService.cs" />
+    <Compile Include="Services\QueryService.cs" />
+    <Compile Include="Services\RaporteService.cs" />
+    <Compile Include="Services\TavolinaService.cs" />
+    <Compile Include="Services\UserService.cs" />
+    <Compile Include="Tables.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Unit.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserDatas.cs">
+      <DependentUpon>MYBAR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View\About.xaml.cs">
+      <DependentUpon>About.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Artikuj\ArtikujList.xaml.cs">
+      <DependentUpon>ArtikujList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Artikuj\ArtikullHistory.xaml.cs">
+      <DependentUpon>ArtikullHistory.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Artikuj\ExcelImport.xaml.cs">
+      <DependentUpon>ExcelImport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Artikuj\KategoriView.xaml.cs">
+      <DependentUpon>KategoriView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Artikuj\KorrigjimInventariView.xaml.cs">
+      <DependentUpon>KorrigjimInventariView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Artikuj\ShitjetArtikuj.xaml.cs">
+      <DependentUpon>ShitjetArtikuj.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Dialog\AdvancedArtikullSelect.xaml.cs">
+      <DependentUpon>AdvancedArtikullSelect.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Dialog\AnulloFature.xaml.cs">
+      <DependentUpon>AnulloFature.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Dialog\TurnInfo.xaml.cs">
+      <DependentUpon>TurnInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\FatureDetailsView.xaml.cs">
+      <DependentUpon>FatureDetailsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\FatureView.xaml.cs">
+      <DependentUpon>FatureView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Fitimi.xaml.cs">
+      <DependentUpon>Fitimi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\FleteHyrje\FleteHyrje.xaml.cs">
+      <DependentUpon>FleteHyrje.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Dialog\KerkoForm.xaml.cs">
+      <DependentUpon>KerkoForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Dialog\MinimumQuantityArtikuj.xaml.cs">
+      <DependentUpon>MinimumQuantityArtikuj.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\LoginView.xaml.cs">
+      <DependentUpon>LoginView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MainView.xaml.cs">
+      <DependentUpon>MainView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Dialog\MbyllTurnin.xaml.cs">
+      <DependentUpon>MbyllTurnin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MyFatura.xaml.cs">
+      <DependentUpon>MyFatura.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Other\OtherConfigView.xaml.cs">
+      <DependentUpon>OtherConfigView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Perdorues\ChangePassword.xaml.cs">
+      <DependentUpon>ChangePassword.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Perdorues\UserView.xaml.cs">
+      <DependentUpon>UserView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Porosi\PorosiView.xaml.cs">
+      <DependentUpon>PorosiView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\POSView.xaml.cs" />
+    <Compile Include="View\Raportet.xaml.cs">
+      <DependentUpon>Raportet.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ReportDialog.xaml.cs">
+      <DependentUpon>ReportDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ReportViewer.xaml.cs">
+      <DependentUpon>ReportViewer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Settings.xaml.cs">
+      <DependentUpon>Settings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\StartUp\StartUpWindow.xaml.cs">
+      <DependentUpon>StartUpWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Tavolinat.xaml.cs">
+      <DependentUpon>Tavolinat.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Tavolina\TavolinaView.xaml.cs">
+      <DependentUpon>TavolinaView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Turnet.xaml.cs">
+      <DependentUpon>Turnet.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\WebBroswer.xaml.cs">
+      <DependentUpon>WebBroswer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\XhiroDitore.xaml.cs">
+      <DependentUpon>XhiroDitore.xaml</DependentUpon>
+    </Compile>
+    <Page Include="CustomControls\ArtikullFilterItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CustomControls\Block.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CustomControls\DateOre.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CustomControls\FatureFilter\FatureAdminFilter.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CustomControls\FatureFilter\FatureUserFilter.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CustomControls\Loading.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CustomControls\LoadingAnimation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CustomControls\LoadingDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CustomControls\Ora.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CustomControls\POS\FatureGrid.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CustomControls\POS\OrderLine.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CustomControls\ProduktEmerSasi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CustomControls\TaskBar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CustomControls\UsersRow\UserLine.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="View\About.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Artikuj\ArtikujList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Artikuj\ArtikullHistory.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Artikuj\ExcelImport.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Artikuj\KategoriView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Artikuj\KorrigjimInventariView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Artikuj\ShitjetArtikuj.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Dialog\AdvancedArtikullSelect.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Dialog\AnulloFature.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Dialog\TurnInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\FatureDetailsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\FatureView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Fitimi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\FleteHyrje\FleteHyrje.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Dialog\KerkoForm.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Dialog\MinimumQuantityArtikuj.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\LoginView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\MainView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Dialog\MbyllTurnin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MyFatura.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Other\OtherConfigView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Perdorues\ChangePassword.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Perdorues\UserView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Porosi\PorosiView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\POSView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Raportet.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ReportDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ReportViewer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Settings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\StartUp\StartUpWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Tavolinat.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Tavolina\TavolinaView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Turnet.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\WebBroswer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\XhiroDitore.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MYBAR.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MYBAR.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MYBAR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MYBAR.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Raports\ArtikullHistory.rdlc" />
+    <EmbeddedResource Include="Raports\FleteHyrjeReport.rdlc" />
+    <EmbeddedResource Include="Raports\Inventar.rdlc" />
+    <EmbeddedResource Include="Raports\XhiroDitore.rdlc" />
+    <EntityDeploy Include="MYBAR.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>MYBAR.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="MYBAR.edmx.diagram">
+      <DependentUpon>MYBAR.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\MYBAR.Model.Reports.ArtikullHistoryModelReport.datasource" />
+    <None Include="Properties\DataSources\MYBAR.Model.Reports.FleteHyrjeRpModel.datasource" />
+    <None Include="Properties\DataSources\MYBAR.Model.Reports.InventarModel.datasource" />
+    <None Include="Properties\DataSources\MYBAR.Model.Reports.XhiroDitoreRow.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="myicon.ico" />
+    <Resource Include="Images\search.png" />
+    <Resource Include="Images\plus.png" />
+    <Resource Include="Images\delete.png" />
+    <Resource Include="Images\Print.png" />
+    <Resource Include="Images\fullscreen.png" />
+    <Resource Include="Images\info.png" />
+    <Resource Include="Images\Bill2.png" />
+    <Resource Include="Images\Finance.png" />
+    <Resource Include="Images\FINISH.png" />
+    <Resource Include="Images\Exit.png" />
+    <Resource Include="Images\NewNotification.png" />
+    <Resource Include="Helper\NotSyncedIDS.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\LogoProgrami.png" />
+    <Resource Include="Images\LogoProgramiHome.png" />
+    <Resource Include="Images\LoginImageCroped.jpg" />
+    <Resource Include="Images\EnterPin.png" />
+    <Resource Include="Images\Notification.png" />
+    <Resource Include="Images\Excel-icon.png" />
+    <Resource Include="Images\collapse.png" />
+    <Resource Include="Images\expand.png" />
+    <Resource Include="Images\key.png" />
+    <Resource Include="Images\back.png" />
+    <Resource Include="Images\next.png" />
+    <Resource Include="Images\logoGH.png" />
+    <Resource Include="Images\About.png" />
+    <Resource Include="Images\gui1.PNG" />
+    <Resource Include="Images\gui2.PNG" />
+    <Resource Include="Images\ademvelika.jpg" />
+    <Content Include="Images\notify.wav" />
+    <Resource Include="Images\Question.png" />
+    <Resource Include="Images\Table.png" />
+    <Resource Include="Images\Porosi.png" />
+    <Resource Include="Images\Sync.png" />
+    <Resource Include="Images\NotSync.png" />
+    <Resource Include="Images\Users.png" />
+    <Resource Include="Images\ProgramCapture.PNG" />
+    <Resource Include="Images\Tablen.png" />
+    <Resource Include="Images\Setting1.png" />
+    <Resource Include="Images\User.png" />
+    <Resource Include="Images\statistic-box-red.png" />
+    <Resource Include="Images\statistic-box-green.png" />
+    <Content Include="MYBAR.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>MYBAR.edmx</DependentUpon>
+      <LastGenOutput>MYBAR.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="MYBAR.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>MYBAR.edmx</DependentUpon>
+      <LastGenOutput>MYBAR.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CustomControls\TaskBars\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
+    <Error Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
