@@ -5,6 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:MYBAR.CustomControls.FatureFilter"
              xmlns:control="clr-namespace:MYBAR.CustomControls"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d"           >
    
     
@@ -13,20 +14,39 @@
             <WrapPanel>
         <Label   FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center">Nga Data</Label>
         
-        <control:DateOre x:Name="StartClock" ></control:DateOre>
+        <control:DateOre Visibility="Collapsed" x:Name="StartClock" ></control:DateOre>
+                
             </WrapPanel>
         </GroupBox>
         <GroupBox  Background="White" Padding="10" BorderBrush="Black">
         <WrapPanel VerticalAlignment="Center">
             <Label  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center">Ne Date</Label>
-            <control:DateOre x:Name="FinishClock" ></control:DateOre>
-        </WrapPanel>
+                <control:DateOre x:Name="FinishClock" ></control:DateOre>
+                
+          
+            </WrapPanel>
         </GroupBox>
         <GroupBox  Background="White" Padding="10" BorderBrush="Black">
         <WrapPanel >
         <Label Background="White"  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center">Perdoruesi</Label>
         <ComboBox  Background="White" Name="UserCombo"></ComboBox>
-        
+        <ComboBox
+  materialDesign:HintAssist.Hint="Search"
+  IsEditable="True"
+  materialDesign:HintAssist.HintOpacity=".26">
+  <ComboBoxItem>
+  Apple
+</ComboBoxItem>
+  <ComboBoxItem>
+  Banana
+</ComboBoxItem>
+  <ComboBoxItem>
+  Pear
+</ComboBoxItem>
+  <ComboBoxItem>
+  Orange
+</ComboBoxItem>
+</ComboBox>
         </WrapPanel>
         </GroupBox>
         <GroupBox  Background="White" Padding="10" BorderBrush="Black">
