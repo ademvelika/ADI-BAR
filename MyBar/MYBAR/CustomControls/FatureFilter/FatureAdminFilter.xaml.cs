@@ -37,9 +37,9 @@ namespace MYBAR.CustomControls.FatureFilter
 
             //set time,date and clock
 
-            FinishClock.Ora.SetPM();
-            FinishClock.Ora.SetHour(11);
-            FinishClock.Ora.SetMinutes(59);
+            //FinishClock.Ora.SetPM();
+            //FinishClock.Ora.SetHour(11);
+            //FinishClock.Ora.SetMinutes(59);
 
         }
 
@@ -53,10 +53,10 @@ namespace MYBAR.CustomControls.FatureFilter
                 condition.Add(false);
             }
 
-            var sd = StartClock.getDateTime();
-            var fd = FinishClock.getDateTime();
+            var sd = StartClock.SelectedDate;
+            var fd = FinishClock.SelectedDate;
             if (!(bool)Switch.IsChecked)
-                return FatureService.getMyFatura(StartClock.getDateTime(), FinishClock.getDateTime(), ((ComboBoxData)UserCombo.SelectedItem).DataValueOpt, condition);
+                return FatureService.getMyFatura(StartClock.SelectedDate??DateTime.Now, FinishClock.SelectedDate??DateTime.Now, ((ComboBoxData)UserCombo.SelectedItem).DataValueOpt, condition);
             else
                 return FatureService.getMyFatura(int.Parse(OrderNumberStart.Text), int.Parse(OrderNumberFinish.Text),condition);
         }

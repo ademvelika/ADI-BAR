@@ -126,7 +126,7 @@ namespace MYBAR.Services
             catch(Exception e3)
             {
 
-                log.Error("Fail to get all users " + e3.Message.ToString());
+                log.Error("Fail to get all users " + e3.Message.ToString()+"-->"+e3.InnerException.ToString());
 
                 return new List<User>();
             }

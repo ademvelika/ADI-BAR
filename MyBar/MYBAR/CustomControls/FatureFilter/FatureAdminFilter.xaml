@@ -7,60 +7,59 @@
              xmlns:control="clr-namespace:MYBAR.CustomControls"
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d"           >
-   
-    
+
+
     <WrapPanel  >
-        <GroupBox Background="White" Padding="10" BorderBrush="Black" >
+        <GroupBox Background="White" BorderBrush="Black" >
             <WrapPanel>
-        <Label   FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center">Nga Data</Label>
-        
-        <control:DateOre Visibility="Collapsed" x:Name="StartClock" ></control:DateOre>
-                
+                <Label    HorizontalAlignment="Center" VerticalAlignment="Bottom">Nga Data</Label>
+
+
+                <DatePicker
+  Width="100" Name="StartClock" 
+  materialDesign:HintAssist.Hint="Pick Date"
+  Style="{StaticResource MaterialDesignFloatingHintDatePicker}" />
+                <materialDesign:TimePicker
+  Width="100"
+  Style="{StaticResource MaterialDesignFloatingHintTimePicker}"
+  materialDesign:HintAssist.Hint="ora" />
+
             </WrapPanel>
         </GroupBox>
-        <GroupBox  Background="White" Padding="10" BorderBrush="Black">
-        <WrapPanel VerticalAlignment="Center">
-            <Label  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center">Ne Date</Label>
-                <control:DateOre x:Name="FinishClock" ></control:DateOre>
-                
-          
+        <GroupBox  Background="White"  BorderBrush="Black">
+            <WrapPanel VerticalAlignment="Center">
+                <Label   HorizontalAlignment="Center" VerticalAlignment="Bottom">Ne Date</Label>
+
+                <DatePicker
+  Width="100" Name="FinishClock" 
+  materialDesign:HintAssist.Hint="Pick Date"
+  Style="{StaticResource MaterialDesignFloatingHintDatePicker}" />
+                <materialDesign:TimePicker
+  Width="100"
+  Style="{StaticResource MaterialDesignFloatingHintTimePicker}"
+  materialDesign:HintAssist.Hint="ora" />
+
             </WrapPanel>
         </GroupBox>
-        <GroupBox  Background="White" Padding="10" BorderBrush="Black">
-        <WrapPanel >
-        <Label Background="White"  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center">Perdoruesi</Label>
-        <ComboBox  Background="White" Name="UserCombo"></ComboBox>
-        <ComboBox
-  materialDesign:HintAssist.Hint="Search"
-  IsEditable="True"
-  materialDesign:HintAssist.HintOpacity=".26">
-  <ComboBoxItem>
-  Apple
-</ComboBoxItem>
-  <ComboBoxItem>
-  Banana
-</ComboBoxItem>
-  <ComboBoxItem>
-  Pear
-</ComboBoxItem>
-  <ComboBoxItem>
-  Orange
-</ComboBoxItem>
-</ComboBox>
-        </WrapPanel>
+        <GroupBox  Background="White" BorderBrush="Black">
+            <WrapPanel >
+                <Label Background="White" HorizontalAlignment="Center" VerticalAlignment="Bottom">Perdoruesi</Label>
+                <ComboBox  Background="White" Name="UserCombo"></ComboBox>
+
+            </WrapPanel>
         </GroupBox>
-        <GroupBox  Background="White" Padding="10" BorderBrush="Black">
+        <GroupBox  Visibility="Collapsed" Background="White" BorderBrush="Black">
             <WrapPanel>
                 <CheckBox  Visibility="Collapsed" FontSize="14"  Checked="IntervalCheck_Checked" Unchecked="IntervalCheck_Unchecked"  Name="IntervalCheck"  VerticalAlignment="Center" Content="Nr Fature" >
                     <CheckBox.LayoutTransform>
                         <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
                     </CheckBox.LayoutTransform>
                 </CheckBox>
-                <ToggleButton Name="Switch" Click="Switch_Click" Margin="30,0"  Height="35" Style="{StaticResource AnimatedSwitch}" ></ToggleButton>
-                <Label FontSize="20" >Nga</Label>
-                <TextBox IsEnabled="False" MinWidth="50" Name="OrderNumberStart" VerticalContentAlignment="Center" FontSize="20">0</TextBox>
-                <Label FontSize="20" >Ne</Label>
-                <TextBox IsEnabled="False" MinWidth="50"  Name="OrderNumberFinish" VerticalContentAlignment="Center" FontSize="20">99999999</TextBox>
+                <ToggleButton Name="Switch" Click="Switch_Click" Margin="30,0"  Height="15" Style="{StaticResource AnimatedSwitch}" ></ToggleButton>
+                <Label  >Nga</Label>
+                <TextBox IsEnabled="False" MinWidth="50" Name="OrderNumberStart" VerticalContentAlignment="Center" >0</TextBox>
+                <Label  >Ne</Label>
+                <TextBox IsEnabled="False" MinWidth="50"  Name="OrderNumberFinish" VerticalContentAlignment="Center" >99999999</TextBox>
             </WrapPanel>
         </GroupBox>
     </WrapPanel>
